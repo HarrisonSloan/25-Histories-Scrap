@@ -30,3 +30,10 @@ excluded the appendix
 
 ## Book 11
 A little "School" part of the end saying its from a specific place, needs to be removed
+
+## Book 19
+Exluded appendix which was about the 4 barbarians
+
+## Book 21
+There is proof reading notes to get rid of
+Excluded Jin Mandarin Interpretation
