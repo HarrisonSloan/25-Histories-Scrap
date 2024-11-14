@@ -85,4 +85,7 @@ def create_xml(name, eng_name, document_name, baseURL, startURL, endURL):
 #create_xml("三國志", "Three Kingdoms", "4_raw.xml", "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97", "/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B701", "/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B765")
 
 # 5 Jin Shu 
-create_xml("晉書", "Jinshu", "5_raw.xml", "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7001", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130")
+#create_xml("晉書", "Jinshu", "5_raw.xml", "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7001", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130")
+
+# 6 Songshu
+create_xml("宋書", "Songshu", "6_raw.xml","https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B71", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B7100")
