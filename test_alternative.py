@@ -88,4 +88,45 @@ def create_xml(name, eng_name, document_name, baseURL, startURL, endURL):
 #create_xml("晉書", "Jinshu", "5_raw.xml", "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7001", "/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7130")
 
 # 6 Songshu
-create_xml("宋書", "Songshu", "6_raw.xml","https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B71", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B7100")
+#create_xml("宋書", "Songshu", "6_raw.xml","https://zh.wikisource.org/wiki/%E5%AE%8B%E6%9B%B8", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B71", "/wiki/%E5%AE%8B%E6%9B%B8/%E5%8D%B7100")
+
+# 7 Nan Qi Shu
+#create_xml("南齊書", "Nan Qi Shu", "7_raw.xml","https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8", "/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B71", "/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B759")
+
+# 8 Liang Shu
+#create_xml("梁書", "Liang Shu", "8_raw.xml","https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8", "/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B701", "/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B756")
+
+# 9 Chen Shu 
+#create_xml("陳書", "Chen Shu", "9_raw.xml", "https://zh.wikisource.org/wiki/%E9%99%B3%E6%9B%B8", "/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B71", "/wiki/%E9%99%B3%E6%9B%B8/%E5%8D%B736")
+
+# 10 Wei Shu
+#create_xml("魏書", "Wei Shu","10_raw.xml", "https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8", "/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B71", "/wiki/%E9%AD%8F%E6%9B%B8/%E5%8D%B7114")
+
+# 11 Book of the Northern Qi Dynasty
+create_xml("北齊書", "Book of the Northern Qi Dynasty", "11_raw.xml","https://zh.wikisource.org/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8", "/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8/%E5%8D%B71", "/wiki/%E5%8C%97%E9%BD%8A%E6%9B%B8/%E5%8D%B750")
+
+# 12 Zhou Shu
+
+# 13 Sui Shu
+
+# 14 Southern Histroy 
+
+# 15 Northern History 
+
+# 16 Old Tang Book 
+
+# 17 New book of Tang 
+
+# 18 History of the Old Five Dynasties 
+
+# 19 New Five Dynasties History 
+
+# 20 Hisotry of Song Dynasty 
+
+# 21 Liao History 
+
+# 22 Jinshi 
+
+# 23 Tuan History 
+
+# 24 History of Ming Dynasty 
