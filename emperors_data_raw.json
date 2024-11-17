@@ -355,8 +355,8 @@
             "end_year": 141
         },
         {
-            "english_name": "Yonghe",
-            "chinese_name": "永和",
+            "english_name": "Han'an",
+            "chinese_name": "漢安",
             "start_year": 142,
             "end_year": 144
         },
@@ -481,8 +481,8 @@
             "end_year": 195
         },
         {
-            "english_name": "Xingping",
-            "chinese_name": "興平",
+            "english_name": "Jian'an",
+            "chinese_name": "建安",
             "start_year": 196,
             "end_year": 220
         },
@@ -490,6 +490,30 @@
             "english_name": "Yankang",
             "chinese_name": "延康",
             "start_year": 220,
+            "end_year": null
+        },
+        {
+            "english_name": "Hanfu",
+            "chinese_name": "漢复",
+            "start_year": 23,
+            "end_year": 34
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "龍興",
+            "start_year": 25,
+            "end_year": 36
+        },
+        {
+            "english_name": "Jianshi",
+            "chinese_name": "建世",
+            "start_year": 25,
+            "end_year": 27
+        },
+        {
+            "english_name": "Shenshang",
+            "chinese_name": "神上",
+            "start_year": null,
             "end_year": null
         },
         {
@@ -637,8 +661,8 @@
             "end_year": 258
         },
         {
-            "english_name": "Taiping",
-            "chinese_name": "太平",
+            "english_name": "Yong'an",
+            "chinese_name": "永安",
             "start_year": 258,
             "end_year": 264
         },
@@ -751,14 +775,14 @@
             "end_year": 302
         },
         {
-            "english_name": "Yongning",
-            "chinese_name": "永寧",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": 302,
             "end_year": 303
         },
         {
-            "english_name": "Yongning",
-            "chinese_name": "永寧",
+            "english_name": "Yong'an",
+            "chinese_name": "永安",
             "start_year": 304,
             "end_year": null
         },
@@ -865,8 +889,8 @@
             "end_year": 371
         },
         {
-            "english_name": "Taihe",
-            "chinese_name": "太和",
+            "english_name": "Xian'an",
+            "chinese_name": "咸安",
             "start_year": 371,
             "end_year": 372
         },
@@ -883,8 +907,8 @@
             "end_year": 396
         },
         {
-            "english_name": "Taiyuan",
-            "chinese_name": "太元",
+            "english_name": "Long'an",
+            "chinese_name": "隆安",
             "start_year": 397,
             "end_year": 401
         },
@@ -1219,8 +1243,8 @@
             "end_year": 385
         },
         {
-            "english_name": "Jianyuan",
-            "chinese_name": "建元",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": 385,
             "end_year": 386
         },
@@ -1345,8 +1369,8 @@
             "end_year": 431
         },
         {
-            "english_name": "Yonghong",
-            "chinese_name": "永弘",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": 386,
             "end_year": 389
         },
@@ -1417,8 +1441,8 @@
             "end_year": 401
         },
         {
-            "english_name": "Tianxi",
-            "chinese_name": "天璽",
+            "english_name": "Yong'an",
+            "chinese_name": "永安",
             "start_year": 401,
             "end_year": 412
         },
@@ -1789,8 +1813,8 @@
             "end_year": null
         },
         {
-            "english_name": "Chengping",
-            "chinese_name": "承平",
+            "english_name": "Xing'an",
+            "chinese_name": "興安",
             "start_year": 452,
             "end_year": 454
         },
@@ -1801,8 +1825,8 @@
             "end_year": 455
         },
         {
-            "english_name": "Xingguang",
-            "chinese_name": "興光",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": 455,
             "end_year": 459
         },
@@ -1813,8 +1837,8 @@
             "end_year": 465
         },
         {
-            "english_name": "Heping",
-            "chinese_name": "和平",
+            "english_name": "Tian'an",
+            "chinese_name": "天安",
             "start_year": 466,
             "end_year": 467
         },
@@ -1903,8 +1927,8 @@
             "end_year": null
         },
         {
-            "english_name": "Jianyi",
-            "chinese_name": "建義",
+            "english_name": "Yong'an",
+            "chinese_name": "永安",
             "start_year": 528,
             "end_year": 530
         },
@@ -2389,8 +2413,8 @@
             "end_year": 491
         },
         {
-            "english_name": "Taiping",
-            "chinese_name": "太平",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": 492,
             "end_year": 505
         },
@@ -2647,8 +2671,8 @@
             "end_year": null
         },
         {
-            "english_name": "Shijian",
-            "chinese_name": "始建",
+            "english_name": "Guang'an",
+            "chinese_name": "廣安",
             "start_year": 526,
             "end_year": 528
         },
@@ -3079,8 +3103,8 @@
             "end_year": null
         },
         {
-            "english_name": "Dazu",
-            "chinese_name": "大足",
+            "english_name": "Chang'an",
+            "chinese_name": "長安",
             "start_year": 701,
             "end_year": 704
         },
@@ -3331,8 +3355,8 @@
             "end_year": 907
         },
         {
-            "english_name": "Tianyou",
-            "chinese_name": "天祐",
+            "english_name": "Ren'an",
+            "chinese_name": "仁安",
             "start_year": 720,
             "end_year": 737
         },
@@ -4639,8 +4663,8 @@
             "end_year": 1084
         },
         {
-            "english_name": "Dakang",
-            "chinese_name": "大康",
+            "english_name": "Da'an",
+            "chinese_name": "大安",
             "start_year": 1085,
             "end_year": 1094
         },
@@ -5263,14 +5287,14 @@
             "end_year": null
         },
         {
-            "english_name": "Tianming",
-            "chinese_name": "天明",
+            "english_name": "Bao'an",
+            "chinese_name": "保安",
             "start_year": 1045,
             "end_year": 1052
         },
         {
-            "english_name": "Tianming",
-            "chinese_name": "天明",
+            "english_name": "Zheng'an",
+            "chinese_name": "政安",
             "start_year": 1053,
             "end_year": null
         },
@@ -5287,8 +5311,8 @@
             "end_year": null
         },
         {
-            "english_name": "Baode",
-            "chinese_name": "保德",
+            "english_name": "Tai'an",
+            "chinese_name": "太安",
             "start_year": null,
             "end_year": null
         },
@@ -5305,8 +5329,8 @@
             "end_year": null
         },
         {
-            "english_name": "Shangde",
-            "chinese_name": "上德",
+            "english_name": "Guang'an",
+            "chinese_name": "廣安",
             "start_year": 1077,
             "end_year": 1080
         },
@@ -5323,8 +5347,8 @@
             "end_year": null
         },
         {
-            "english_name": "Baoli",
-            "chinese_name": "保立",
+            "english_name": "Jian'an",
+            "chinese_name": "建安",
             "start_year": 1083,
             "end_year": 1091
         },
@@ -5359,8 +5383,8 @@
             "end_year": 1104
         },
         {
-            "english_name": "Tianzheng",
-            "chinese_name": "天政",
+            "english_name": "Wen'an",
+            "chinese_name": "文安",
             "start_year": 1104,
             "end_year": 1108
         },
@@ -5449,8 +5473,8 @@
             "end_year": 1195
         },
         {
-            "english_name": "Yuanheng",
-            "chinese_name": "元亨",
+            "english_name": "Ding'an",
+            "chinese_name": "定安",
             "start_year": 1195,
             "end_year": 1200
         },
@@ -5773,20 +5797,20 @@
             "end_year": 1074
         },
         {
-            "english_name": "Tiancilishengguoqing",
-            "chinese_name": "天賜禮盛國慶",
+            "english_name": "Da'an",
+            "chinese_name": "大安",
             "start_year": 1075,
             "end_year": 1085
         },
         {
-            "english_name": "Tiancilishengguoqing",
-            "chinese_name": "天賜禮盛國慶",
+            "english_name": "Tian'anliding",
+            "chinese_name": "天安禮定",
             "start_year": 1086,
             "end_year": null
         },
         {
-            "english_name": "Tiancilishengguoqing",
-            "chinese_name": "天賜禮盛國慶",
+            "english_name": "Xi'an",
+            "chinese_name": "西安",
             "start_year": null,
             "end_year": null
         },
@@ -5797,14 +5821,14 @@
             "end_year": 1089
         },
         {
-            "english_name": "Tianyizhiping",
-            "chinese_name": "天儀治平",
+            "english_name": "Tianyoumin'an",
+            "chinese_name": "天祐民安",
             "start_year": 1090,
             "end_year": 1097
         },
         {
-            "english_name": "Tianyizhiping",
-            "chinese_name": "天儀治平",
+            "english_name": "Yong'an",
+            "chinese_name": "永安",
             "start_year": 1098,
             "end_year": 1100
         },
@@ -5983,8 +6007,8 @@
             "end_year": 1196
         },
         {
-            "english_name": "Mingchang",
-            "chinese_name": "明昌",
+            "english_name": "Cheng'an",
+            "chinese_name": "承安",
             "start_year": 1196,
             "end_year": 1200
         },
@@ -6001,8 +6025,8 @@
             "end_year": null
         },
         {
-            "english_name": "Tianding",
-            "chinese_name": "天定",
+            "english_name": "Da'an",
+            "chinese_name": "大安",
             "start_year": 1209,
             "end_year": 1211
         },
@@ -6757,8 +6781,8 @@
             "end_year": null
         },
         {
-            "english_name": "Hongrun",
-            "chinese_name": "宏閏",
+            "english_name": "Yong'an",
+            "chinese_name": "湧安",
             "start_year": null,
             "end_year": null
         },

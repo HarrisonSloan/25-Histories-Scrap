@@ -62,7 +62,7 @@ for table_index, table in enumerate(tables):
         period = cells[1].get_text(strip=True)
         
         # Extract English and Chinese name
-        pattern = r"([A-Za-z\s]+)([\u4e00-\u9fff]+)"
+        pattern = r"([A-Za-z\s']+)([\u4e00-\u9fff]+)"
 
 # Apply the regex to match and separate English and Chinese parts
         match = re.match(pattern, names)
@@ -76,13 +76,15 @@ for table_index, table in enumerate(tables):
         start_year, end_year = extract_years(period)
         
         # # Print debug info for each emperor
-        # print(f"Extracted data for row {row_index}:")
-        # print(f" English Name: {english_name}")
-        # print(f" Chinese Name: {chinese_name}")
-        # print(f" Period: {period}")
-        # print(f" Start Year: {start}")
+        print(f"Extracted data for row {row_index}:")
+        print(f" English Name: {english_name}")
+        print(f" Chinese Name: {chinese_name}")
+        print(f" start_year: {start_year}")
+        print(f" end_year: {end_year}")
 
-        # Append each emperor's data as a dictionary
+        # response  = input("Do you wish to append Y/N")
+        # # Append each emperor's data as a dictionary
+        # if response == "Y":
         emperor_data = {
             "english_name": english_name,
             "chinese_name": chinese_name,
@@ -90,12 +92,13 @@ for table_index, table in enumerate(tables):
             "end_year": end_year
         }
         emperors_data.append(emperor_data)
+        print("added")
 
 # Check if data was collected
 if not emperors_data:
     print("No emperor data collected. Please check the HTML structure and selectors.")
 else:
     # Save the data to a JSON file
-    with open("emperors_data.json", "w", encoding="utf-8") as f:
+    with open("emperors_data_raw.json", "w", encoding="utf-8") as f:
         json.dump({"emperors": emperors_data}, f, ensure_ascii=False, indent=4)
     print("Data saved to emperors_data.json")
