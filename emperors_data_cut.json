@@ -1,0 +1,7186 @@
+{
+    "emperors": [
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": -140,
+            "end_year": -135
+        },
+        {
+            "english_name": "Yuanguang",
+            "chinese_name": "元光",
+            "start_year": -134,
+            "end_year": -129
+        },
+        {
+            "english_name": "Yuanshuo",
+            "chinese_name": "元朔",
+            "start_year": -128,
+            "end_year": -123
+        },
+        {
+            "english_name": "Yuanshou",
+            "chinese_name": "元狩",
+            "start_year": -122,
+            "end_year": -117
+        },
+        {
+            "english_name": "Yuanding",
+            "chinese_name": "元鼎",
+            "start_year": -116,
+            "end_year": -111
+        },
+        {
+            "english_name": "Yuanfeng",
+            "chinese_name": "元封",
+            "start_year": -110,
+            "end_year": -105
+        },
+        {
+            "english_name": "Taichu",
+            "chinese_name": "太初",
+            "start_year": -104,
+            "end_year": -101
+        },
+        {
+            "english_name": "Tianhan",
+            "chinese_name": "天漢",
+            "start_year": -100,
+            "end_year": -97
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "太始",
+            "start_year": -96,
+            "end_year": -93
+        },
+        {
+            "english_name": "Zhenghe",
+            "chinese_name": "征和",
+            "start_year": -92,
+            "end_year": -89
+        },
+        {
+            "english_name": "Houyuan",
+            "chinese_name": "後元",
+            "start_year": -88,
+            "end_year": -87
+        },
+        {
+            "english_name": "Shiyuan",
+            "chinese_name": "始元",
+            "start_year": -86,
+            "end_year": -80
+        },
+        {
+            "english_name": "Yuanfeng",
+            "chinese_name": "元鳳",
+            "start_year": -80,
+            "end_year": -75
+        },
+        {
+            "english_name": "Yuanping",
+            "chinese_name": "元平",
+            "start_year": -74,
+            "end_year": null
+        },
+        {
+            "english_name": "Benshi",
+            "chinese_name": "本始",
+            "start_year": -73,
+            "end_year": -70
+        },
+        {
+            "english_name": "Dijie",
+            "chinese_name": "地節",
+            "start_year": -69,
+            "end_year": -66
+        },
+        {
+            "english_name": "Yuankang",
+            "chinese_name": "元康",
+            "start_year": -65,
+            "end_year": -61
+        },
+        {
+            "english_name": "Shenjue",
+            "chinese_name": "神爵",
+            "start_year": -61,
+            "end_year": -58
+        },
+        {
+            "english_name": "Wufeng",
+            "chinese_name": "五鳳",
+            "start_year": -57,
+            "end_year": -54
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": -53,
+            "end_year": -50
+        },
+        {
+            "english_name": "Huanglong",
+            "chinese_name": "黃龍",
+            "start_year": -49,
+            "end_year": null
+        },
+        {
+            "english_name": "Chuyuan",
+            "chinese_name": "初元",
+            "start_year": -48,
+            "end_year": -44
+        },
+        {
+            "english_name": "Yongguang",
+            "chinese_name": "永光",
+            "start_year": -43,
+            "end_year": -39
+        },
+        {
+            "english_name": "Jianzhao",
+            "chinese_name": "建昭",
+            "start_year": -38,
+            "end_year": -34
+        },
+        {
+            "english_name": "Jingning",
+            "chinese_name": "竟寧",
+            "start_year": -33,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianshi",
+            "chinese_name": "建始",
+            "start_year": -32,
+            "end_year": -28
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "河平",
+            "start_year": -28,
+            "end_year": -25
+        },
+        {
+            "english_name": "Yangshuo",
+            "chinese_name": "陽朔",
+            "start_year": -24,
+            "end_year": -21
+        },
+        {
+            "english_name": "Hongjia",
+            "chinese_name": "鴻嘉",
+            "start_year": -20,
+            "end_year": -17
+        },
+        {
+            "english_name": "Yongshi",
+            "chinese_name": "永始",
+            "start_year": -16,
+            "end_year": -13
+        },
+        {
+            "english_name": "Yuanyan",
+            "chinese_name": "元延",
+            "start_year": -12,
+            "end_year": -9
+        },
+        {
+            "english_name": "Suihe",
+            "chinese_name": "綏和",
+            "start_year": -8,
+            "end_year": -7
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": -6,
+            "end_year": -3
+        },
+        {
+            "english_name": "Taichuyuanjiang",
+            "chinese_name": "太初元將",
+            "start_year": -5,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanshou",
+            "chinese_name": "元壽",
+            "start_year": -2,
+            "end_year": -1
+        },
+        {
+            "english_name": "Yuanshi",
+            "chinese_name": "元始",
+            "start_year": 1,
+            "end_year": 5
+        },
+        {
+            "english_name": "Jushe",
+            "chinese_name": "居攝",
+            "start_year": 6,
+            "end_year": 8
+        },
+        {
+            "english_name": "Chushi",
+            "chinese_name": "初始",
+            "start_year": 8,
+            "end_year": null
+        },
+        {
+            "english_name": "Shijianguo",
+            "chinese_name": "始建國",
+            "start_year": 9,
+            "end_year": 13
+        },
+        {
+            "english_name": "Tianfeng",
+            "chinese_name": "天鳳",
+            "start_year": 14,
+            "end_year": 19
+        },
+        {
+            "english_name": "Dihuang",
+            "chinese_name": "地皇",
+            "start_year": 20,
+            "end_year": 23
+        },
+        {
+            "english_name": "Gengshi",
+            "chinese_name": "更始",
+            "start_year": 23,
+            "end_year": 25
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 25,
+            "end_year": 56
+        },
+        {
+            "english_name": "Jianwuzhongyuan",
+            "chinese_name": "建武中元",
+            "start_year": 56,
+            "end_year": 57
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 58,
+            "end_year": 75
+        },
+        {
+            "english_name": "Jianchu",
+            "chinese_name": "建初",
+            "start_year": 76,
+            "end_year": 84
+        },
+        {
+            "english_name": "Yuanhe",
+            "chinese_name": "元和",
+            "start_year": 84,
+            "end_year": 87
+        },
+        {
+            "english_name": "Zhanghe",
+            "chinese_name": "章和",
+            "start_year": 84,
+            "end_year": 87
+        },
+        {
+            "english_name": "Yongyuan",
+            "chinese_name": "永元",
+            "start_year": 89,
+            "end_year": 105
+        },
+        {
+            "english_name": "Yuanxing",
+            "chinese_name": "元興",
+            "start_year": 105,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanping",
+            "chinese_name": "延平",
+            "start_year": 106,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongchu",
+            "chinese_name": "永初",
+            "start_year": 107,
+            "end_year": 113
+        },
+        {
+            "english_name": "Yuanchu",
+            "chinese_name": "元初",
+            "start_year": 114,
+            "end_year": 120
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 120,
+            "end_year": 121
+        },
+        {
+            "english_name": "Jianguang",
+            "chinese_name": "建光",
+            "start_year": 121,
+            "end_year": 122
+        },
+        {
+            "english_name": "Yanguang",
+            "chinese_name": "延光",
+            "start_year": 122,
+            "end_year": 125
+        },
+        {
+            "english_name": "Yongjian",
+            "chinese_name": "永建",
+            "start_year": 126,
+            "end_year": 132
+        },
+        {
+            "english_name": "Yangjia",
+            "chinese_name": "陽嘉",
+            "start_year": 132,
+            "end_year": 135
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 136,
+            "end_year": 141
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 142,
+            "end_year": 144
+        },
+        {
+            "english_name": "Jiankang",
+            "chinese_name": "建康",
+            "start_year": 144,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxi",
+            "chinese_name": "永憙",
+            "start_year": 145,
+            "end_year": null
+        },
+        {
+            "english_name": "Benchu",
+            "chinese_name": "本初",
+            "start_year": 146,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianhe",
+            "chinese_name": "建和",
+            "start_year": 147,
+            "end_year": 149
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "和平",
+            "start_year": 150,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanjia",
+            "chinese_name": "元嘉",
+            "start_year": 151,
+            "end_year": 153
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 153,
+            "end_year": 154
+        },
+        {
+            "english_name": "Yongshou",
+            "chinese_name": "永壽",
+            "start_year": 155,
+            "end_year": 158
+        },
+        {
+            "english_name": "Yanxi",
+            "chinese_name": "延熹",
+            "start_year": 158,
+            "end_year": 167
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 167,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianning",
+            "chinese_name": "建寧",
+            "start_year": 168,
+            "end_year": 172
+        },
+        {
+            "english_name": "Xiping",
+            "chinese_name": "熹平",
+            "start_year": 172,
+            "end_year": 178
+        },
+        {
+            "english_name": "Guanghe",
+            "chinese_name": "光和",
+            "start_year": 178,
+            "end_year": 184
+        },
+        {
+            "english_name": "Zhongping",
+            "chinese_name": "中平",
+            "start_year": 184,
+            "end_year": 189
+        },
+        {
+            "english_name": "Guangxi",
+            "chinese_name": "光熹",
+            "start_year": 189,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhaoning",
+            "chinese_name": "昭寧",
+            "start_year": 189,
+            "end_year": null
+        },
+        {
+            "english_name": "Yonghan",
+            "chinese_name": "永漢",
+            "start_year": 189,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongping",
+            "chinese_name": "中平",
+            "start_year": 189,
+            "end_year": null
+        },
+        {
+            "english_name": "Chuping",
+            "chinese_name": "初平",
+            "start_year": 190,
+            "end_year": 193
+        },
+        {
+            "english_name": "Xingping",
+            "chinese_name": "興平",
+            "start_year": 194,
+            "end_year": 195
+        },
+        {
+            "english_name": "Xingping",
+            "chinese_name": "興平",
+            "start_year": 196,
+            "end_year": 220
+        },
+        {
+            "english_name": "Yankang",
+            "chinese_name": "延康",
+            "start_year": 220,
+            "end_year": null
+        },
+        {
+            "english_name": "Huangchu",
+            "chinese_name": "黃初",
+            "start_year": 220,
+            "end_year": 226
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 227,
+            "end_year": 233
+        },
+        {
+            "english_name": "Qinglong",
+            "chinese_name": "青龍",
+            "start_year": 233,
+            "end_year": 237
+        },
+        {
+            "english_name": "Jingchu",
+            "chinese_name": "景初",
+            "start_year": 237,
+            "end_year": 239
+        },
+        {
+            "english_name": "Zhengshi",
+            "chinese_name": "正始",
+            "start_year": 240,
+            "end_year": 249
+        },
+        {
+            "english_name": "Jiaping",
+            "chinese_name": "嘉平",
+            "start_year": 249,
+            "end_year": 254
+        },
+        {
+            "english_name": "Zhengyuan",
+            "chinese_name": "正元",
+            "start_year": 254,
+            "end_year": 256
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": 256,
+            "end_year": 260
+        },
+        {
+            "english_name": "Jingyuan",
+            "chinese_name": "景元",
+            "start_year": 260,
+            "end_year": 264
+        },
+        {
+            "english_name": "Xianxi",
+            "chinese_name": "咸熙",
+            "start_year": 264,
+            "end_year": 265
+        },
+        {
+            "english_name": "Zhangwu",
+            "chinese_name": "章武",
+            "start_year": 221,
+            "end_year": 223
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 223,
+            "end_year": 237
+        },
+        {
+            "english_name": "Yanxi",
+            "chinese_name": "延熙",
+            "start_year": 238,
+            "end_year": 257
+        },
+        {
+            "english_name": "Jingyao",
+            "chinese_name": "景耀",
+            "start_year": 258,
+            "end_year": 263
+        },
+        {
+            "english_name": "Yanxing",
+            "chinese_name": "炎興",
+            "start_year": 263,
+            "end_year": null
+        },
+        {
+            "english_name": "Huangwu",
+            "chinese_name": "黃武",
+            "start_year": 222,
+            "end_year": 229
+        },
+        {
+            "english_name": "Huanglong",
+            "chinese_name": "黃龍",
+            "start_year": 229,
+            "end_year": 231
+        },
+        {
+            "english_name": "Jiahe",
+            "chinese_name": "嘉禾",
+            "start_year": 232,
+            "end_year": 238
+        },
+        {
+            "english_name": "Chiwu",
+            "chinese_name": "赤烏",
+            "start_year": 238,
+            "end_year": 251
+        },
+        {
+            "english_name": "Taiyuan",
+            "chinese_name": "太元",
+            "start_year": 251,
+            "end_year": 252
+        },
+        {
+            "english_name": "Shenfeng",
+            "chinese_name": "神鳳",
+            "start_year": 252,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 252,
+            "end_year": 253
+        },
+        {
+            "english_name": "Wufeng",
+            "chinese_name": "五鳳",
+            "start_year": 254,
+            "end_year": 256
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 256,
+            "end_year": 258
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 258,
+            "end_year": 264
+        },
+        {
+            "english_name": "Yuanxing",
+            "chinese_name": "元興",
+            "start_year": 264,
+            "end_year": 265
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": 265,
+            "end_year": 266
+        },
+        {
+            "english_name": "Baoding",
+            "chinese_name": "寶鼎",
+            "start_year": 266,
+            "end_year": 269
+        },
+        {
+            "english_name": "Jianheng",
+            "chinese_name": "建衡",
+            "start_year": 269,
+            "end_year": 271
+        },
+        {
+            "english_name": "Fenghuang",
+            "chinese_name": "鳳凰",
+            "start_year": 272,
+            "end_year": 274
+        },
+        {
+            "english_name": "Tiance",
+            "chinese_name": "天冊",
+            "start_year": 275,
+            "end_year": 276
+        },
+        {
+            "english_name": "Tianxi",
+            "chinese_name": "天璽",
+            "start_year": 276,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianji",
+            "chinese_name": "天紀",
+            "start_year": 277,
+            "end_year": 280
+        },
+        {
+            "english_name": "Shaohan",
+            "chinese_name": "紹漢",
+            "start_year": 237,
+            "end_year": 238
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "泰始",
+            "start_year": 265,
+            "end_year": 274
+        },
+        {
+            "english_name": "Xianning",
+            "chinese_name": "咸寧",
+            "start_year": 275,
+            "end_year": 280
+        },
+        {
+            "english_name": "Taikang",
+            "chinese_name": "太康",
+            "start_year": 280,
+            "end_year": 289
+        },
+        {
+            "english_name": "Taixi",
+            "chinese_name": "太熙",
+            "start_year": 290,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxi",
+            "chinese_name": "永熙",
+            "start_year": 290,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 291,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuankang",
+            "chinese_name": "元康",
+            "start_year": 291,
+            "end_year": 299
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 300,
+            "end_year": 301
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 301,
+            "end_year": 302
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 302,
+            "end_year": 303
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 304,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 304,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 304,
+            "end_year": 306
+        },
+        {
+            "english_name": "Guangxi",
+            "chinese_name": "光熙",
+            "start_year": 306,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongjia",
+            "chinese_name": "永嘉",
+            "start_year": 307,
+            "end_year": 313
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 313,
+            "end_year": 317
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 317,
+            "end_year": 318
+        },
+        {
+            "english_name": "Daxing",
+            "chinese_name": "大興",
+            "start_year": 318,
+            "end_year": 321
+        },
+        {
+            "english_name": "Yongchang",
+            "chinese_name": "永昌",
+            "start_year": 322,
+            "end_year": 323
+        },
+        {
+            "english_name": "Taining",
+            "chinese_name": "太寧",
+            "start_year": 323,
+            "end_year": 326
+        },
+        {
+            "english_name": "Xianhe",
+            "chinese_name": "咸和",
+            "start_year": 326,
+            "end_year": 334
+        },
+        {
+            "english_name": "Xiankang",
+            "chinese_name": "咸康",
+            "start_year": 335,
+            "end_year": 342
+        },
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": 343,
+            "end_year": 344
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 345,
+            "end_year": 356
+        },
+        {
+            "english_name": "Shengping",
+            "chinese_name": "升平",
+            "start_year": 357,
+            "end_year": 361
+        },
+        {
+            "english_name": "Longhe",
+            "chinese_name": "隆和",
+            "start_year": 362,
+            "end_year": 363
+        },
+        {
+            "english_name": "Xingning",
+            "chinese_name": "興寧",
+            "start_year": 363,
+            "end_year": 365
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 366,
+            "end_year": 371
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 371,
+            "end_year": 372
+        },
+        {
+            "english_name": "Ningkang",
+            "chinese_name": "寧康",
+            "start_year": 373,
+            "end_year": 375
+        },
+        {
+            "english_name": "Taiyuan",
+            "chinese_name": "太元",
+            "start_year": 376,
+            "end_year": 396
+        },
+        {
+            "english_name": "Taiyuan",
+            "chinese_name": "太元",
+            "start_year": 397,
+            "end_year": 401
+        },
+        {
+            "english_name": "Yuanxing",
+            "chinese_name": "元興",
+            "start_year": 402,
+            "end_year": 404
+        },
+        {
+            "english_name": "Daheng",
+            "chinese_name": "大亨",
+            "start_year": 402,
+            "end_year": null
+        },
+        {
+            "english_name": "Yixi",
+            "chinese_name": "義熙",
+            "start_year": 405,
+            "end_year": 419
+        },
+        {
+            "english_name": "Yuanxi",
+            "chinese_name": "元熙",
+            "start_year": 419,
+            "end_year": 420
+        },
+        {
+            "english_name": "Yongshi",
+            "chinese_name": "永始",
+            "start_year": 403,
+            "end_year": 404
+        },
+        {
+            "english_name": "Tiankang",
+            "chinese_name": "天康",
+            "start_year": 404,
+            "end_year": 405
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 300,
+            "end_year": 301
+        },
+        {
+            "english_name": "Jianshi",
+            "chinese_name": "建始",
+            "start_year": 301,
+            "end_year": null
+        },
+        {
+            "english_name": "Shenfeng",
+            "chinese_name": "神鳳",
+            "start_year": 303,
+            "end_year": null
+        },
+        {
+            "english_name": "Jiankang",
+            "chinese_name": "建康",
+            "start_year": 319,
+            "end_year": 320
+        },
+        {
+            "english_name": "Fenghuang",
+            "chinese_name": "鳳凰",
+            "start_year": 370,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanxi",
+            "chinese_name": "元熙",
+            "start_year": 304,
+            "end_year": 308
+        },
+        {
+            "english_name": "Yongfeng",
+            "chinese_name": "永鳳",
+            "start_year": 308,
+            "end_year": 309
+        },
+        {
+            "english_name": "Herui",
+            "chinese_name": "河瑞",
+            "start_year": 309,
+            "end_year": 310
+        },
+        {
+            "english_name": "Guangxing",
+            "chinese_name": "光興",
+            "start_year": 310,
+            "end_year": 311
+        },
+        {
+            "english_name": "Jiaping",
+            "chinese_name": "嘉平",
+            "start_year": 311,
+            "end_year": 315
+        },
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": 315,
+            "end_year": 316
+        },
+        {
+            "english_name": "Linjia",
+            "chinese_name": "麟嘉",
+            "start_year": 316,
+            "end_year": 318
+        },
+        {
+            "english_name": "Hanchang",
+            "chinese_name": "漢昌",
+            "start_year": 318,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangchu",
+            "chinese_name": "光初",
+            "start_year": 318,
+            "end_year": 329
+        },
+        {
+            "english_name": "Jianchu",
+            "chinese_name": "建初",
+            "start_year": 303,
+            "end_year": 304
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 304,
+            "end_year": 306
+        },
+        {
+            "english_name": "Yanping",
+            "chinese_name": "晏平",
+            "start_year": 306,
+            "end_year": 310
+        },
+        {
+            "english_name": "Yuheng",
+            "chinese_name": "玉衡",
+            "start_year": 311,
+            "end_year": 334
+        },
+        {
+            "english_name": "Dawu",
+            "chinese_name": "大武",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuheng",
+            "chinese_name": "玉恒",
+            "start_year": 335,
+            "end_year": 338
+        },
+        {
+            "english_name": "Hanxing",
+            "chinese_name": "漢興",
+            "start_year": 338,
+            "end_year": 343
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 344,
+            "end_year": 346
+        },
+        {
+            "english_name": "Jianing",
+            "chinese_name": "嘉寧",
+            "start_year": 346,
+            "end_year": 347
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 328,
+            "end_year": 330
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 330,
+            "end_year": 333
+        },
+        {
+            "english_name": "Yanxi",
+            "chinese_name": "延熙",
+            "start_year": 334,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 335,
+            "end_year": 348
+        },
+        {
+            "english_name": "Taining",
+            "chinese_name": "太寧",
+            "start_year": 349,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxi",
+            "chinese_name": "永熙",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanxing",
+            "chinese_name": "延興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Qinglong",
+            "chinese_name": "青龍",
+            "start_year": 350,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 350,
+            "end_year": 351
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 317,
+            "end_year": 320
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 320,
+            "end_year": 324
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 324,
+            "end_year": 346
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 346,
+            "end_year": 353
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "和平",
+            "start_year": 354,
+            "end_year": 355
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 355,
+            "end_year": 361
+        },
+        {
+            "english_name": "Shengping",
+            "chinese_name": "升平",
+            "start_year": 361,
+            "end_year": 363
+        },
+        {
+            "english_name": "Shengping",
+            "chinese_name": "升平",
+            "start_year": 363,
+            "end_year": 376
+        },
+        {
+            "english_name": "Yanyuan",
+            "chinese_name": "燕元",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanxi",
+            "chinese_name": "元璽",
+            "start_year": 352,
+            "end_year": 357
+        },
+        {
+            "english_name": "Guangshou",
+            "chinese_name": "光壽",
+            "start_year": 357,
+            "end_year": 359
+        },
+        {
+            "english_name": "Jianxi",
+            "chinese_name": "建熙",
+            "start_year": 360,
+            "end_year": 370
+        },
+        {
+            "english_name": "Huangshi",
+            "chinese_name": "皇始",
+            "start_year": 351,
+            "end_year": 355
+        },
+        {
+            "english_name": "Shouguang",
+            "chinese_name": "壽光",
+            "start_year": 355,
+            "end_year": 357
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 357,
+            "end_year": 359
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": 359,
+            "end_year": 364
+        },
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": 365,
+            "end_year": 385
+        },
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": 385,
+            "end_year": 386
+        },
+        {
+            "english_name": "Taichu",
+            "chinese_name": "太初",
+            "start_year": 386,
+            "end_year": 394
+        },
+        {
+            "english_name": "Yanchu",
+            "chinese_name": "延初",
+            "start_year": 394,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanyuan",
+            "chinese_name": "燕元",
+            "start_year": 384,
+            "end_year": 386
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 386,
+            "end_year": 396
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 396,
+            "end_year": 398
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 398,
+            "end_year": null
+        },
+        {
+            "english_name": "Changle",
+            "chinese_name": "長樂",
+            "start_year": 399,
+            "end_year": 401
+        },
+        {
+            "english_name": "Guangshi",
+            "chinese_name": "光始",
+            "start_year": 401,
+            "end_year": 406
+        },
+        {
+            "english_name": "Jianshi",
+            "chinese_name": "建始",
+            "start_year": 407,
+            "end_year": null
+        },
+        {
+            "english_name": "Baique",
+            "chinese_name": "白雀",
+            "start_year": 384,
+            "end_year": 386
+        },
+        {
+            "english_name": "Jianchu",
+            "chinese_name": "建初",
+            "start_year": 386,
+            "end_year": 394
+        },
+        {
+            "english_name": "Huangchu",
+            "chinese_name": "皇初",
+            "start_year": 394,
+            "end_year": 399
+        },
+        {
+            "english_name": "Hongshi",
+            "chinese_name": "弘始",
+            "start_year": 399,
+            "end_year": 416
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 416,
+            "end_year": 417
+        },
+        {
+            "english_name": "Jianyi",
+            "chinese_name": "建義",
+            "start_year": 385,
+            "end_year": 388
+        },
+        {
+            "english_name": "Taichu",
+            "chinese_name": "太初",
+            "start_year": 388,
+            "end_year": 400
+        },
+        {
+            "english_name": "Gengshi",
+            "chinese_name": "更始",
+            "start_year": 409,
+            "end_year": 412
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 412,
+            "end_year": 419
+        },
+        {
+            "english_name": "Jianhong",
+            "chinese_name": "建弘",
+            "start_year": 420,
+            "end_year": 428
+        },
+        {
+            "english_name": "Yonghong",
+            "chinese_name": "永弘",
+            "start_year": 428,
+            "end_year": 431
+        },
+        {
+            "english_name": "Yonghong",
+            "chinese_name": "永弘",
+            "start_year": 386,
+            "end_year": 389
+        },
+        {
+            "english_name": "Linjia",
+            "chinese_name": "麟嘉",
+            "start_year": 389,
+            "end_year": 396
+        },
+        {
+            "english_name": "Longfei",
+            "chinese_name": "龍飛",
+            "start_year": 396,
+            "end_year": 399
+        },
+        {
+            "english_name": "Chengkang",
+            "chinese_name": "承康",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Xianning",
+            "chinese_name": "咸寧",
+            "start_year": 399,
+            "end_year": 401
+        },
+        {
+            "english_name": "Shending",
+            "chinese_name": "神鼎",
+            "start_year": 401,
+            "end_year": 403
+        },
+        {
+            "english_name": "Taichu",
+            "chinese_name": "太初",
+            "start_year": 397,
+            "end_year": 399
+        },
+        {
+            "english_name": "Jianhe",
+            "chinese_name": "建和",
+            "start_year": 400,
+            "end_year": 402
+        },
+        {
+            "english_name": "Hongchang",
+            "chinese_name": "弘昌",
+            "start_year": 402,
+            "end_year": 404
+        },
+        {
+            "english_name": "Jiaping",
+            "chinese_name": "嘉平",
+            "start_year": 408,
+            "end_year": 414
+        },
+        {
+            "english_name": "Shenxi",
+            "chinese_name": "神璽",
+            "start_year": 397,
+            "end_year": 399
+        },
+        {
+            "english_name": "Tianxi",
+            "chinese_name": "天璽",
+            "start_year": 399,
+            "end_year": 401
+        },
+        {
+            "english_name": "Tianxi",
+            "chinese_name": "天璽",
+            "start_year": 401,
+            "end_year": 412
+        },
+        {
+            "english_name": "Xuanshi",
+            "chinese_name": "玄始",
+            "start_year": 412,
+            "end_year": 428
+        },
+        {
+            "english_name": "Zhenxing",
+            "chinese_name": "真興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengxuan",
+            "chinese_name": "承玄",
+            "start_year": 428,
+            "end_year": 431
+        },
+        {
+            "english_name": "Yihe",
+            "chinese_name": "義和",
+            "start_year": 431,
+            "end_year": 433
+        },
+        {
+            "english_name": "Chengyang",
+            "chinese_name": "承陽",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanhe",
+            "chinese_name": "緣禾",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Chenghe",
+            "chinese_name": "承和",
+            "start_year": 433,
+            "end_year": 439
+        },
+        {
+            "english_name": "Taiyuan",
+            "chinese_name": "太緣",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengping",
+            "chinese_name": "承平",
+            "start_year": 443,
+            "end_year": 460
+        },
+        {
+            "english_name": "Yanping",
+            "chinese_name": "燕平",
+            "start_year": 398,
+            "end_year": 400
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 400,
+            "end_year": 405
+        },
+        {
+            "english_name": "Taishang",
+            "chinese_name": "太上",
+            "start_year": 405,
+            "end_year": 410
+        },
+        {
+            "english_name": "Gengzi",
+            "chinese_name": "庚子",
+            "start_year": 400,
+            "end_year": 404
+        },
+        {
+            "english_name": "Jianchu",
+            "chinese_name": "建初",
+            "start_year": 405,
+            "end_year": 417
+        },
+        {
+            "english_name": "Jiaxing",
+            "chinese_name": "嘉興",
+            "start_year": 417,
+            "end_year": 420
+        },
+        {
+            "english_name": "Yongjian",
+            "chinese_name": "永建",
+            "start_year": 420,
+            "end_year": 421
+        },
+        {
+            "english_name": "Longsheng",
+            "chinese_name": "龍昇",
+            "start_year": 407,
+            "end_year": 413
+        },
+        {
+            "english_name": "Fengxiang",
+            "chinese_name": "鳳翔",
+            "start_year": 413,
+            "end_year": 418
+        },
+        {
+            "english_name": "Changwu",
+            "chinese_name": "昌武",
+            "start_year": 418,
+            "end_year": 419
+        },
+        {
+            "english_name": "Zhenxing",
+            "chinese_name": "真興",
+            "start_year": 419,
+            "end_year": 425
+        },
+        {
+            "english_name": "Chengguang",
+            "chinese_name": "承光",
+            "start_year": 419,
+            "end_year": 425
+        },
+        {
+            "english_name": "Shengguang",
+            "chinese_name": "勝光",
+            "start_year": 428,
+            "end_year": 431
+        },
+        {
+            "english_name": "Zhengshi",
+            "chinese_name": "正始",
+            "start_year": 407,
+            "end_year": 409
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 409,
+            "end_year": 430
+        },
+        {
+            "english_name": "Taixing",
+            "chinese_name": "太興",
+            "start_year": 431,
+            "end_year": 436
+        },
+        {
+            "english_name": "Jianguo",
+            "chinese_name": "建國",
+            "start_year": 388,
+            "end_year": 376
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 350,
+            "end_year": 352
+        },
+        {
+            "english_name": "Yanxing",
+            "chinese_name": "燕興",
+            "start_year": 384,
+            "end_year": null
+        },
+        {
+            "english_name": "Gengshi",
+            "chinese_name": "更始",
+            "start_year": 385,
+            "end_year": 386
+        },
+        {
+            "english_name": "Changping",
+            "chinese_name": "昌平",
+            "start_year": 386,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianming",
+            "chinese_name": "建明",
+            "start_year": 386,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 386,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 386,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 386,
+            "end_year": 394
+        },
+        {
+            "english_name": "Jianguang",
+            "chinese_name": "建光",
+            "start_year": 388,
+            "end_year": 391
+        },
+        {
+            "english_name": "Dingding",
+            "chinese_name": "定鼎",
+            "start_year": 391,
+            "end_year": 392
+        },
+        {
+            "english_name": "Pingzhao",
+            "chinese_name": "平趙",
+            "start_year": 320,
+            "end_year": null
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "龍興",
+            "start_year": 337,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianchang",
+            "chinese_name": "建昌",
+            "start_year": 352,
+            "end_year": null
+        },
+        {
+            "english_name": "Heilong",
+            "chinese_name": "黑龍",
+            "start_year": 374,
+            "end_year": null
+        },
+        {
+            "english_name": "Fenghuang",
+            "chinese_name": "鳳凰",
+            "start_year": 386,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanguang",
+            "chinese_name": "元光",
+            "start_year": 393,
+            "end_year": 394
+        },
+        {
+            "english_name": "Jianshi",
+            "chinese_name": "建始",
+            "start_year": 397,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanping",
+            "chinese_name": "延平",
+            "start_year": 397,
+            "end_year": null
+        },
+        {
+            "english_name": "Qinglong",
+            "chinese_name": "青龍",
+            "start_year": 398,
+            "end_year": null
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 403,
+            "end_year": null
+        },
+        {
+            "english_name": "Dengguo",
+            "chinese_name": "登國",
+            "start_year": 386,
+            "end_year": 396
+        },
+        {
+            "english_name": "Huangshi",
+            "chinese_name": "皇始",
+            "start_year": 396,
+            "end_year": 398
+        },
+        {
+            "english_name": "Tianxing",
+            "chinese_name": "天興",
+            "start_year": 398,
+            "end_year": 404
+        },
+        {
+            "english_name": "Tianci",
+            "chinese_name": "天賜",
+            "start_year": 404,
+            "end_year": 409
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 409,
+            "end_year": 413
+        },
+        {
+            "english_name": "Shenrui",
+            "chinese_name": "神瑞",
+            "start_year": 414,
+            "end_year": 416
+        },
+        {
+            "english_name": "Taichang",
+            "chinese_name": "泰常",
+            "start_year": 416,
+            "end_year": 423
+        },
+        {
+            "english_name": "Shiguang",
+            "chinese_name": "始光",
+            "start_year": 424,
+            "end_year": 428
+        },
+        {
+            "english_name": "Shenjia",
+            "chinese_name": "神",
+            "start_year": 428,
+            "end_year": 431
+        },
+        {
+            "english_name": "Yanhe",
+            "chinese_name": "延和",
+            "start_year": 432,
+            "end_year": 435
+        },
+        {
+            "english_name": "Taiyan",
+            "chinese_name": "太延",
+            "start_year": 435,
+            "end_year": 440
+        },
+        {
+            "english_name": "Taipingzhenjun",
+            "chinese_name": "太平真君",
+            "start_year": 440,
+            "end_year": 451
+        },
+        {
+            "english_name": "Zhengping",
+            "chinese_name": "正平",
+            "start_year": 451,
+            "end_year": 452
+        },
+        {
+            "english_name": "Chengping",
+            "chinese_name": "承平",
+            "start_year": 452,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengping",
+            "chinese_name": "承平",
+            "start_year": 452,
+            "end_year": 454
+        },
+        {
+            "english_name": "Xingguang",
+            "chinese_name": "興光",
+            "start_year": 454,
+            "end_year": 455
+        },
+        {
+            "english_name": "Xingguang",
+            "chinese_name": "興光",
+            "start_year": 455,
+            "end_year": 459
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "和平",
+            "start_year": 460,
+            "end_year": 465
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "和平",
+            "start_year": 466,
+            "end_year": 467
+        },
+        {
+            "english_name": "Huangxing",
+            "chinese_name": "皇興",
+            "start_year": 467,
+            "end_year": 471
+        },
+        {
+            "english_name": "Yanxing",
+            "chinese_name": "延興",
+            "start_year": 471,
+            "end_year": 476
+        },
+        {
+            "english_name": "Chengming",
+            "chinese_name": "承明",
+            "start_year": 476,
+            "end_year": null
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "太和",
+            "start_year": 477,
+            "end_year": 499
+        },
+        {
+            "english_name": "Jingming",
+            "chinese_name": "景明",
+            "start_year": 500,
+            "end_year": 504
+        },
+        {
+            "english_name": "Zhengshi",
+            "chinese_name": "正始",
+            "start_year": 504,
+            "end_year": 508
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 508,
+            "end_year": 512
+        },
+        {
+            "english_name": "Yanchang",
+            "chinese_name": "延昌",
+            "start_year": 512,
+            "end_year": 515
+        },
+        {
+            "english_name": "Xiping",
+            "chinese_name": "熙平",
+            "start_year": 516,
+            "end_year": 518
+        },
+        {
+            "english_name": "Shengui",
+            "chinese_name": "神龜",
+            "start_year": 518,
+            "end_year": 520
+        },
+        {
+            "english_name": "Zhengguang",
+            "chinese_name": "正光",
+            "start_year": 520,
+            "end_year": 525
+        },
+        {
+            "english_name": "Xiaochang",
+            "chinese_name": "孝昌",
+            "start_year": 525,
+            "end_year": 528
+        },
+        {
+            "english_name": "Wutai",
+            "chinese_name": "武泰",
+            "start_year": 528,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianyi",
+            "chinese_name": "建義",
+            "start_year": 528,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianyi",
+            "chinese_name": "建義",
+            "start_year": 528,
+            "end_year": 530
+        },
+        {
+            "english_name": "Jianming",
+            "chinese_name": "建明",
+            "start_year": 530,
+            "end_year": 531
+        },
+        {
+            "english_name": "Putai",
+            "chinese_name": "普泰",
+            "start_year": 531,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 531,
+            "end_year": 532
+        },
+        {
+            "english_name": "Taichang",
+            "chinese_name": "太昌",
+            "start_year": 532,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 532,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxi",
+            "chinese_name": "永熙",
+            "start_year": 532,
+            "end_year": 534
+        },
+        {
+            "english_name": "Tianping",
+            "chinese_name": "天平",
+            "start_year": 534,
+            "end_year": 537
+        },
+        {
+            "english_name": "Yuanxiang",
+            "chinese_name": "元象",
+            "start_year": 538,
+            "end_year": 539
+        },
+        {
+            "english_name": "Xinghe",
+            "chinese_name": "興和",
+            "start_year": 539,
+            "end_year": 542
+        },
+        {
+            "english_name": "Wuding",
+            "chinese_name": "武定",
+            "start_year": 543,
+            "end_year": 550
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大統",
+            "start_year": 535,
+            "end_year": 551
+        },
+        {
+            "english_name": "Qianming",
+            "chinese_name": "乾明",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianbao",
+            "chinese_name": "天保",
+            "start_year": 550,
+            "end_year": 559
+        },
+        {
+            "english_name": "Qianming",
+            "chinese_name": "乾明",
+            "start_year": 560,
+            "end_year": null
+        },
+        {
+            "english_name": "Huangjian",
+            "chinese_name": "皇建",
+            "start_year": 560,
+            "end_year": 561
+        },
+        {
+            "english_name": "Taining",
+            "chinese_name": "太寧",
+            "start_year": 561,
+            "end_year": 562
+        },
+        {
+            "english_name": "Heqing",
+            "chinese_name": "河清",
+            "start_year": 562,
+            "end_year": 565
+        },
+        {
+            "english_name": "Tiantong",
+            "chinese_name": "天統",
+            "start_year": 565,
+            "end_year": 569
+        },
+        {
+            "english_name": "Wuping",
+            "chinese_name": "武平",
+            "start_year": 570,
+            "end_year": 576
+        },
+        {
+            "english_name": "Longhua",
+            "chinese_name": "隆化",
+            "start_year": 576,
+            "end_year": null
+        },
+        {
+            "english_name": "Dechang",
+            "chinese_name": "德昌",
+            "start_year": 576,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengguang",
+            "chinese_name": "承光",
+            "start_year": 577,
+            "end_year": null
+        },
+        {
+            "english_name": "Wucheng",
+            "chinese_name": "武成",
+            "start_year": 559,
+            "end_year": 560
+        },
+        {
+            "english_name": "Wuding",
+            "chinese_name": "武定",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Baoding",
+            "chinese_name": "保定",
+            "start_year": 561,
+            "end_year": 565
+        },
+        {
+            "english_name": "Tianhe",
+            "chinese_name": "天和",
+            "start_year": 566,
+            "end_year": 572
+        },
+        {
+            "english_name": "Jiande",
+            "chinese_name": "建德",
+            "start_year": 572,
+            "end_year": 578
+        },
+        {
+            "english_name": "Xuanzheng",
+            "chinese_name": "宣政",
+            "start_year": 578,
+            "end_year": null
+        },
+        {
+            "english_name": "Dacheng",
+            "chinese_name": "大成",
+            "start_year": 579,
+            "end_year": null
+        },
+        {
+            "english_name": "Daxiang",
+            "chinese_name": "大象",
+            "start_year": 579,
+            "end_year": 580
+        },
+        {
+            "english_name": "Dading",
+            "chinese_name": "大定",
+            "start_year": 581,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongchu",
+            "chinese_name": "永初",
+            "start_year": 420,
+            "end_year": 422
+        },
+        {
+            "english_name": "Jingping",
+            "chinese_name": "景平",
+            "start_year": 423,
+            "end_year": 424
+        },
+        {
+            "english_name": "Yuanjia",
+            "chinese_name": "元嘉",
+            "start_year": 424,
+            "end_year": 453
+        },
+        {
+            "english_name": "Xiaojian",
+            "chinese_name": "孝建",
+            "start_year": 454,
+            "end_year": 456
+        },
+        {
+            "english_name": "Daming",
+            "chinese_name": "大明",
+            "start_year": 457,
+            "end_year": 464
+        },
+        {
+            "english_name": "Yongguang",
+            "chinese_name": "永光",
+            "start_year": 465,
+            "end_year": null
+        },
+        {
+            "english_name": "Jinghe",
+            "chinese_name": "景和",
+            "start_year": 465,
+            "end_year": null
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "泰始",
+            "start_year": 466,
+            "end_year": 471
+        },
+        {
+            "english_name": "Taiyu",
+            "chinese_name": "泰豫",
+            "start_year": 472,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanhui",
+            "chinese_name": "元徽",
+            "start_year": 473,
+            "end_year": 477
+        },
+        {
+            "english_name": "Shengming",
+            "chinese_name": "昇明",
+            "start_year": 477,
+            "end_year": 479
+        },
+        {
+            "english_name": "Jianyuan",
+            "chinese_name": "建元",
+            "start_year": 479,
+            "end_year": 482
+        },
+        {
+            "english_name": "Yongming",
+            "chinese_name": "永明",
+            "start_year": 483,
+            "end_year": 493
+        },
+        {
+            "english_name": "Longchang",
+            "chinese_name": "隆昌",
+            "start_year": 494,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanxing",
+            "chinese_name": "延興",
+            "start_year": 494,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 494,
+            "end_year": 498
+        },
+        {
+            "english_name": "Yongtai",
+            "chinese_name": "永泰",
+            "start_year": 498,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongyuan",
+            "chinese_name": "永元",
+            "start_year": 499,
+            "end_year": 501
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 501,
+            "end_year": 502
+        },
+        {
+            "english_name": "Tianjian",
+            "chinese_name": "天監",
+            "start_year": 502,
+            "end_year": 519
+        },
+        {
+            "english_name": "Putong",
+            "chinese_name": "普通",
+            "start_year": 520,
+            "end_year": 527
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大通",
+            "start_year": 527,
+            "end_year": 529
+        },
+        {
+            "english_name": "Zhongdatong",
+            "chinese_name": "中大通",
+            "start_year": 529,
+            "end_year": 534
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大同",
+            "start_year": 535,
+            "end_year": 546
+        },
+        {
+            "english_name": "Zhongdatong",
+            "chinese_name": "中大同",
+            "start_year": 546,
+            "end_year": 547
+        },
+        {
+            "english_name": "Taiqing",
+            "chinese_name": "太清",
+            "start_year": 547,
+            "end_year": 549
+        },
+        {
+            "english_name": "Dabao",
+            "chinese_name": "大寶",
+            "start_year": 550,
+            "end_year": 551
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天正",
+            "start_year": 551,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengsheng",
+            "chinese_name": "承聖",
+            "start_year": 552,
+            "end_year": 555
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 555,
+            "end_year": null
+        },
+        {
+            "english_name": "Shaotai",
+            "chinese_name": "紹泰",
+            "start_year": 555,
+            "end_year": 556
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 556,
+            "end_year": 557
+        },
+        {
+            "english_name": "Dading",
+            "chinese_name": "大定",
+            "start_year": 555,
+            "end_year": 562
+        },
+        {
+            "english_name": "Tianbao",
+            "chinese_name": "天保",
+            "start_year": 562,
+            "end_year": 585
+        },
+        {
+            "english_name": "Guangyun",
+            "chinese_name": "廣運",
+            "start_year": 586,
+            "end_year": 587
+        },
+        {
+            "english_name": "Yongding",
+            "chinese_name": "永定",
+            "start_year": 557,
+            "end_year": 559
+        },
+        {
+            "english_name": "Tianjia",
+            "chinese_name": "天嘉",
+            "start_year": 560,
+            "end_year": 566
+        },
+        {
+            "english_name": "Tiankang",
+            "chinese_name": "天康",
+            "start_year": 566,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangda",
+            "chinese_name": "光大",
+            "start_year": 567,
+            "end_year": 568
+        },
+        {
+            "english_name": "Taijian",
+            "chinese_name": "太建",
+            "start_year": 569,
+            "end_year": 582
+        },
+        {
+            "english_name": "Zhide",
+            "chinese_name": "至德",
+            "start_year": 583,
+            "end_year": 586
+        },
+        {
+            "english_name": "Zhenming",
+            "chinese_name": "禎明",
+            "start_year": 587,
+            "end_year": 589
+        },
+        {
+            "english_name": "Yongle",
+            "chinese_name": "永樂",
+            "start_year": 391,
+            "end_year": 412
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanshou",
+            "chinese_name": "延壽",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanjia",
+            "chinese_name": "延嘉",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 464,
+            "end_year": 484
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 485,
+            "end_year": 491
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 492,
+            "end_year": 505
+        },
+        {
+            "english_name": "Shiping",
+            "chinese_name": "始平",
+            "start_year": 506,
+            "end_year": 507
+        },
+        {
+            "english_name": "Jianchang",
+            "chinese_name": "建昌",
+            "start_year": 508,
+            "end_year": 520
+        },
+        {
+            "english_name": "Jianyi",
+            "chinese_name": "建義",
+            "start_year": 436,
+            "end_year": 442
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 466,
+            "end_year": 477
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 477,
+            "end_year": 478
+        },
+        {
+            "english_name": "Yongkang",
+            "chinese_name": "永康",
+            "start_year": 478,
+            "end_year": 485
+        },
+        {
+            "english_name": "Jianchu",
+            "chinese_name": "建初",
+            "start_year": 489,
+            "end_year": 496
+        },
+        {
+            "english_name": "Chengping",
+            "chinese_name": "承平",
+            "start_year": 502,
+            "end_year": 509
+        },
+        {
+            "english_name": "Yixi",
+            "chinese_name": "義熙",
+            "start_year": 510,
+            "end_year": 525
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": 525,
+            "end_year": 530
+        },
+        {
+            "english_name": "Zhanghe",
+            "chinese_name": "章和",
+            "start_year": 531,
+            "end_year": 548
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 549,
+            "end_year": 550
+        },
+        {
+            "english_name": "Heping",
+            "chinese_name": "和平",
+            "start_year": 551,
+            "end_year": 554
+        },
+        {
+            "english_name": "Jianchang",
+            "chinese_name": "建昌",
+            "start_year": 555,
+            "end_year": 560
+        },
+        {
+            "english_name": "Yanchang",
+            "chinese_name": "延昌",
+            "start_year": 561,
+            "end_year": 601
+        },
+        {
+            "english_name": "Yanhe",
+            "chinese_name": "延和",
+            "start_year": 602,
+            "end_year": 613
+        },
+        {
+            "english_name": "Yihe",
+            "chinese_name": "義和",
+            "start_year": 614,
+            "end_year": 619
+        },
+        {
+            "english_name": "Chongguang",
+            "chinese_name": "重光",
+            "start_year": 620,
+            "end_year": 623
+        },
+        {
+            "english_name": "Yanshou",
+            "chinese_name": "延壽",
+            "start_year": 624,
+            "end_year": 640
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "太始",
+            "start_year": 551,
+            "end_year": 552
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 415,
+            "end_year": 416
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "龍興",
+            "start_year": 422,
+            "end_year": 442
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "泰始",
+            "start_year": 432,
+            "end_year": 437
+        },
+        {
+            "english_name": "Taichu",
+            "chinese_name": "太初",
+            "start_year": 453,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 454,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongguang",
+            "chinese_name": "永光",
+            "start_year": 455,
+            "end_year": null
+        },
+        {
+            "english_name": "Yijia",
+            "chinese_name": "義嘉",
+            "start_year": 466,
+            "end_year": null
+        },
+        {
+            "english_name": "Shengjun",
+            "chinese_name": "聖君",
+            "start_year": 471,
+            "end_year": null
+        },
+        {
+            "english_name": "Xingping",
+            "chinese_name": "興平",
+            "start_year": 486,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianyi",
+            "chinese_name": "建義",
+            "start_year": 500,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengshi",
+            "chinese_name": "正始",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianming",
+            "chinese_name": "建明",
+            "start_year": 506,
+            "end_year": null
+        },
+        {
+            "english_name": "Shengming",
+            "chinese_name": "聖明",
+            "start_year": 506,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianping",
+            "chinese_name": "建平",
+            "start_year": 508,
+            "end_year": null
+        },
+        {
+            "english_name": "Dacheng",
+            "chinese_name": "大乘",
+            "start_year": 515,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenwang",
+            "chinese_name": "真王",
+            "start_year": 524,
+            "end_year": 525
+        },
+        {
+            "english_name": "Tianjian",
+            "chinese_name": "天建",
+            "start_year": 524,
+            "end_year": 527
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 525,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenwang",
+            "chinese_name": "真王",
+            "start_year": 525,
+            "end_year": 528
+        },
+        {
+            "english_name": "Shenjia",
+            "chinese_name": "神嘉",
+            "start_year": 525,
+            "end_year": 535
+        },
+        {
+            "english_name": "Luxing",
+            "chinese_name": "魯興",
+            "start_year": 526,
+            "end_year": null
+        },
+        {
+            "english_name": "Shijian",
+            "chinese_name": "始建",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Shijian",
+            "chinese_name": "始建",
+            "start_year": 526,
+            "end_year": 528
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天授",
+            "start_year": 527,
+            "end_year": null
+        },
+        {
+            "english_name": "Longxu",
+            "chinese_name": "隆緒",
+            "start_year": 527,
+            "end_year": 528
+        },
+        {
+            "english_name": "Tiantong",
+            "chinese_name": "天統",
+            "start_year": 528,
+            "end_year": 529
+        },
+        {
+            "english_name": "Shenshou",
+            "chinese_name": "神獸",
+            "start_year": 528,
+            "end_year": 530
+        },
+        {
+            "english_name": "Xiaoji",
+            "chinese_name": "孝基",
+            "start_year": 529,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianwu",
+            "chinese_name": "建武",
+            "start_year": 529,
+            "end_year": null
+        },
+        {
+            "english_name": "Gengxing",
+            "chinese_name": "更興",
+            "start_year": 530,
+            "end_year": 532
+        },
+        {
+            "english_name": "Shangyuan",
+            "chinese_name": "上願",
+            "start_year": 535,
+            "end_year": null
+        },
+        {
+            "english_name": "Pingdu",
+            "chinese_name": "平都",
+            "start_year": 536,
+            "end_year": null
+        },
+        {
+            "english_name": "Yonghan",
+            "chinese_name": "永漢",
+            "start_year": 542,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengping",
+            "chinese_name": "正平",
+            "start_year": 548,
+            "end_year": 549
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天正",
+            "start_year": 552,
+            "end_year": 553
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 558,
+            "end_year": 560
+        },
+        {
+            "english_name": "Shiping",
+            "chinese_name": "石平",
+            "start_year": 577,
+            "end_year": null
+        },
+        {
+            "english_name": "Wuping",
+            "chinese_name": "武平",
+            "start_year": 578,
+            "end_year": null
+        },
+        {
+            "english_name": "Antai",
+            "chinese_name": "安太",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Baique",
+            "chinese_name": "白雀",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Kaihuang",
+            "chinese_name": "開皇",
+            "start_year": 581,
+            "end_year": 600
+        },
+        {
+            "english_name": "Renshou",
+            "chinese_name": "仁壽",
+            "start_year": 601,
+            "end_year": 604
+        },
+        {
+            "english_name": "Daye",
+            "chinese_name": "大業",
+            "start_year": 605,
+            "end_year": 618
+        },
+        {
+            "english_name": "Yining",
+            "chinese_name": "義寧",
+            "start_year": 617,
+            "end_year": 618
+        },
+        {
+            "english_name": "Huangtai",
+            "chinese_name": "皇泰",
+            "start_year": 618,
+            "end_year": 619
+        },
+        {
+            "english_name": "Bainiao",
+            "chinese_name": "白鳥",
+            "start_year": 613,
+            "end_year": null
+        },
+        {
+            "english_name": "Dashi",
+            "chinese_name": "大世",
+            "start_year": 614,
+            "end_year": null
+        },
+        {
+            "english_name": "Changda",
+            "chinese_name": "昌達",
+            "start_year": 615,
+            "end_year": 619
+        },
+        {
+            "english_name": "Shixing",
+            "chinese_name": "始興",
+            "start_year": 616,
+            "end_year": null
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 616,
+            "end_year": 622
+        },
+        {
+            "english_name": "Dingchou",
+            "chinese_name": "丁丑",
+            "start_year": 617,
+            "end_year": 618
+        },
+        {
+            "english_name": "Wufeng",
+            "chinese_name": "五鳳",
+            "start_year": 618,
+            "end_year": 621
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 617,
+            "end_year": 618
+        },
+        {
+            "english_name": "Tianxing",
+            "chinese_name": "天興",
+            "start_year": 617,
+            "end_year": 620
+        },
+        {
+            "english_name": "Zhengping",
+            "chinese_name": "正平",
+            "start_year": 617,
+            "end_year": 618
+        },
+        {
+            "english_name": "Qinxing",
+            "chinese_name": "秦興",
+            "start_year": 617,
+            "end_year": 618
+        },
+        {
+            "english_name": "Mingfeng",
+            "chinese_name": "鳴鳳",
+            "start_year": 617,
+            "end_year": 621
+        },
+        {
+            "english_name": "Anle",
+            "chinese_name": "安樂",
+            "start_year": 617,
+            "end_year": 619
+        },
+        {
+            "english_name": "Tongsheng",
+            "chinese_name": "通聖",
+            "start_year": 617,
+            "end_year": null
+        },
+        {
+            "english_name": "Yonglong",
+            "chinese_name": "永隆",
+            "start_year": 618,
+            "end_year": 628
+        },
+        {
+            "english_name": "Wude",
+            "chinese_name": "武德",
+            "start_year": 618,
+            "end_year": 626
+        },
+        {
+            "english_name": "Zhenguan",
+            "chinese_name": "貞觀",
+            "start_year": 627,
+            "end_year": 649
+        },
+        {
+            "english_name": "Yonghui",
+            "chinese_name": "永徽",
+            "start_year": 650,
+            "end_year": 655
+        },
+        {
+            "english_name": "Xianqing",
+            "chinese_name": "顯慶",
+            "start_year": 656,
+            "end_year": 661
+        },
+        {
+            "english_name": "Longshuo",
+            "chinese_name": "龍朔",
+            "start_year": 661,
+            "end_year": 663
+        },
+        {
+            "english_name": "Linde",
+            "chinese_name": "麟德",
+            "start_year": 664,
+            "end_year": 665
+        },
+        {
+            "english_name": "Qianfeng",
+            "chinese_name": "乾封",
+            "start_year": 666,
+            "end_year": 668
+        },
+        {
+            "english_name": "Zongzhang",
+            "chinese_name": "總章",
+            "start_year": 668,
+            "end_year": 670
+        },
+        {
+            "english_name": "Xianheng",
+            "chinese_name": "咸亨",
+            "start_year": 670,
+            "end_year": 674
+        },
+        {
+            "english_name": "Shangyuan",
+            "chinese_name": "上元",
+            "start_year": 674,
+            "end_year": 676
+        },
+        {
+            "english_name": "Yifeng",
+            "chinese_name": "儀鳳",
+            "start_year": 676,
+            "end_year": 679
+        },
+        {
+            "english_name": "Tiaolu",
+            "chinese_name": "調露",
+            "start_year": 679,
+            "end_year": 680
+        },
+        {
+            "english_name": "Yonglong",
+            "chinese_name": "永隆",
+            "start_year": 680,
+            "end_year": 681
+        },
+        {
+            "english_name": "Kaiyao",
+            "chinese_name": "開耀",
+            "start_year": 681,
+            "end_year": 682
+        },
+        {
+            "english_name": "Yongchun",
+            "chinese_name": "永淳",
+            "start_year": 682,
+            "end_year": 683
+        },
+        {
+            "english_name": "Hongdao",
+            "chinese_name": "弘道",
+            "start_year": 683,
+            "end_year": null
+        },
+        {
+            "english_name": "Sisheng",
+            "chinese_name": "嗣聖",
+            "start_year": 684,
+            "end_year": null
+        },
+        {
+            "english_name": "Wenming",
+            "chinese_name": "文明",
+            "start_year": 684,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangzhai",
+            "chinese_name": "光宅",
+            "start_year": 684,
+            "end_year": null
+        },
+        {
+            "english_name": "Chuigong",
+            "chinese_name": "垂拱",
+            "start_year": 685,
+            "end_year": 688
+        },
+        {
+            "english_name": "Yongchang",
+            "chinese_name": "永昌",
+            "start_year": 689,
+            "end_year": null
+        },
+        {
+            "english_name": "Zaichu",
+            "chinese_name": "載初",
+            "start_year": 689,
+            "end_year": 690
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天授",
+            "start_year": 690,
+            "end_year": 692
+        },
+        {
+            "english_name": "Ruyi",
+            "chinese_name": "如意",
+            "start_year": 692,
+            "end_year": null
+        },
+        {
+            "english_name": "Changshou",
+            "chinese_name": "長壽",
+            "start_year": 692,
+            "end_year": 694
+        },
+        {
+            "english_name": "Yanzai",
+            "chinese_name": "延載",
+            "start_year": 694,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengsheng",
+            "chinese_name": "証聖",
+            "start_year": 695,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiancewansui",
+            "chinese_name": "天冊萬歲",
+            "start_year": 695,
+            "end_year": null
+        },
+        {
+            "english_name": "Wansuidengfeng",
+            "chinese_name": "萬歲登封",
+            "start_year": 695,
+            "end_year": 696
+        },
+        {
+            "english_name": "Wansuitongtian",
+            "chinese_name": "萬歲通天",
+            "start_year": 696,
+            "end_year": 697
+        },
+        {
+            "english_name": "Shengong",
+            "chinese_name": "神功",
+            "start_year": 697,
+            "end_year": null
+        },
+        {
+            "english_name": "Shengli",
+            "chinese_name": "聖曆",
+            "start_year": 698,
+            "end_year": 700
+        },
+        {
+            "english_name": "Jiushi",
+            "chinese_name": "久視",
+            "start_year": 700,
+            "end_year": 701
+        },
+        {
+            "english_name": "Dazu",
+            "chinese_name": "大足",
+            "start_year": 701,
+            "end_year": null
+        },
+        {
+            "english_name": "Dazu",
+            "chinese_name": "大足",
+            "start_year": 701,
+            "end_year": 704
+        },
+        {
+            "english_name": "Shenlong",
+            "chinese_name": "神龍",
+            "start_year": 705,
+            "end_year": 707
+        },
+        {
+            "english_name": "Jinglong",
+            "chinese_name": "景龍",
+            "start_year": 707,
+            "end_year": 710
+        },
+        {
+            "english_name": "Tanglong",
+            "chinese_name": "唐隆",
+            "start_year": 710,
+            "end_year": null
+        },
+        {
+            "english_name": "Jingyun",
+            "chinese_name": "景雲",
+            "start_year": 710,
+            "end_year": 712
+        },
+        {
+            "english_name": "Taiji",
+            "chinese_name": "太極",
+            "start_year": 712,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanhe",
+            "chinese_name": "延和",
+            "start_year": 712,
+            "end_year": null
+        },
+        {
+            "english_name": "Xiantian",
+            "chinese_name": "先天",
+            "start_year": 712,
+            "end_year": 713
+        },
+        {
+            "english_name": "Kaiyuan",
+            "chinese_name": "開元",
+            "start_year": 713,
+            "end_year": 741
+        },
+        {
+            "english_name": "Tianbao",
+            "chinese_name": "天寶",
+            "start_year": 742,
+            "end_year": 756
+        },
+        {
+            "english_name": "Zhide",
+            "chinese_name": "至德",
+            "start_year": 756,
+            "end_year": 758
+        },
+        {
+            "english_name": "Qianyuan",
+            "chinese_name": "乾元",
+            "start_year": 758,
+            "end_year": 760
+        },
+        {
+            "english_name": "Shangyuan",
+            "chinese_name": "上元",
+            "start_year": 760,
+            "end_year": 761
+        },
+        {
+            "english_name": "Baoying",
+            "chinese_name": "寶應",
+            "start_year": 762,
+            "end_year": 763
+        },
+        {
+            "english_name": "Guangde",
+            "chinese_name": "廣德",
+            "start_year": 763,
+            "end_year": 764
+        },
+        {
+            "english_name": "Yongtai",
+            "chinese_name": "永泰",
+            "start_year": 765,
+            "end_year": 766
+        },
+        {
+            "english_name": "Dali",
+            "chinese_name": "大曆",
+            "start_year": 766,
+            "end_year": 779
+        },
+        {
+            "english_name": "Jianzhong",
+            "chinese_name": "建中",
+            "start_year": 780,
+            "end_year": 783
+        },
+        {
+            "english_name": "Xingyuan",
+            "chinese_name": "興元",
+            "start_year": 784,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenyuan",
+            "chinese_name": "貞元",
+            "start_year": 785,
+            "end_year": 805
+        },
+        {
+            "english_name": "Yongzhen",
+            "chinese_name": "永貞",
+            "start_year": 805,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanhe",
+            "chinese_name": "元和",
+            "start_year": 806,
+            "end_year": 820
+        },
+        {
+            "english_name": "Yongxin",
+            "chinese_name": "永新",
+            "start_year": 820,
+            "end_year": null
+        },
+        {
+            "english_name": "Changqing",
+            "chinese_name": "長慶",
+            "start_year": 821,
+            "end_year": 824
+        },
+        {
+            "english_name": "Baoli",
+            "chinese_name": "寶歷",
+            "start_year": 825,
+            "end_year": 827
+        },
+        {
+            "english_name": "Dahe",
+            "chinese_name": "大和",
+            "start_year": 827,
+            "end_year": 835
+        },
+        {
+            "english_name": "Kaicheng",
+            "chinese_name": "開成",
+            "start_year": 836,
+            "end_year": 840
+        },
+        {
+            "english_name": "Huichang",
+            "chinese_name": "會昌",
+            "start_year": 841,
+            "end_year": 846
+        },
+        {
+            "english_name": "Dazhong",
+            "chinese_name": "大中",
+            "start_year": 847,
+            "end_year": 860
+        },
+        {
+            "english_name": "Xiantong",
+            "chinese_name": "咸通",
+            "start_year": 860,
+            "end_year": 874
+        },
+        {
+            "english_name": "Qianfu",
+            "chinese_name": "乾符",
+            "start_year": 874,
+            "end_year": 879
+        },
+        {
+            "english_name": "Guangming",
+            "chinese_name": "廣明",
+            "start_year": 880,
+            "end_year": 881
+        },
+        {
+            "english_name": "Zhonghe",
+            "chinese_name": "中和",
+            "start_year": 881,
+            "end_year": 885
+        },
+        {
+            "english_name": "Guangqi",
+            "chinese_name": "光啟",
+            "start_year": 885,
+            "end_year": 888
+        },
+        {
+            "english_name": "Wende",
+            "chinese_name": "文德",
+            "start_year": 888,
+            "end_year": null
+        },
+        {
+            "english_name": "Longji",
+            "chinese_name": "龍紀",
+            "start_year": 889,
+            "end_year": null
+        },
+        {
+            "english_name": "Dashun",
+            "chinese_name": "大順",
+            "start_year": 890,
+            "end_year": 891
+        },
+        {
+            "english_name": "Jingfu",
+            "chinese_name": "景福",
+            "start_year": 892,
+            "end_year": 893
+        },
+        {
+            "english_name": "Qianning",
+            "chinese_name": "乾寧",
+            "start_year": 894,
+            "end_year": 898
+        },
+        {
+            "english_name": "Guanghua",
+            "chinese_name": "光化",
+            "start_year": 898,
+            "end_year": 901
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天復",
+            "start_year": 901,
+            "end_year": 904
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 904,
+            "end_year": 907
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 720,
+            "end_year": 737
+        },
+        {
+            "english_name": "Daxing",
+            "chinese_name": "大興",
+            "start_year": 738,
+            "end_year": 794
+        },
+        {
+            "english_name": "Baoli",
+            "chinese_name": "寶曆",
+            "start_year": 774,
+            "end_year": 785
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 794,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengli",
+            "chinese_name": "正曆",
+            "start_year": 795,
+            "end_year": 809
+        },
+        {
+            "english_name": "Yongde",
+            "chinese_name": "永德",
+            "start_year": 810,
+            "end_year": 812
+        },
+        {
+            "english_name": "Zhuque",
+            "chinese_name": "朱雀",
+            "start_year": 813,
+            "end_year": 817
+        },
+        {
+            "english_name": "Taishi",
+            "chinese_name": "太始",
+            "start_year": 818,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianxing",
+            "chinese_name": "建興",
+            "start_year": 819,
+            "end_year": 830
+        },
+        {
+            "english_name": "Xianhe",
+            "chinese_name": "咸和",
+            "start_year": 831,
+            "end_year": 857
+        },
+        {
+            "english_name": "Zanpuzhong",
+            "chinese_name": "贊普鐘",
+            "start_year": 752,
+            "end_year": 768
+        },
+        {
+            "english_name": "Changshou",
+            "chinese_name": "長壽",
+            "start_year": 769,
+            "end_year": 779
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "見龍",
+            "start_year": 780,
+            "end_year": 783
+        },
+        {
+            "english_name": "Shangyuan",
+            "chinese_name": "上元",
+            "start_year": 784,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanfeng",
+            "chinese_name": "元封",
+            "start_year": 808,
+            "end_year": null
+        },
+        {
+            "english_name": "Yingdao",
+            "chinese_name": "應道",
+            "start_year": 809,
+            "end_year": null
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "龍興",
+            "start_year": 810,
+            "end_year": 816
+        },
+        {
+            "english_name": "Quanyi",
+            "chinese_name": "全義",
+            "start_year": 816,
+            "end_year": 819
+        },
+        {
+            "english_name": "Dafeng",
+            "chinese_name": "大豐",
+            "start_year": 820,
+            "end_year": 823
+        },
+        {
+            "english_name": "Baohe",
+            "chinese_name": "保和",
+            "start_year": 824,
+            "end_year": 839
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 840,
+            "end_year": 859
+        },
+        {
+            "english_name": "Jianji",
+            "chinese_name": "建極",
+            "start_year": 860,
+            "end_year": 877
+        },
+        {
+            "english_name": "Zhenming",
+            "chinese_name": "貞明",
+            "start_year": 878,
+            "end_year": null
+        },
+        {
+            "english_name": "Chengzhi",
+            "chinese_name": "承智",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大同",
+            "start_year": 888,
+            "end_year": null
+        },
+        {
+            "english_name": "Cuoye",
+            "chinese_name": "嵯耶",
+            "start_year": 889,
+            "end_year": 897
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 897,
+            "end_year": 902
+        },
+        {
+            "english_name": "Shengwu",
+            "chinese_name": "聖武",
+            "start_year": 756,
+            "end_year": 757
+        },
+        {
+            "english_name": "Zaichu",
+            "chinese_name": "載初",
+            "start_year": 757,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 758,
+            "end_year": 759
+        },
+        {
+            "english_name": "Yingtian",
+            "chinese_name": "應天",
+            "start_year": 759,
+            "end_year": null
+        },
+        {
+            "english_name": "Shuntian",
+            "chinese_name": "順天",
+            "start_year": 759,
+            "end_year": 761
+        },
+        {
+            "english_name": "Xiansheng",
+            "chinese_name": "顯聖",
+            "start_year": 761,
+            "end_year": 763
+        },
+        {
+            "english_name": "Yitai",
+            "chinese_name": "彝泰",
+            "start_year": 815,
+            "end_year": 838
+        },
+        {
+            "english_name": "Tongqing",
+            "chinese_name": "同慶",
+            "start_year": 912,
+            "end_year": 966
+        },
+        {
+            "english_name": "Tianzun",
+            "chinese_name": "天尊",
+            "start_year": 967,
+            "end_year": 977
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 978,
+            "end_year": 985
+        },
+        {
+            "english_name": "Tianxing",
+            "chinese_name": "天興",
+            "start_year": 986,
+            "end_year": 999
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天壽",
+            "start_year": 999,
+            "end_year": 1001
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天壽",
+            "start_year": 618,
+            "end_year": 619
+        },
+        {
+            "english_name": "Shixing",
+            "chinese_name": "始興",
+            "start_year": 618,
+            "end_year": 624
+        },
+        {
+            "english_name": "Falun",
+            "chinese_name": "法輪",
+            "start_year": 618,
+            "end_year": null
+        },
+        {
+            "english_name": "Yankang",
+            "chinese_name": "延康",
+            "start_year": 619,
+            "end_year": 620
+        },
+        {
+            "english_name": "Kaiming",
+            "chinese_name": "開明",
+            "start_year": 619,
+            "end_year": 621
+        },
+        {
+            "english_name": "Mingzheng",
+            "chinese_name": "明政",
+            "start_year": 619,
+            "end_year": 621
+        },
+        {
+            "english_name": "Tianzao",
+            "chinese_name": "天造",
+            "start_year": 622,
+            "end_year": 623
+        },
+        {
+            "english_name": "Tianming",
+            "chinese_name": "天明",
+            "start_year": 623,
+            "end_year": 624
+        },
+        {
+            "english_name": "Qiande",
+            "chinese_name": "乾德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Jintong",
+            "chinese_name": "進通",
+            "start_year": 623,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongyuankefu",
+            "chinese_name": "中元克復",
+            "start_year": 710,
+            "end_year": null
+        },
+        {
+            "english_name": "Huanglong",
+            "chinese_name": "黃龍",
+            "start_year": 761,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengde",
+            "chinese_name": "正德",
+            "start_year": 761,
+            "end_year": null
+        },
+        {
+            "english_name": "Baosheng",
+            "chinese_name": "寶勝",
+            "start_year": 762,
+            "end_year": 763
+        },
+        {
+            "english_name": "Yingtian",
+            "chinese_name": "應天",
+            "start_year": 783,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianhuang",
+            "chinese_name": "天皇",
+            "start_year": 784,
+            "end_year": null
+        },
+        {
+            "english_name": "Wucheng",
+            "chinese_name": "武成",
+            "start_year": 784,
+            "end_year": 786
+        },
+        {
+            "english_name": "Luoping",
+            "chinese_name": "羅平",
+            "start_year": 860,
+            "end_year": null
+        },
+        {
+            "english_name": "Wangba",
+            "chinese_name": "王霸",
+            "start_year": 878,
+            "end_year": 880
+        },
+        {
+            "english_name": "Jintong",
+            "chinese_name": "金統",
+            "start_year": 880,
+            "end_year": 884
+        },
+        {
+            "english_name": "Jianzhen",
+            "chinese_name": "建貞",
+            "start_year": 886,
+            "end_year": null
+        },
+        {
+            "english_name": "Shuntian",
+            "chinese_name": "順天",
+            "start_year": 895,
+            "end_year": 896
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天壽",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Kaiping",
+            "chinese_name": "開平",
+            "start_year": 907,
+            "end_year": 911
+        },
+        {
+            "english_name": "Qianhua",
+            "chinese_name": "乾化",
+            "start_year": 911,
+            "end_year": 913
+        },
+        {
+            "english_name": "Fengli",
+            "chinese_name": "鳳曆",
+            "start_year": 913,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianhua",
+            "chinese_name": "乾化",
+            "start_year": 913,
+            "end_year": 915
+        },
+        {
+            "english_name": "Zhenming",
+            "chinese_name": "貞明",
+            "start_year": 915,
+            "end_year": 921
+        },
+        {
+            "english_name": "Longde",
+            "chinese_name": "龍德",
+            "start_year": 921,
+            "end_year": 923
+        },
+        {
+            "english_name": "Tongguang",
+            "chinese_name": "同光",
+            "start_year": 923,
+            "end_year": 926
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 926,
+            "end_year": 930
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 930,
+            "end_year": 933
+        },
+        {
+            "english_name": "Yingshun",
+            "chinese_name": "應順",
+            "start_year": 934,
+            "end_year": null
+        },
+        {
+            "english_name": "Qingtai",
+            "chinese_name": "清泰",
+            "start_year": 934,
+            "end_year": 936
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 936,
+            "end_year": 944
+        },
+        {
+            "english_name": "Kaiyun",
+            "chinese_name": "開運",
+            "start_year": 944,
+            "end_year": 946
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 947,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 948,
+            "end_year": 950
+        },
+        {
+            "english_name": "Guangshun",
+            "chinese_name": "廣順",
+            "start_year": 951,
+            "end_year": 953
+        },
+        {
+            "english_name": "Xiande",
+            "chinese_name": "顯德",
+            "start_year": 954,
+            "end_year": 960
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天復",
+            "start_year": 907,
+            "end_year": null
+        },
+        {
+            "english_name": "Wucheng",
+            "chinese_name": "武成",
+            "start_year": 908,
+            "end_year": 910
+        },
+        {
+            "english_name": "Yongping",
+            "chinese_name": "永平",
+            "start_year": 911,
+            "end_year": 915
+        },
+        {
+            "english_name": "Tongzheng",
+            "chinese_name": "通正",
+            "start_year": 916,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianhan",
+            "chinese_name": "天漢",
+            "start_year": 917,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangtian",
+            "chinese_name": "光天",
+            "start_year": 918,
+            "end_year": null
+        },
+        {
+            "english_name": "Qiande",
+            "chinese_name": "乾德",
+            "start_year": 919,
+            "end_year": 924
+        },
+        {
+            "english_name": "Xiankang",
+            "chinese_name": "咸康",
+            "start_year": 925,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天復",
+            "start_year": 902,
+            "end_year": 904
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 904,
+            "end_year": 905
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 905,
+            "end_year": 908
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 908,
+            "end_year": 919
+        },
+        {
+            "english_name": "Wuyi",
+            "chinese_name": "武義",
+            "start_year": 919,
+            "end_year": 921
+        },
+        {
+            "english_name": "Shunyi",
+            "chinese_name": "順義",
+            "start_year": 921,
+            "end_year": 927
+        },
+        {
+            "english_name": "Qianzhen",
+            "chinese_name": "乾貞",
+            "start_year": 927,
+            "end_year": 929
+        },
+        {
+            "english_name": "Dahe",
+            "chinese_name": "大和",
+            "start_year": 929,
+            "end_year": 935
+        },
+        {
+            "english_name": "Tianzuo",
+            "chinese_name": "天祚",
+            "start_year": 935,
+            "end_year": 937
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 927,
+            "end_year": 930
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 930,
+            "end_year": 932
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 930,
+            "end_year": 932
+        },
+        {
+            "english_name": "Yingshun",
+            "chinese_name": "應順",
+            "start_year": 934,
+            "end_year": null
+        },
+        {
+            "english_name": "Qingtai",
+            "chinese_name": "清泰",
+            "start_year": 934,
+            "end_year": 936
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 936,
+            "end_year": 944
+        },
+        {
+            "english_name": "Kaiyun",
+            "chinese_name": "開運",
+            "start_year": 944,
+            "end_year": 946
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 947,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 948,
+            "end_year": 950
+        },
+        {
+            "english_name": "Baoda",
+            "chinese_name": "保大",
+            "start_year": 950,
+            "end_year": 951
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 907,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianbao",
+            "chinese_name": "天寶",
+            "start_year": 908,
+            "end_year": 912
+        },
+        {
+            "english_name": "Fengli",
+            "chinese_name": "鳳曆",
+            "start_year": 913,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianhua",
+            "chinese_name": "乾化",
+            "start_year": 913,
+            "end_year": 915
+        },
+        {
+            "english_name": "Zhenming",
+            "chinese_name": "貞明",
+            "start_year": 915,
+            "end_year": 921
+        },
+        {
+            "english_name": "Longde",
+            "chinese_name": "龍德",
+            "start_year": 921,
+            "end_year": 923
+        },
+        {
+            "english_name": "Baoda",
+            "chinese_name": "寶大",
+            "start_year": 924,
+            "end_year": 925
+        },
+        {
+            "english_name": "Baozheng",
+            "chinese_name": "寶正",
+            "start_year": 926,
+            "end_year": 931
+        },
+        {
+            "english_name": "Guangchu",
+            "chinese_name": "廣初",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengming",
+            "chinese_name": "正明",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 932,
+            "end_year": 933
+        },
+        {
+            "english_name": "Yingshun",
+            "chinese_name": "應順",
+            "start_year": 934,
+            "end_year": null
+        },
+        {
+            "english_name": "Qingtai",
+            "chinese_name": "清泰",
+            "start_year": 934,
+            "end_year": 936
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 936,
+            "end_year": 941
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 941,
+            "end_year": 944
+        },
+        {
+            "english_name": "Kaiyun",
+            "chinese_name": "開運",
+            "start_year": 944,
+            "end_year": 946
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 947,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 948,
+            "end_year": 950
+        },
+        {
+            "english_name": "Guangshun",
+            "chinese_name": "廣順",
+            "start_year": 951,
+            "end_year": 953
+        },
+        {
+            "english_name": "Xiande",
+            "chinese_name": "顯德",
+            "start_year": 954,
+            "end_year": 960
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "建隆",
+            "start_year": 960,
+            "end_year": 963
+        },
+        {
+            "english_name": "Qiande",
+            "chinese_name": "乾德",
+            "start_year": 963,
+            "end_year": 968
+        },
+        {
+            "english_name": "Kaibao",
+            "chinese_name": "開寶",
+            "start_year": 968,
+            "end_year": 976
+        },
+        {
+            "english_name": "Taipingxingguo",
+            "chinese_name": "太平興國",
+            "start_year": 976,
+            "end_year": 978
+        },
+        {
+            "english_name": "Kaiping",
+            "chinese_name": "開平",
+            "start_year": 909,
+            "end_year": 911
+        },
+        {
+            "english_name": "Qianhua",
+            "chinese_name": "乾化",
+            "start_year": 911,
+            "end_year": 915
+        },
+        {
+            "english_name": "Zhenming",
+            "chinese_name": "貞明",
+            "start_year": 915,
+            "end_year": 921
+        },
+        {
+            "english_name": "Longde",
+            "chinese_name": "龍德",
+            "start_year": 921,
+            "end_year": 923
+        },
+        {
+            "english_name": "Tongguang",
+            "chinese_name": "同光",
+            "start_year": 923,
+            "end_year": 925
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 926,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 926,
+            "end_year": 930
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 930,
+            "end_year": 932
+        },
+        {
+            "english_name": "Longqi",
+            "chinese_name": "龍啟",
+            "start_year": 933,
+            "end_year": 934
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 935,
+            "end_year": 936
+        },
+        {
+            "english_name": "Tongwen",
+            "chinese_name": "通文",
+            "start_year": 936,
+            "end_year": 939
+        },
+        {
+            "english_name": "Yonglong",
+            "chinese_name": "永隆",
+            "start_year": 939,
+            "end_year": 944
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 943,
+            "end_year": 945
+        },
+        {
+            "english_name": "Qianheng",
+            "chinese_name": "乾亨",
+            "start_year": 917,
+            "end_year": 925
+        },
+        {
+            "english_name": "Bailong",
+            "chinese_name": "白龍",
+            "start_year": 925,
+            "end_year": 928
+        },
+        {
+            "english_name": "Dayou",
+            "chinese_name": "大有",
+            "start_year": 928,
+            "end_year": 942
+        },
+        {
+            "english_name": "Guangtian",
+            "chinese_name": "光天",
+            "start_year": 942,
+            "end_year": 943
+        },
+        {
+            "english_name": "Yingqian",
+            "chinese_name": "應乾",
+            "start_year": 943,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianhe",
+            "chinese_name": "乾和",
+            "start_year": 943,
+            "end_year": 958
+        },
+        {
+            "english_name": "Dabao",
+            "chinese_name": "大寶",
+            "start_year": 958,
+            "end_year": 971
+        },
+        {
+            "english_name": "Tongguang",
+            "chinese_name": "同光",
+            "start_year": 924,
+            "end_year": 926
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 926,
+            "end_year": 928
+        },
+        {
+            "english_name": "Qianzhen",
+            "chinese_name": "乾貞",
+            "start_year": 928,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianzhen",
+            "chinese_name": "乾貞",
+            "start_year": 929,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiancheng",
+            "chinese_name": "天成",
+            "start_year": 929,
+            "end_year": 930
+        },
+        {
+            "english_name": "Changxing",
+            "chinese_name": "長興",
+            "start_year": 930,
+            "end_year": 933
+        },
+        {
+            "english_name": "Yingshun",
+            "chinese_name": "應順",
+            "start_year": 934,
+            "end_year": null
+        },
+        {
+            "english_name": "Qingtai",
+            "chinese_name": "清泰",
+            "start_year": 934,
+            "end_year": 936
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 936,
+            "end_year": 944
+        },
+        {
+            "english_name": "Kaiyun",
+            "chinese_name": "開運",
+            "start_year": 944,
+            "end_year": 946
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天福",
+            "start_year": 947,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 948,
+            "end_year": null
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 948,
+            "end_year": 950
+        },
+        {
+            "english_name": "Guangshun",
+            "chinese_name": "廣順",
+            "start_year": 951,
+            "end_year": 953
+        },
+        {
+            "english_name": "Xiande",
+            "chinese_name": "顯德",
+            "start_year": 954,
+            "end_year": 960
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "建隆",
+            "start_year": 960,
+            "end_year": 962
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "建隆",
+            "start_year": 962,
+            "end_year": 963
+        },
+        {
+            "english_name": "Mingde",
+            "chinese_name": "明德",
+            "start_year": 934,
+            "end_year": 937
+        },
+        {
+            "english_name": "Guangzheng",
+            "chinese_name": "廣政",
+            "start_year": 938,
+            "end_year": 965
+        },
+        {
+            "english_name": "Shengyuan",
+            "chinese_name": "昇元",
+            "start_year": 937,
+            "end_year": 943
+        },
+        {
+            "english_name": "Baoda",
+            "chinese_name": "保大",
+            "start_year": 943,
+            "end_year": 957
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 958,
+            "end_year": null
+        },
+        {
+            "english_name": "Jiaotai",
+            "chinese_name": "交泰",
+            "start_year": 958,
+            "end_year": null
+        },
+        {
+            "english_name": "Xiande",
+            "chinese_name": "顯德",
+            "start_year": 958,
+            "end_year": 961
+        },
+        {
+            "english_name": "Xiande",
+            "chinese_name": "顯德",
+            "start_year": 961,
+            "end_year": 962
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "建隆",
+            "start_year": 963,
+            "end_year": null
+        },
+        {
+            "english_name": "Qiande",
+            "chinese_name": "乾德",
+            "start_year": 963,
+            "end_year": 968
+        },
+        {
+            "english_name": "Kaibao",
+            "chinese_name": "開寶",
+            "start_year": 968,
+            "end_year": 975
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 951,
+            "end_year": 954
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 954,
+            "end_year": 956
+        },
+        {
+            "english_name": "Tianhui",
+            "chinese_name": "天會",
+            "start_year": 957,
+            "end_year": 973
+        },
+        {
+            "english_name": "Guangyun",
+            "chinese_name": "廣運",
+            "start_year": 974,
+            "end_year": 979
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 904,
+            "end_year": 924
+        },
+        {
+            "english_name": "Anguo",
+            "chinese_name": "安國",
+            "start_year": 903,
+            "end_year": 909
+        },
+        {
+            "english_name": "Shiyuan",
+            "chinese_name": "始元",
+            "start_year": 910,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianruijingxing",
+            "chinese_name": "天瑞景星",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Anhe",
+            "chinese_name": "安和",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenyou",
+            "chinese_name": "貞祐",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Chuli",
+            "chinese_name": "初歷",
+            "start_year": 926,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianying",
+            "chinese_name": "天應",
+            "start_year": 927,
+            "end_year": null
+        },
+        {
+            "english_name": "Zunsheng",
+            "chinese_name": "尊聖",
+            "start_year": 928,
+            "end_year": 929
+        },
+        {
+            "english_name": "Xingsheng",
+            "chinese_name": "興聖",
+            "start_year": 930,
+            "end_year": null
+        },
+        {
+            "english_name": "Daming",
+            "chinese_name": "大明",
+            "start_year": 931,
+            "end_year": 937
+        },
+        {
+            "english_name": "Dingxin",
+            "chinese_name": "鼎新",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangsheng",
+            "chinese_name": "光聖",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 904,
+            "end_year": 908
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 908,
+            "end_year": 923
+        },
+        {
+            "english_name": "Yingtian",
+            "chinese_name": "應天",
+            "start_year": 911,
+            "end_year": 913
+        },
+        {
+            "english_name": "Anguoshengzhi",
+            "chinese_name": "安國聖治",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Xunsheng",
+            "chinese_name": "寻圣",
+            "start_year": 922,
+            "end_year": 924
+        },
+        {
+            "english_name": "Yongle",
+            "chinese_name": "永樂",
+            "start_year": 942,
+            "end_year": 943
+        },
+        {
+            "english_name": "Shence",
+            "chinese_name": "神冊",
+            "start_year": 916,
+            "end_year": 922
+        },
+        {
+            "english_name": "Tianzan",
+            "chinese_name": "天贊",
+            "start_year": 922,
+            "end_year": 926
+        },
+        {
+            "english_name": "Tianxian",
+            "chinese_name": "天顯",
+            "start_year": 926,
+            "end_year": 938
+        },
+        {
+            "english_name": "Huitong",
+            "chinese_name": "會同",
+            "start_year": 938,
+            "end_year": 947
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大同",
+            "start_year": 947,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianlu",
+            "chinese_name": "天祿",
+            "start_year": 947,
+            "end_year": 951
+        },
+        {
+            "english_name": "Yingli",
+            "chinese_name": "應曆",
+            "start_year": 951,
+            "end_year": 969
+        },
+        {
+            "english_name": "Baoning",
+            "chinese_name": "保寧",
+            "start_year": 969,
+            "end_year": 979
+        },
+        {
+            "english_name": "Qianheng",
+            "chinese_name": "乾亨",
+            "start_year": 979,
+            "end_year": 983
+        },
+        {
+            "english_name": "Tonghe",
+            "chinese_name": "統和",
+            "start_year": 983,
+            "end_year": 1012
+        },
+        {
+            "english_name": "Kaitai",
+            "chinese_name": "開泰",
+            "start_year": 1012,
+            "end_year": 1021
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 1021,
+            "end_year": 1031
+        },
+        {
+            "english_name": "Jingfu",
+            "chinese_name": "景福",
+            "start_year": 1031,
+            "end_year": 1032
+        },
+        {
+            "english_name": "Chongxi",
+            "chinese_name": "重熙",
+            "start_year": 1032,
+            "end_year": 1055
+        },
+        {
+            "english_name": "Qingning",
+            "chinese_name": "清寧",
+            "start_year": 1055,
+            "end_year": 1064
+        },
+        {
+            "english_name": "Xianyong",
+            "chinese_name": "咸雍",
+            "start_year": 1065,
+            "end_year": 1074
+        },
+        {
+            "english_name": "Dakang",
+            "chinese_name": "大康",
+            "start_year": 1075,
+            "end_year": 1084
+        },
+        {
+            "english_name": "Dakang",
+            "chinese_name": "大康",
+            "start_year": 1085,
+            "end_year": 1094
+        },
+        {
+            "english_name": "Shouchang",
+            "chinese_name": "壽昌",
+            "start_year": 1095,
+            "end_year": 1101
+        },
+        {
+            "english_name": "Qiantong",
+            "chinese_name": "乾統",
+            "start_year": 1101,
+            "end_year": 1110
+        },
+        {
+            "english_name": "Tianqing",
+            "chinese_name": "天慶",
+            "start_year": 1111,
+            "end_year": 1120
+        },
+        {
+            "english_name": "Baoda",
+            "chinese_name": "保大",
+            "start_year": 1121,
+            "end_year": 1125
+        },
+        {
+            "english_name": "Ganlu",
+            "chinese_name": "甘露",
+            "start_year": 926,
+            "end_year": 936
+        },
+        {
+            "english_name": "Yuanxing",
+            "chinese_name": "元興",
+            "start_year": 976,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianqing",
+            "chinese_name": "天慶",
+            "start_year": 1029,
+            "end_year": 1030
+        },
+        {
+            "english_name": "Jianfu",
+            "chinese_name": "建福",
+            "start_year": 1122,
+            "end_year": null
+        },
+        {
+            "english_name": "Dexing",
+            "chinese_name": "德興",
+            "start_year": 1122,
+            "end_year": null
+        },
+        {
+            "english_name": "Shenli",
+            "chinese_name": "神曆",
+            "start_year": 1123,
+            "end_year": null
+        },
+        {
+            "english_name": "Yanqing",
+            "chinese_name": "延慶",
+            "start_year": 1124,
+            "end_year": 1133
+        },
+        {
+            "english_name": "Kangguo",
+            "chinese_name": "康國",
+            "start_year": 1134,
+            "end_year": 1143
+        },
+        {
+            "english_name": "Xianqing",
+            "chinese_name": "咸清",
+            "start_year": 1144,
+            "end_year": 1150
+        },
+        {
+            "english_name": "Gantian",
+            "chinese_name": "感天",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Shaoxing",
+            "chinese_name": "紹興",
+            "start_year": 1151,
+            "end_year": 1163
+        },
+        {
+            "english_name": "Xuxing",
+            "chinese_name": "續興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Muxing",
+            "chinese_name": "穆興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Chongfu",
+            "chinese_name": "崇福",
+            "start_year": 1164,
+            "end_year": 1177
+        },
+        {
+            "english_name": "Huangde",
+            "chinese_name": "皇德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongde",
+            "chinese_name": "重德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianxi",
+            "chinese_name": "天禧",
+            "start_year": 1178,
+            "end_year": 1211
+        },
+        {
+            "english_name": "Longji",
+            "chinese_name": "隆基",
+            "start_year": 1116,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天復",
+            "start_year": 1123,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiansi",
+            "chinese_name": "天嗣",
+            "start_year": 1123,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianlong",
+            "chinese_name": "建隆",
+            "start_year": 960,
+            "end_year": 963
+        },
+        {
+            "english_name": "Qiande",
+            "chinese_name": "乾德",
+            "start_year": 963,
+            "end_year": 968
+        },
+        {
+            "english_name": "Kaibao",
+            "chinese_name": "開寶",
+            "start_year": 968,
+            "end_year": 976
+        },
+        {
+            "english_name": "Taipingxingguo",
+            "chinese_name": "太平興國",
+            "start_year": 976,
+            "end_year": 984
+        },
+        {
+            "english_name": "Yongxi",
+            "chinese_name": "雍熙",
+            "start_year": 984,
+            "end_year": 987
+        },
+        {
+            "english_name": "Duangong",
+            "chinese_name": "端拱",
+            "start_year": 988,
+            "end_year": 989
+        },
+        {
+            "english_name": "Chunhua",
+            "chinese_name": "淳化",
+            "start_year": 990,
+            "end_year": 994
+        },
+        {
+            "english_name": "Zhidao",
+            "chinese_name": "至道",
+            "start_year": 995,
+            "end_year": 997
+        },
+        {
+            "english_name": "Xianping",
+            "chinese_name": "咸平",
+            "start_year": 998,
+            "end_year": 1003
+        },
+        {
+            "english_name": "Jingde",
+            "chinese_name": "景德",
+            "start_year": 1004,
+            "end_year": 1007
+        },
+        {
+            "english_name": "Dazhongxiangfu",
+            "chinese_name": "大中祥符",
+            "start_year": 1008,
+            "end_year": 1016
+        },
+        {
+            "english_name": "Tianxi",
+            "chinese_name": "天禧",
+            "start_year": 1017,
+            "end_year": 1021
+        },
+        {
+            "english_name": "Qianxing",
+            "chinese_name": "乾興",
+            "start_year": 1022,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiansheng",
+            "chinese_name": "天聖",
+            "start_year": 1023,
+            "end_year": 1032
+        },
+        {
+            "english_name": "Mingdao",
+            "chinese_name": "明道",
+            "start_year": 1032,
+            "end_year": 1033
+        },
+        {
+            "english_name": "Jingyou",
+            "chinese_name": "景祐",
+            "start_year": 1034,
+            "end_year": 1038
+        },
+        {
+            "english_name": "Baoyuan",
+            "chinese_name": "寶元",
+            "start_year": 1038,
+            "end_year": 1040
+        },
+        {
+            "english_name": "Kangding",
+            "chinese_name": "康定",
+            "start_year": 1040,
+            "end_year": 1041
+        },
+        {
+            "english_name": "Qingli",
+            "chinese_name": "慶曆",
+            "start_year": 1041,
+            "end_year": 1048
+        },
+        {
+            "english_name": "Huangyou",
+            "chinese_name": "皇祐",
+            "start_year": 1049,
+            "end_year": 1054
+        },
+        {
+            "english_name": "Zhihe",
+            "chinese_name": "至和",
+            "start_year": 1054,
+            "end_year": 1056
+        },
+        {
+            "english_name": "Jiayou",
+            "chinese_name": "嘉祐",
+            "start_year": 1056,
+            "end_year": 1063
+        },
+        {
+            "english_name": "Zhiping",
+            "chinese_name": "治平",
+            "start_year": 1064,
+            "end_year": 1067
+        },
+        {
+            "english_name": "Xining",
+            "chinese_name": "熙寧",
+            "start_year": 1068,
+            "end_year": 1077
+        },
+        {
+            "english_name": "Yuanfeng",
+            "chinese_name": "元豐",
+            "start_year": 1078,
+            "end_year": 1085
+        },
+        {
+            "english_name": "Yuanyou",
+            "chinese_name": "元祐",
+            "start_year": 1086,
+            "end_year": 1094
+        },
+        {
+            "english_name": "Shaosheng",
+            "chinese_name": "紹聖",
+            "start_year": 1094,
+            "end_year": 1098
+        },
+        {
+            "english_name": "Yuanfu",
+            "chinese_name": "元符",
+            "start_year": 1098,
+            "end_year": 1100
+        },
+        {
+            "english_name": "Jianzhongjingguo",
+            "chinese_name": "建中靖國",
+            "start_year": 1101,
+            "end_year": null
+        },
+        {
+            "english_name": "Chongning",
+            "chinese_name": "崇寧",
+            "start_year": 1102,
+            "end_year": 1106
+        },
+        {
+            "english_name": "Daguan",
+            "chinese_name": "大觀",
+            "start_year": 1107,
+            "end_year": 1110
+        },
+        {
+            "english_name": "Zhenghe",
+            "chinese_name": "政和",
+            "start_year": 1111,
+            "end_year": 1118
+        },
+        {
+            "english_name": "Chonghe",
+            "chinese_name": "重和",
+            "start_year": 1118,
+            "end_year": 1119
+        },
+        {
+            "english_name": "Xuanhe",
+            "chinese_name": "宣和",
+            "start_year": 1119,
+            "end_year": 1125
+        },
+        {
+            "english_name": "Jingkang",
+            "chinese_name": "靖康",
+            "start_year": 1126,
+            "end_year": 1127
+        },
+        {
+            "english_name": "Jianyan",
+            "chinese_name": "建炎",
+            "start_year": 1127,
+            "end_year": 1130
+        },
+        {
+            "english_name": "Shaoxing",
+            "chinese_name": "紹興",
+            "start_year": 1131,
+            "end_year": 1162
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "隆興",
+            "start_year": 1163,
+            "end_year": 1164
+        },
+        {
+            "english_name": "Qiandao",
+            "chinese_name": "乾道",
+            "start_year": 1165,
+            "end_year": 1173
+        },
+        {
+            "english_name": "Chunxi",
+            "chinese_name": "淳熙",
+            "start_year": 1165,
+            "end_year": 1173
+        },
+        {
+            "english_name": "Shaoxi",
+            "chinese_name": "紹熙",
+            "start_year": 1190,
+            "end_year": 1194
+        },
+        {
+            "english_name": "Qingyuan",
+            "chinese_name": "慶元",
+            "start_year": 1195,
+            "end_year": 1200
+        },
+        {
+            "english_name": "Jiatai",
+            "chinese_name": "嘉泰",
+            "start_year": 1201,
+            "end_year": 1204
+        },
+        {
+            "english_name": "Kaixi",
+            "chinese_name": "開禧",
+            "start_year": 1205,
+            "end_year": 1207
+        },
+        {
+            "english_name": "Jiading",
+            "chinese_name": "嘉定",
+            "start_year": 1208,
+            "end_year": 1224
+        },
+        {
+            "english_name": "Baoqing",
+            "chinese_name": "寶慶",
+            "start_year": 1225,
+            "end_year": 1227
+        },
+        {
+            "english_name": "Shaoding",
+            "chinese_name": "紹定",
+            "start_year": 1228,
+            "end_year": 1233
+        },
+        {
+            "english_name": "Duanping",
+            "chinese_name": "端平",
+            "start_year": 1234,
+            "end_year": 1236
+        },
+        {
+            "english_name": "Jiaxi",
+            "chinese_name": "嘉熙",
+            "start_year": 1237,
+            "end_year": 1240
+        },
+        {
+            "english_name": "Chunyou",
+            "chinese_name": "淳祐",
+            "start_year": 1241,
+            "end_year": 1252
+        },
+        {
+            "english_name": "Baoyou",
+            "chinese_name": "寶祐",
+            "start_year": 1253,
+            "end_year": 1258
+        },
+        {
+            "english_name": "Kaiqing",
+            "chinese_name": "開慶",
+            "start_year": 1259,
+            "end_year": null
+        },
+        {
+            "english_name": "Jingding",
+            "chinese_name": "景定",
+            "start_year": 1260,
+            "end_year": 1264
+        },
+        {
+            "english_name": "Xianchun",
+            "chinese_name": "咸淳",
+            "start_year": 1265,
+            "end_year": 1274
+        },
+        {
+            "english_name": "Deyou",
+            "chinese_name": "德祐",
+            "start_year": 1275,
+            "end_year": 1276
+        },
+        {
+            "english_name": "Jingyan",
+            "chinese_name": "景炎",
+            "start_year": 1276,
+            "end_year": 1278
+        },
+        {
+            "english_name": "Xiangxing",
+            "chinese_name": "祥興",
+            "start_year": 1278,
+            "end_year": 1279
+        },
+        {
+            "english_name": "Wende",
+            "chinese_name": "文德",
+            "start_year": 938,
+            "end_year": null
+        },
+        {
+            "english_name": "Shenwu",
+            "chinese_name": "神武",
+            "start_year": 944,
+            "end_year": null
+        },
+        {
+            "english_name": "Wenjing",
+            "chinese_name": "文經",
+            "start_year": 945,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhizhi",
+            "chinese_name": "至治",
+            "start_year": 946,
+            "end_year": 951
+        },
+        {
+            "english_name": "Mingde",
+            "chinese_name": "明德",
+            "start_year": 952,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangde",
+            "chinese_name": "廣德",
+            "start_year": 967,
+            "end_year": null
+        },
+        {
+            "english_name": "Shunde",
+            "chinese_name": "順德",
+            "start_year": 968,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingzheng",
+            "chinese_name": "明政",
+            "start_year": 969,
+            "end_year": 985
+        },
+        {
+            "english_name": "Guangming",
+            "chinese_name": "廣明",
+            "start_year": 986,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingtong",
+            "chinese_name": "明統",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingsheng",
+            "chinese_name": "明聖",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingde",
+            "chinese_name": "明德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingzhi",
+            "chinese_name": "明治",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingfa",
+            "chinese_name": "明法",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingying",
+            "chinese_name": "明應",
+            "start_year": 1006,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingyun",
+            "chinese_name": "明運",
+            "start_year": 1009,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingqi",
+            "chinese_name": "明啟",
+            "start_year": 1010,
+            "end_year": 1022
+        },
+        {
+            "english_name": "Qianxing",
+            "chinese_name": "乾興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingtong",
+            "chinese_name": "明通",
+            "start_year": 1023,
+            "end_year": 1026
+        },
+        {
+            "english_name": "Zhengzhi",
+            "chinese_name": "正治",
+            "start_year": 1027,
+            "end_year": 1041
+        },
+        {
+            "english_name": "Shengming",
+            "chinese_name": "聖明",
+            "start_year": 1042,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianming",
+            "chinese_name": "天明",
+            "start_year": 1044,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianming",
+            "chinese_name": "天明",
+            "start_year": 1045,
+            "end_year": 1052
+        },
+        {
+            "english_name": "Tianming",
+            "chinese_name": "天明",
+            "start_year": 1053,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengde",
+            "chinese_name": "正德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Baode",
+            "chinese_name": "保德",
+            "start_year": 1074,
+            "end_year": null
+        },
+        {
+            "english_name": "Baode",
+            "chinese_name": "保德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Minghou",
+            "chinese_name": "明侯",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Shangde",
+            "chinese_name": "上德",
+            "start_year": 1076,
+            "end_year": null
+        },
+        {
+            "english_name": "Shangde",
+            "chinese_name": "上德",
+            "start_year": 1077,
+            "end_year": 1080
+        },
+        {
+            "english_name": "Shangming",
+            "chinese_name": "上明",
+            "start_year": 1081,
+            "end_year": null
+        },
+        {
+            "english_name": "Baoli",
+            "chinese_name": "保立",
+            "start_year": 1082,
+            "end_year": null
+        },
+        {
+            "english_name": "Baoli",
+            "chinese_name": "保立",
+            "start_year": 1083,
+            "end_year": 1091
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 1091,
+            "end_year": 1094
+        },
+        {
+            "english_name": "Shangzhi",
+            "chinese_name": "上治",
+            "start_year": 1095,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianshou",
+            "chinese_name": "天授",
+            "start_year": 1096,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingkai",
+            "chinese_name": "明開",
+            "start_year": 1097,
+            "end_year": 1103
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天政",
+            "start_year": 1103,
+            "end_year": 1104
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天政",
+            "start_year": 1104,
+            "end_year": 1108
+        },
+        {
+            "english_name": "Rixin",
+            "chinese_name": "日新",
+            "start_year": 1109,
+            "end_year": 1110
+        },
+        {
+            "english_name": "Wenzhi",
+            "chinese_name": "文治",
+            "start_year": 1110,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongjia",
+            "chinese_name": "永嘉",
+            "start_year": 1128,
+            "end_year": null
+        },
+        {
+            "english_name": "Baotian",
+            "chinese_name": "保天",
+            "start_year": 1129,
+            "end_year": 1137
+        },
+        {
+            "english_name": "Guangyun",
+            "chinese_name": "廣運",
+            "start_year": 1138,
+            "end_year": 1147
+        },
+        {
+            "english_name": "Yongzhen",
+            "chinese_name": "永貞",
+            "start_year": 1148,
+            "end_year": null
+        },
+        {
+            "english_name": "Dabao",
+            "chinese_name": "大寶",
+            "start_year": 1149,
+            "end_year": 1156
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "龍興",
+            "start_year": 1157,
+            "end_year": 1161
+        },
+        {
+            "english_name": "Shengming",
+            "chinese_name": "盛明",
+            "start_year": 1162,
+            "end_year": null
+        },
+        {
+            "english_name": "Jiande",
+            "chinese_name": "建德",
+            "start_year": 1171,
+            "end_year": null
+        },
+        {
+            "english_name": "Lizhen",
+            "chinese_name": "利貞",
+            "start_year": 1172,
+            "end_year": 1174
+        },
+        {
+            "english_name": "Shengde",
+            "chinese_name": "盛德",
+            "start_year": 1176,
+            "end_year": 1180
+        },
+        {
+            "english_name": "Jiahui",
+            "chinese_name": "嘉會",
+            "start_year": 1181,
+            "end_year": 1184
+        },
+        {
+            "english_name": "Yuanheng",
+            "chinese_name": "元亨",
+            "start_year": 1185,
+            "end_year": 1195
+        },
+        {
+            "english_name": "Yuanheng",
+            "chinese_name": "元亨",
+            "start_year": 1195,
+            "end_year": 1200
+        },
+        {
+            "english_name": "Hengshi",
+            "chinese_name": "亨時",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Fengli",
+            "chinese_name": "鳳曆",
+            "start_year": 1200,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanshou",
+            "chinese_name": "元壽",
+            "start_year": 1204,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiankai",
+            "chinese_name": "天開",
+            "start_year": 1205,
+            "end_year": 1225
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天輔",
+            "start_year": 1226,
+            "end_year": null
+        },
+        {
+            "english_name": "Renshou",
+            "chinese_name": "仁壽",
+            "start_year": 1227,
+            "end_year": 1238
+        },
+        {
+            "english_name": "Daolong",
+            "chinese_name": "道隆",
+            "start_year": 1239,
+            "end_year": 1251
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": 1251,
+            "end_year": 1254
+        },
+        {
+            "english_name": "Qianzhen",
+            "chinese_name": "乾貞",
+            "start_year": 1176,
+            "end_year": null
+        },
+        {
+            "english_name": "Shunde",
+            "chinese_name": "順德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Xingzheng",
+            "chinese_name": "興正",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhide",
+            "chinese_name": "至德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Daben",
+            "chinese_name": "大本",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongyuan",
+            "chinese_name": "鍾元",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Longde",
+            "chinese_name": "隆德",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongdao",
+            "chinese_name": "永道",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yingyun",
+            "chinese_name": "應運",
+            "start_year": 994,
+            "end_year": null
+        },
+        {
+            "english_name": "Huashun",
+            "chinese_name": "化順",
+            "start_year": 1000,
+            "end_year": null
+        },
+        {
+            "english_name": "Desheng",
+            "chinese_name": "得聖",
+            "start_year": 1047,
+            "end_year": 1048
+        },
+        {
+            "english_name": "Jingrui",
+            "chinese_name": "景瑞",
+            "start_year": 1049,
+            "end_year": 1052
+        },
+        {
+            "english_name": "Qili",
+            "chinese_name": "啟歷",
+            "start_year": 1052,
+            "end_year": 1053
+        },
+        {
+            "english_name": "Duanyi",
+            "chinese_name": "端懿",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Dali",
+            "chinese_name": "大歷",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Longxing",
+            "chinese_name": "隆興",
+            "start_year": 1102,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongle",
+            "chinese_name": "永樂",
+            "start_year": 1120,
+            "end_year": 1121
+        },
+        {
+            "english_name": "Mingshou",
+            "chinese_name": "明受",
+            "start_year": 1129,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianzai",
+            "chinese_name": "天載",
+            "start_year": 1130,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengfa",
+            "chinese_name": "正法",
+            "start_year": 1127,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengfa",
+            "chinese_name": "正法",
+            "start_year": 1127,
+            "end_year": null
+        },
+        {
+            "english_name": "Renzhi",
+            "chinese_name": "人知",
+            "start_year": 1130,
+            "end_year": null
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Fuchang",
+            "chinese_name": "阜昌",
+            "start_year": 1130,
+            "end_year": 1137
+        },
+        {
+            "english_name": "Dashengtianwang",
+            "chinese_name": "大聖天王",
+            "start_year": 1133,
+            "end_year": 1135
+        },
+        {
+            "english_name": "Gengxu",
+            "chinese_name": "庚戌",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Luoping",
+            "chinese_name": "羅平",
+            "start_year": 1141,
+            "end_year": null
+        },
+        {
+            "english_name": "Luoping",
+            "chinese_name": "羅平",
+            "start_year": 1179,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhuanyun",
+            "chinese_name": "轉運",
+            "start_year": 1207,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongde",
+            "chinese_name": "重德",
+            "start_year": 1229,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianzhan",
+            "chinese_name": "天戰",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Xiandao",
+            "chinese_name": "顯道",
+            "start_year": 1032,
+            "end_year": 1034
+        },
+        {
+            "english_name": "Kaiyun",
+            "chinese_name": "開運",
+            "start_year": 1034,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangyun",
+            "chinese_name": "廣運",
+            "start_year": 1034,
+            "end_year": 1036
+        },
+        {
+            "english_name": "Daqing",
+            "chinese_name": "大慶",
+            "start_year": 1036,
+            "end_year": 1038
+        },
+        {
+            "english_name": "Tianshoulifayanzuo",
+            "chinese_name": "天授禮法延祚",
+            "start_year": 1038,
+            "end_year": 1048
+        },
+        {
+            "english_name": "Guangxi",
+            "chinese_name": "廣熙",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangmin",
+            "chinese_name": "廣民",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yansiningguo",
+            "chinese_name": "延嗣寧國",
+            "start_year": 1049,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyouchuisheng",
+            "chinese_name": "天祐垂聖",
+            "start_year": 1050,
+            "end_year": 1052
+        },
+        {
+            "english_name": "Fushengchengdao",
+            "chinese_name": "福聖承道",
+            "start_year": 1053,
+            "end_year": 1056
+        },
+        {
+            "english_name": "Duodu",
+            "chinese_name": "奲都",
+            "start_year": 1057,
+            "end_year": 1062
+        },
+        {
+            "english_name": "Gonghua",
+            "chinese_name": "拱化",
+            "start_year": 1063,
+            "end_year": 1067
+        },
+        {
+            "english_name": "Qiandao",
+            "chinese_name": "乾道",
+            "start_year": 1068,
+            "end_year": 1069
+        },
+        {
+            "english_name": "Tiancilishengguoqing",
+            "chinese_name": "天賜禮盛國慶",
+            "start_year": 1070,
+            "end_year": 1074
+        },
+        {
+            "english_name": "Tiancilishengguoqing",
+            "chinese_name": "天賜禮盛國慶",
+            "start_year": 1075,
+            "end_year": 1085
+        },
+        {
+            "english_name": "Tiancilishengguoqing",
+            "chinese_name": "天賜禮盛國慶",
+            "start_year": 1086,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiancilishengguoqing",
+            "chinese_name": "天賜禮盛國慶",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyizhiping",
+            "chinese_name": "天儀治平",
+            "start_year": 1086,
+            "end_year": 1089
+        },
+        {
+            "english_name": "Tianyizhiping",
+            "chinese_name": "天儀治平",
+            "start_year": 1090,
+            "end_year": 1097
+        },
+        {
+            "english_name": "Tianyizhiping",
+            "chinese_name": "天儀治平",
+            "start_year": 1098,
+            "end_year": 1100
+        },
+        {
+            "english_name": "Zhenguan",
+            "chinese_name": "貞觀",
+            "start_year": 1101,
+            "end_year": 1113
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "雍寧",
+            "start_year": 1114,
+            "end_year": 1118
+        },
+        {
+            "english_name": "Yuande",
+            "chinese_name": "元德",
+            "start_year": 1119,
+            "end_year": 1127
+        },
+        {
+            "english_name": "Zhengde",
+            "chinese_name": "正德",
+            "start_year": 1127,
+            "end_year": 1134
+        },
+        {
+            "english_name": "Dade",
+            "chinese_name": "大德",
+            "start_year": 1135,
+            "end_year": 1139
+        },
+        {
+            "english_name": "Daqing",
+            "chinese_name": "大慶",
+            "start_year": 1140,
+            "end_year": 1143
+        },
+        {
+            "english_name": "Renqing",
+            "chinese_name": "人慶",
+            "start_year": 1144,
+            "end_year": 1148
+        },
+        {
+            "english_name": "Tiansheng",
+            "chinese_name": "天盛",
+            "start_year": 1149,
+            "end_year": 1169
+        },
+        {
+            "english_name": "Qianyou",
+            "chinese_name": "乾祐",
+            "start_year": 1170,
+            "end_year": 1193
+        },
+        {
+            "english_name": "Tianqing",
+            "chinese_name": "天慶",
+            "start_year": 1194,
+            "end_year": 1206
+        },
+        {
+            "english_name": "Yingtian",
+            "chinese_name": "應天",
+            "start_year": 1206,
+            "end_year": 1209
+        },
+        {
+            "english_name": "Huangjian",
+            "chinese_name": "皇建",
+            "start_year": 1210,
+            "end_year": 1211
+        },
+        {
+            "english_name": "Guangding",
+            "chinese_name": "光定",
+            "start_year": 1211,
+            "end_year": 1223
+        },
+        {
+            "english_name": "Qianding",
+            "chinese_name": "乾定",
+            "start_year": 1223,
+            "end_year": 1226
+        },
+        {
+            "english_name": "Baoyi",
+            "chinese_name": "寶義",
+            "start_year": 1226,
+            "end_year": 1227
+        },
+        {
+            "english_name": "Baoqing",
+            "chinese_name": "寶慶",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangxi",
+            "chinese_name": "廣僖",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Qingping",
+            "chinese_name": "清平",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Shouguo",
+            "chinese_name": "收國",
+            "start_year": 1115,
+            "end_year": 1116
+        },
+        {
+            "english_name": "Tianfu",
+            "chinese_name": "天輔",
+            "start_year": 1117,
+            "end_year": 1123
+        },
+        {
+            "english_name": "Tianhui",
+            "chinese_name": "天會",
+            "start_year": 1123,
+            "end_year": 1137
+        },
+        {
+            "english_name": "Tianjuan",
+            "chinese_name": "天眷",
+            "start_year": 1138,
+            "end_year": 1140
+        },
+        {
+            "english_name": "Huangtong",
+            "chinese_name": "皇統",
+            "start_year": 1141,
+            "end_year": 1149
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 1149,
+            "end_year": 1153
+        },
+        {
+            "english_name": "Zhenyuan",
+            "chinese_name": "貞元",
+            "start_year": 1153,
+            "end_year": 1156
+        },
+        {
+            "english_name": "Zhenglong",
+            "chinese_name": "正隆",
+            "start_year": 1156,
+            "end_year": 1161
+        },
+        {
+            "english_name": "Dading",
+            "chinese_name": "大定",
+            "start_year": 1161,
+            "end_year": 1189
+        },
+        {
+            "english_name": "Xingqing",
+            "chinese_name": "興慶",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Mingchang",
+            "chinese_name": "明昌",
+            "start_year": 1190,
+            "end_year": 1196
+        },
+        {
+            "english_name": "Mingchang",
+            "chinese_name": "明昌",
+            "start_year": 1196,
+            "end_year": 1200
+        },
+        {
+            "english_name": "Taihe",
+            "chinese_name": "泰和",
+            "start_year": 1201,
+            "end_year": 1208
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": 1209,
+            "end_year": 1211
+        },
+        {
+            "english_name": "Chongqing",
+            "chinese_name": "崇慶",
+            "start_year": 1212,
+            "end_year": 1213
+        },
+        {
+            "english_name": "Zhining",
+            "chinese_name": "至寧",
+            "start_year": 1213,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenyou",
+            "chinese_name": "貞祐",
+            "start_year": 1213,
+            "end_year": 1217
+        },
+        {
+            "english_name": "Xingding",
+            "chinese_name": "興定",
+            "start_year": 1217,
+            "end_year": 1222
+        },
+        {
+            "english_name": "Yuanguang",
+            "chinese_name": "元光",
+            "start_year": 1222,
+            "end_year": 1223
+        },
+        {
+            "english_name": "Zhengda",
+            "chinese_name": "正大",
+            "start_year": 1224,
+            "end_year": 1231
+        },
+        {
+            "english_name": "Kaixing",
+            "chinese_name": "開興",
+            "start_year": 1232,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianxing",
+            "chinese_name": "天興",
+            "start_year": 1232,
+            "end_year": 1234
+        },
+        {
+            "english_name": "Shengchang",
+            "chinese_name": "盛昌",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuantong",
+            "chinese_name": "元統",
+            "start_year": 1213,
+            "end_year": 1216
+        },
+        {
+            "english_name": "Tianwei",
+            "chinese_name": "天威",
+            "start_year": 1216,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天祐",
+            "start_year": 1216,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 1216,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiantai",
+            "chinese_name": "天泰",
+            "start_year": 1215,
+            "end_year": 1223
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大同",
+            "start_year": 1224,
+            "end_year": 1233
+        },
+        {
+            "english_name": "Tianxing",
+            "chinese_name": "天興",
+            "start_year": 1147,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiantong",
+            "chinese_name": "天統",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天正",
+            "start_year": 1161,
+            "end_year": null
+        },
+        {
+            "english_name": "Shensheng",
+            "chinese_name": "身聖",
+            "start_year": 1196,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianci",
+            "chinese_name": "天賜",
+            "start_year": 1214,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianshun",
+            "chinese_name": "天順",
+            "start_year": 1214,
+            "end_year": null
+        },
+        {
+            "english_name": "Xinglong",
+            "chinese_name": "興隆",
+            "start_year": 1216,
+            "end_year": 1217
+        },
+        {
+            "english_name": "Shuntian",
+            "chinese_name": "順天",
+            "start_year": 1216,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongtong",
+            "chinese_name": "中統",
+            "start_year": 1260,
+            "end_year": 1264
+        },
+        {
+            "english_name": "Zhiyuan",
+            "chinese_name": "至元",
+            "start_year": 1264,
+            "end_year": 1294
+        },
+        {
+            "english_name": "Yuanzhen",
+            "chinese_name": "元貞",
+            "start_year": 1295,
+            "end_year": 1297
+        },
+        {
+            "english_name": "Dade",
+            "chinese_name": "大德",
+            "start_year": 1297,
+            "end_year": 1307
+        },
+        {
+            "english_name": "Zhida",
+            "chinese_name": "至大",
+            "start_year": 1308,
+            "end_year": 1311
+        },
+        {
+            "english_name": "Huangqing",
+            "chinese_name": "皇慶",
+            "start_year": 1312,
+            "end_year": 1313
+        },
+        {
+            "english_name": "Yanyou",
+            "chinese_name": "延祐",
+            "start_year": 1314,
+            "end_year": 1320
+        },
+        {
+            "english_name": "Zhizhi",
+            "chinese_name": "至治",
+            "start_year": 1321,
+            "end_year": 1323
+        },
+        {
+            "english_name": "Taiding",
+            "chinese_name": "泰定",
+            "start_year": 1324,
+            "end_year": 1328
+        },
+        {
+            "english_name": "Zhihe",
+            "chinese_name": "致和",
+            "start_year": 1328,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianshun",
+            "chinese_name": "天順",
+            "start_year": 1328,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianli",
+            "chinese_name": "天歷",
+            "start_year": 1328,
+            "end_year": 1330
+        },
+        {
+            "english_name": "Zhishun",
+            "chinese_name": "至順",
+            "start_year": 1330,
+            "end_year": 1333
+        },
+        {
+            "english_name": "Yuantong",
+            "chinese_name": "元統",
+            "start_year": 1333,
+            "end_year": 1335
+        },
+        {
+            "english_name": "Zhiyuan",
+            "chinese_name": "至元",
+            "start_year": 1335,
+            "end_year": 1340
+        },
+        {
+            "english_name": "Zhizheng",
+            "chinese_name": "至正",
+            "start_year": 1341,
+            "end_year": 1370
+        },
+        {
+            "english_name": "Xuanguang",
+            "chinese_name": "宣光",
+            "start_year": 1371,
+            "end_year": 1379
+        },
+        {
+            "english_name": "Tianyuan",
+            "chinese_name": "天元",
+            "start_year": 1379,
+            "end_year": 1388
+        },
+        {
+            "english_name": "Tianyuan",
+            "chinese_name": "添元",
+            "start_year": 1453,
+            "end_year": 1457
+        },
+        {
+            "english_name": "Zhiping",
+            "chinese_name": "治平",
+            "start_year": 1351,
+            "end_year": 1355
+        },
+        {
+            "english_name": "Taiping",
+            "chinese_name": "太平",
+            "start_year": 1356,
+            "end_year": 1358
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 1356,
+            "end_year": 1359
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": 1359,
+            "end_year": 1360
+        },
+        {
+            "english_name": "Tianyou",
+            "chinese_name": "天佑",
+            "start_year": 1354,
+            "end_year": 1357
+        },
+        {
+            "english_name": "Longfeng",
+            "chinese_name": "龍鳳",
+            "start_year": 1355,
+            "end_year": 1366
+        },
+        {
+            "english_name": "Dayi",
+            "chinese_name": "大義",
+            "start_year": 1360,
+            "end_year": 1363
+        },
+        {
+            "english_name": "Dading",
+            "chinese_name": "大定",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Deshou",
+            "chinese_name": "德壽",
+            "start_year": 1363,
+            "end_year": 1364
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 1361,
+            "end_year": 1362
+        },
+        {
+            "english_name": "Tiantong",
+            "chinese_name": "天統",
+            "start_year": 1363,
+            "end_year": 1366
+        },
+        {
+            "english_name": "Kaixi",
+            "chinese_name": "開熙",
+            "start_year": 1367,
+            "end_year": 1371
+        },
+        {
+            "english_name": "Wancheng",
+            "chinese_name": "萬乘",
+            "start_year": 1280,
+            "end_year": null
+        },
+        {
+            "english_name": "Changtai",
+            "chinese_name": "昌泰",
+            "start_year": 1281,
+            "end_year": null
+        },
+        {
+            "english_name": "Yankang",
+            "chinese_name": "延康",
+            "start_year": 1283,
+            "end_year": null
+        },
+        {
+            "english_name": "Xiangxing",
+            "chinese_name": "祥興",
+            "start_year": 1283,
+            "end_year": 1284
+        },
+        {
+            "english_name": "Anding",
+            "chinese_name": "安定",
+            "start_year": 1289,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengzhi",
+            "chinese_name": "正治",
+            "start_year": 1297,
+            "end_year": null
+        },
+        {
+            "english_name": "Chifu",
+            "chinese_name": "赤符",
+            "start_year": 1337,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhengshuo",
+            "chinese_name": "正朔",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongwu",
+            "chinese_name": "洪武",
+            "start_year": 1368,
+            "end_year": 1398
+        },
+        {
+            "english_name": "Jianwen",
+            "chinese_name": "建文",
+            "start_year": 1399,
+            "end_year": 1402
+        },
+        {
+            "english_name": "Hongwu",
+            "chinese_name": "洪武",
+            "start_year": 1402,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongle",
+            "chinese_name": "永樂",
+            "start_year": 1403,
+            "end_year": 1424
+        },
+        {
+            "english_name": "Hongxi",
+            "chinese_name": "洪熙",
+            "start_year": 1425,
+            "end_year": null
+        },
+        {
+            "english_name": "Xuande",
+            "chinese_name": "宣德",
+            "start_year": 1426,
+            "end_year": 1435
+        },
+        {
+            "english_name": "Zhengtong",
+            "chinese_name": "正統",
+            "start_year": 1436,
+            "end_year": 1449
+        },
+        {
+            "english_name": "Jingtai",
+            "chinese_name": "景泰",
+            "start_year": 1450,
+            "end_year": 1457
+        },
+        {
+            "english_name": "Tianshun",
+            "chinese_name": "天順",
+            "start_year": 1457,
+            "end_year": 1464
+        },
+        {
+            "english_name": "Chenghua",
+            "chinese_name": "成化",
+            "start_year": 1465,
+            "end_year": 1487
+        },
+        {
+            "english_name": "Hongzhi",
+            "chinese_name": "弘治",
+            "start_year": 1488,
+            "end_year": 1505
+        },
+        {
+            "english_name": "Zhengde",
+            "chinese_name": "正德",
+            "start_year": 1506,
+            "end_year": 1521
+        },
+        {
+            "english_name": "Jiajing",
+            "chinese_name": "嘉靖",
+            "start_year": 1522,
+            "end_year": 1566
+        },
+        {
+            "english_name": "Longqing",
+            "chinese_name": "隆慶",
+            "start_year": 1567,
+            "end_year": 1572
+        },
+        {
+            "english_name": "Wanli",
+            "chinese_name": "萬曆",
+            "start_year": 1573,
+            "end_year": 1620
+        },
+        {
+            "english_name": "Taichang",
+            "chinese_name": "泰昌",
+            "start_year": 1620,
+            "end_year": 1621
+        },
+        {
+            "english_name": "Tianqi",
+            "chinese_name": "天啟",
+            "start_year": 1621,
+            "end_year": 1627
+        },
+        {
+            "english_name": "Chongzhen",
+            "chinese_name": "崇禎",
+            "start_year": 1628,
+            "end_year": 1644
+        },
+        {
+            "english_name": "Hongguang",
+            "chinese_name": "弘光",
+            "start_year": 1645,
+            "end_year": null
+        },
+        {
+            "english_name": "Longwu",
+            "chinese_name": "隆武",
+            "start_year": 1645,
+            "end_year": 1646
+        },
+        {
+            "english_name": "Xingye",
+            "chinese_name": "興業",
+            "start_year": 1645,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianguo Lu",
+            "chinese_name": "監國魯",
+            "start_year": 1646,
+            "end_year": 1653
+        },
+        {
+            "english_name": "Shaowu",
+            "chinese_name": "紹武",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1647,
+            "end_year": 1662
+        },
+        {
+            "english_name": "Dingwu",
+            "chinese_name": "定武",
+            "start_year": 1646,
+            "end_year": 1663
+        },
+        {
+            "english_name": "Dongwu",
+            "chinese_name": "東武",
+            "start_year": 1648,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongchang",
+            "chinese_name": "永昌",
+            "start_year": 1644,
+            "end_year": 1645
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1662,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1662,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1662,
+            "end_year": 1681
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1681,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1681,
+            "end_year": 1683
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": 1386,
+            "end_year": null
+        },
+        {
+            "english_name": "Longfeng",
+            "chinese_name": "龍鳳",
+            "start_year": 1397,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongning",
+            "chinese_name": "永寧",
+            "start_year": 1417,
+            "end_year": 1420
+        },
+        {
+            "english_name": "Yongtian",
+            "chinese_name": "永天",
+            "start_year": 1420,
+            "end_year": null
+        },
+        {
+            "english_name": "Taiding",
+            "chinese_name": "泰定",
+            "start_year": 1448,
+            "end_year": 1449
+        },
+        {
+            "english_name": "Dongyang",
+            "chinese_name": "東陽",
+            "start_year": 1449,
+            "end_year": 1450
+        },
+        {
+            "english_name": "Xuanyuan",
+            "chinese_name": "玄元",
+            "start_year": 1451,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianshun",
+            "chinese_name": "天順",
+            "start_year": 1456,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianxiu",
+            "chinese_name": "天繡",
+            "start_year": 1457,
+            "end_year": null
+        },
+        {
+            "english_name": "Wulie",
+            "chinese_name": "武烈",
+            "start_year": 1460,
+            "end_year": null
+        },
+        {
+            "english_name": "Desheng",
+            "chinese_name": "德勝",
+            "start_year": 1465,
+            "end_year": 1466
+        },
+        {
+            "english_name": "Mingzheng",
+            "chinese_name": "明正",
+            "start_year": 1511,
+            "end_year": null
+        },
+        {
+            "english_name": "Shunde",
+            "chinese_name": "順德",
+            "start_year": 1519,
+            "end_year": null
+        },
+        {
+            "english_name": "Dashunpingding",
+            "chinese_name": "大順平定",
+            "start_year": 1520,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyuan",
+            "chinese_name": "天淵",
+            "start_year": 1546,
+            "end_year": null
+        },
+        {
+            "english_name": "Zaoli",
+            "chinese_name": "造歷",
+            "start_year": 1560,
+            "end_year": 1562
+        },
+        {
+            "english_name": "Longfei",
+            "chinese_name": "龍飛",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Dabao",
+            "chinese_name": "大寶",
+            "start_year": 1565,
+            "end_year": 1566
+        },
+        {
+            "english_name": "Hongwu",
+            "chinese_name": "洪武",
+            "start_year": 1619,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhenhun",
+            "chinese_name": "真混",
+            "start_year": 1619,
+            "end_year": null
+        },
+        {
+            "english_name": "Ruiying",
+            "chinese_name": "瑞應",
+            "start_year": 1621,
+            "end_year": null
+        },
+        {
+            "english_name": "Xuanjing",
+            "chinese_name": "玄靜",
+            "start_year": 1622,
+            "end_year": null
+        },
+        {
+            "english_name": "Dachengxingsheng",
+            "chinese_name": "大成興勝",
+            "start_year": 1622,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 1628,
+            "end_year": null
+        },
+        {
+            "english_name": "Xingwu",
+            "chinese_name": "興武",
+            "start_year": 1635,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyun",
+            "chinese_name": "天運",
+            "start_year": 1637,
+            "end_year": null
+        },
+        {
+            "english_name": "Dashun",
+            "chinese_name": "大順",
+            "start_year": 1644,
+            "end_year": 1646
+        },
+        {
+            "english_name": "Yiwu",
+            "chinese_name": "義武",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yixing",
+            "chinese_name": "義興",
+            "start_year": 1644,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanmingdabao",
+            "chinese_name": "圓明大寶",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongrun",
+            "chinese_name": "宏閏",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongrun",
+            "chinese_name": "宏閏",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianming",
+            "chinese_name": "天命",
+            "start_year": 1616,
+            "end_year": 1626
+        },
+        {
+            "english_name": "Tiancong",
+            "chinese_name": "天聰",
+            "start_year": 1627,
+            "end_year": 1636
+        },
+        {
+            "english_name": "Chongde",
+            "chinese_name": "崇德",
+            "start_year": 1636,
+            "end_year": 1643
+        },
+        {
+            "english_name": "Shunzhi",
+            "chinese_name": "順治",
+            "start_year": 1644,
+            "end_year": 1661
+        },
+        {
+            "english_name": "Kangxi",
+            "chinese_name": "康熙",
+            "start_year": 1662,
+            "end_year": 1722
+        },
+        {
+            "english_name": "Yongzheng",
+            "chinese_name": "雍正",
+            "start_year": 1723,
+            "end_year": 1735
+        },
+        {
+            "english_name": "Qianlong",
+            "chinese_name": "乾隆",
+            "start_year": 1736,
+            "end_year": 1795
+        },
+        {
+            "english_name": "Jiaqing",
+            "chinese_name": "嘉慶",
+            "start_year": 1796,
+            "end_year": 1820
+        },
+        {
+            "english_name": "Daoguang",
+            "chinese_name": "道光",
+            "start_year": 1821,
+            "end_year": 1850
+        },
+        {
+            "english_name": "Xianfeng",
+            "chinese_name": "咸豐",
+            "start_year": 1851,
+            "end_year": 1861
+        },
+        {
+            "english_name": "Tongzhi",
+            "chinese_name": "同治",
+            "start_year": 1862,
+            "end_year": 1875
+        },
+        {
+            "english_name": "Guangxu",
+            "chinese_name": "光緒",
+            "start_year": 1875,
+            "end_year": 1908
+        },
+        {
+            "english_name": "Xuantong",
+            "chinese_name": "宣統",
+            "start_year": 1909,
+            "end_year": 1912
+        },
+        {
+            "english_name": "Zhaowu",
+            "chinese_name": "昭武",
+            "start_year": 1678,
+            "end_year": null
+        },
+        {
+            "english_name": "Liyong",
+            "chinese_name": "利用",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Honghua",
+            "chinese_name": "洪化",
+            "start_year": 1678,
+            "end_year": 1681
+        },
+        {
+            "english_name": "Taiping Tianguo",
+            "chinese_name": "太平天國",
+            "start_year": 1851,
+            "end_year": 1864
+        },
+        {
+            "english_name": "Chongxing",
+            "chinese_name": "重興",
+            "start_year": 1644,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianding",
+            "chinese_name": "天定",
+            "start_year": 1644,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongchang",
+            "chinese_name": "永昌",
+            "start_year": 1644,
+            "end_year": 1645
+        },
+        {
+            "english_name": "Qingguang",
+            "chinese_name": "清光",
+            "start_year": 1645,
+            "end_year": null
+        },
+        {
+            "english_name": "Zhongxing",
+            "chinese_name": "中興",
+            "start_year": 1647,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongli",
+            "chinese_name": "永曆",
+            "start_year": 1647,
+            "end_year": null
+        },
+        {
+            "english_name": "Longwu",
+            "chinese_name": "隆武",
+            "start_year": 1647,
+            "end_year": null
+        },
+        {
+            "english_name": "Xingchao",
+            "chinese_name": "興朝",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianzheng",
+            "chinese_name": "天正",
+            "start_year": 1648,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianshun",
+            "chinese_name": "天順",
+            "start_year": 1661,
+            "end_year": null
+        },
+        {
+            "english_name": "Daqing",
+            "chinese_name": "大慶",
+            "start_year": 1665,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangde",
+            "chinese_name": "廣德",
+            "start_year": 1673,
+            "end_year": 1680
+        },
+        {
+            "english_name": "Yumin",
+            "chinese_name": "裕民",
+            "start_year": 1674,
+            "end_year": 1676
+        },
+        {
+            "english_name": "Wenxing",
+            "chinese_name": "文興",
+            "start_year": 1704,
+            "end_year": null
+        },
+        {
+            "english_name": "Yuanxing",
+            "chinese_name": "元興",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongxing",
+            "chinese_name": "永興",
+            "start_year": 1708,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 1708,
+            "end_year": null
+        },
+        {
+            "english_name": "Yonghe",
+            "chinese_name": "永和",
+            "start_year": 1721,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyun",
+            "chinese_name": "天運",
+            "start_year": 1786,
+            "end_year": null
+        },
+        {
+            "english_name": "Shuntian",
+            "chinese_name": "順天",
+            "start_year": 1787,
+            "end_year": 1788
+        },
+        {
+            "english_name": "Tianyun",
+            "chinese_name": "天運",
+            "start_year": 1795,
+            "end_year": null
+        },
+        {
+            "english_name": "Wanli",
+            "chinese_name": "萬利",
+            "start_year": 1797,
+            "end_year": null
+        },
+        {
+            "english_name": "Daqing",
+            "chinese_name": "大慶",
+            "start_year": 1797,
+            "end_year": null
+        },
+        {
+            "english_name": "Guangming",
+            "chinese_name": "光明",
+            "start_year": 1805,
+            "end_year": 1809
+        },
+        {
+            "english_name": "Yanchao",
+            "chinese_name": "晏朝",
+            "start_year": 1814,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyun",
+            "chinese_name": "天運",
+            "start_year": 1832,
+            "end_year": 1833
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 1851,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongshun",
+            "chinese_name": "洪順",
+            "start_year": 1853,
+            "end_year": null
+        },
+        {
+            "english_name": "Tiande",
+            "chinese_name": "天德",
+            "start_year": 1853,
+            "end_year": null
+        },
+        {
+            "english_name": "Tianyun",
+            "chinese_name": "天運",
+            "start_year": 1853,
+            "end_year": 1855
+        },
+        {
+            "english_name": "Jianghan",
+            "chinese_name": "江漢",
+            "start_year": 1854,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongde",
+            "chinese_name": "洪德",
+            "start_year": 1855,
+            "end_year": 1864
+        },
+        {
+            "english_name": "Shuntian",
+            "chinese_name": "順天",
+            "start_year": 1860,
+            "end_year": 1864
+        },
+        {
+            "english_name": "Tianzong",
+            "chinese_name": "天縱",
+            "start_year": 1860,
+            "end_year": 1863
+        },
+        {
+            "english_name": "Sitong",
+            "chinese_name": "嗣統",
+            "start_year": 1864,
+            "end_year": 1868
+        },
+        {
+            "english_name": "Huahan",
+            "chinese_name": "華漢",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Jianghan",
+            "chinese_name": "江漢",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Yongqing",
+            "chinese_name": "永清",
+            "start_year": 1895,
+            "end_year": null
+        },
+        {
+            "english_name": "Dajing",
+            "chinese_name": "大靖",
+            "start_year": 1897,
+            "end_year": 1898
+        },
+        {
+            "english_name": "Baoqing",
+            "chinese_name": "保慶",
+            "start_year": null,
+            "end_year": null
+        },
+        {
+            "english_name": "Damingguo",
+            "chinese_name": "大明國",
+            "start_year": 1902,
+            "end_year": null
+        },
+        {
+            "english_name": "Hande",
+            "chinese_name": "漢德",
+            "start_year": 1906,
+            "end_year": null
+        },
+        {
+            "english_name": "Gongdai",
+            "chinese_name": "共戴",
+            "start_year": 1911,
+            "end_year": 1915
+        },
+        {
+            "english_name": "Minguo",
+            "chinese_name": "民國",
+            "start_year": 1912,
+            "end_year": null
+        },
+        {
+            "english_name": "Hongxian",
+            "chinese_name": "洪憲",
+            "start_year": 1916,
+            "end_year": null
+        },
+        {
+            "english_name": "Tongzhi",
+            "chinese_name": "通治",
+            "start_year": 1917,
+            "end_year": null
+        },
+        {
+            "english_name": "Xuantong",
+            "chinese_name": "宣統",
+            "start_year": 1917,
+            "end_year": null
+        },
+        {
+            "english_name": "Gongdai",
+            "chinese_name": "共戴",
+            "start_year": 1921,
+            "end_year": 1924
+        },
+        {
+            "english_name": "Datong",
+            "chinese_name": "大同",
+            "start_year": 1932,
+            "end_year": 1934
+        },
+        {
+            "english_name": "Kangde",
+            "chinese_name": "康德",
+            "start_year": 1934,
+            "end_year": 1945
+        },
+        {
+            "english_name": "Minguo",
+            "chinese_name": "民國",
+            "start_year": 1912,
+            "end_year": 1949
+        },
+        {
+            "english_name": "Minguo",
+            "chinese_name": "民國",
+            "start_year": 1949,
+            "end_year": null
+        },
+        {
+            "english_name": "Minguo",
+            "chinese_name": "民國",
+            "start_year": null,
+            "end_year": null
+        }
+    ]
+}
