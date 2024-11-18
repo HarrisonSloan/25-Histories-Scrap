@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import json
 
 # Open up JSON data of patterns
-with open('patterns.json', 'r', encoding="utf-8") as file:
+with open('year_patterns.json', 'r', encoding="utf-8") as file:
     year_data = json.load(file)
 # create Automaton with patterns 
 automaton = ahocorasick.Automaton()

@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 
-# Created to 
+# Created to combine all the raw scrapped data
 
 def combine_and_flatten_xml(input_folder, output_file):
     # Create the root element of the combined XML

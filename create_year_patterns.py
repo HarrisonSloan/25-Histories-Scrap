@@ -1,6 +1,6 @@
 import json
 
-# Define your base 61-character patterns
+# All of the number+year combos
 patterns = [("元", 1),
             ("二年", 2),
             ("三年", 3),
@@ -65,7 +65,7 @@ patterns = [("元", 1),
 
 ]
 # Define the set of punctuation symbols to prepend
-punctuation_set = ["。", "，", "？", "：", "、", "⋯", "；", "）", "]", "！"]  # Add as needed
+punctuation_set = ["。", "，", "？", "：", "、", "⋯", "；", "）", "]", "！"]
 
 # Build the JSON data structure
 data = []
@@ -78,5 +78,5 @@ for pattern, value in patterns:
         })
 
 # Save to a JSON file
-with open("patterns.json", "w", encoding="utf-8") as f:
+with open("year_patterns.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4,ensure_ascii=False)
