@@ -116,7 +116,7 @@ create_xml("南史", "History of the Southern Dynasties", "14_raw.xml", "https:/
 create_xml("北史", "History of the Northern Dynasties", "15_raw.xml", "https://zh.wikisource.org/wiki/%E5%8C%97%E5%8F%B2", "/wiki/%E5%8C%97%E5%8F%B2/%E5%8D%B7001", "/wiki/%E5%8C%97%E5%8F%B2/%E5%8D%B7100")
 
 # 16 Old Tang Book 
-create_xml("舊唐書", "Old Tang of Book", "16_raw.xml", "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8", "/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B71", "/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7200%E4%B8%8B")
+create_xml("舊唐書", "Old Book of Tang", "16_raw.xml", "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8", "/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B71", "/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7200%E4%B8%8B")
 
 # 17 New book of Tang 
 create_xml("新唐書", "New Book of Tang", "17_raw.xml", "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8", "/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7001", "/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7225%E4%B8%8B")

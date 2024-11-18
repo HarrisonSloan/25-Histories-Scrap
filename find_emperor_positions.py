@@ -2,41 +2,76 @@ import ahocorasick
 import xml.etree.ElementTree as ET
 import json
 
-# Goal of this script is to produce a file detailing all the positions of the leaders based on JSON file detailing which leaders to search for
-# Will use pattern matching library to achieve this and save the result in either a JSON or XML, which can be later used to produce the 
-# number + year positions
-
-automaton = ahocorasick.Automaton()
-
-
 # Create a JSON or create an XML
-
 new_root = ET.Element("Library")
 
 # Open up JSON data
 with open('emperors_year_1.json', 'r', encoding="utf-8") as file:
     emperor_data = json.load(file)
     
-
-# Loop for each document to be made
-# each document is just one of the 25 Histories
-# create an automaton and patterns are just all of the leaders
-
-
+# parse the raw file so we can match against the text
 tree = ET.parse("25_Histories_raw.xml")
 root = tree.getroot()
 
 for document in root.findall(".//document"):
+    # Get name of book to reference to find appropriate emperors list
     doc_name = document.get("eng_name")
-    print("Looking at " + doc_name)
+    
+    # Add document into 
+    new_document = ET.SubElement(new_root, "document")
+    for key, value in document.attrib.items():
+        new_document.set(key, value)
+
     # find all the emperors related to this specific doc
     for book in emperor_data.get("Books"):
+        # Found specific book in the JSON
         if book.get("name") == doc_name:
-            print("Found")
-            # create emperor automaton
-            for emeperor in book.get("emperors"):
-                print(emeperor.get("english_name"))
             
-            # find every position 
+            # create emperor automaton for pattern matching
+            automaton = ahocorasick.Automaton()
+            i=0
+            # Add every pattern (every emperor as specified by "emperors_year_1.json") -> later update to pass a file instead
+            # ID is simply the start year as every one should have a different start year its also convient
+            # as you can have this directly attached to the pattern itself
+            # may need verification 
+            for emperor in book.get("emperors"):
+                key = emperor.get("chinese_name")
+                automaton.add_word(key, (emperor.get("start_year"), key))
+                i+=1
+            automaton.make_automaton()
 
-            # append this to the new file we are makings
+            # Get text from raw file
+            document_text = document.text
+
+            # Pattern match against the text for every specified pattern above
+            # for every match create a new element in the XML 
+            for end_index, pattern in automaton.iter(document_text):
+                # there is no start date on the emperor
+                if pattern[0] == None:
+                    continue
+                else:
+                    ET.SubElement(new_document, "match", position=str(end_index - len(pattern) + 1), name=pattern[1], value=str(pattern[0]))
+
+
+# Chat GBT function :)
+# make the XML file readable
+def prettify(element, level=0):
+    indent = "  "  # Define your indent size
+    i = "\n" + level * indent
+    if len(element):
+        if not element.text or not element.text.strip():
+            element.text = i + indent
+        if not element.tail or not element.tail.strip():
+            element.tail = i
+        for elem in element:
+            prettify(elem, level + 1)
+        if not elem.tail or not elem.tail.strip():
+            elem.tail = i
+    else:
+        if level and (not element.tail or not element.tail.strip()):
+            element.tail = i
+
+# Create the XML file
+new_tree = ET.ElementTree(new_root)
+prettify(new_root)
+new_tree.write("25_Histories_emperor_positions.xml", encoding="utf-8", xml_declaration=True)
