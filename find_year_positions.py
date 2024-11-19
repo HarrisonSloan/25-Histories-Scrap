@@ -40,6 +40,8 @@ for text_doc, match_doc in zip(text_documents,match_documents):
     document_text = text_doc.text
 
     new_document = ET.SubElement(new_root, "document")
+    for key, value in text_doc.attrib.items():
+        new_document.set(key, value)
     # now pattern match
     for end_index, pattern in automaton.iter(document_text):
         # need to find appropriate position

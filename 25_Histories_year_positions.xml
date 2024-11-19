@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Library>
-  <document>
+  <document name="漢書" eng_name="Book of Han">
     <match position="15961" name="，十二年" value="-37" />
     <match position="17075" name="。二年" value="-47" />
     <match position="17084" name="。十二年" value="-37" />
@@ -386,7 +386,7 @@
     <match position="904184" name="，四年" value="24" />
     <match position="904223" name="。十一年" value="31" />
   </document>
-  <document>
+  <document name="後漢書" eng_name="Book of the Later Han">
     <match position="34469" name="，十七年" value="75" />
     <match position="34477" name="，十九年" value="77" />
     <match position="49588" name="，三年" value="79" />
@@ -936,7 +936,7 @@
     <match position="1031006" name="。六年" value="184" />
     <match position="1031268" name="，三年" value="181" />
   </document>
-  <document>
+  <document name="三國志" eng_name="Records of the Three Kingdoms">
     <match position="15353" name="。十一年" value="231" />
     <match position="32644" name="。二十二年" value="251" />
     <match position="37448" name="，二十三年" value="252" />
@@ -1196,7 +1196,7 @@
     <match position="822901" name="，二十年" value="271" />
     <match position="831926" name="。七年" value="272" />
   </document>
-  <document>
+  <document name="晉書" eng_name="Book of Jin">
     <match position="16234" name="，三年" value="268" />
     <match position="24476" name="，三年" value="268" />
     <match position="65384" name="，二年" value="337" />
@@ -1831,7 +1831,7 @@
     <match position="1353283" name="。六年" value="323" />
     <match position="1387256" name="，六年" value="411" />
   </document>
-  <document>
+  <document name="宋書" eng_name="Book of Song">
     <match position="1761" name="。二年" value="422" />
     <match position="10954" name="，八年" value="428" />
     <match position="11892" name="。十一年" value="431" />
@@ -2615,7 +2615,7 @@
     <match position="841606" name="。五年" value="471" />
     <match position="841617" name="。六年" value="472" />
   </document>
-  <document>
+  <document name="南齊書" eng_name="Book of Southern Qi">
     <match position="399" name="。七年" value="501" />
     <match position="1277" name="。十七年" value="518" />
     <match position="1311" name="。十九年" value="520" />
@@ -2895,7 +2895,7 @@
     <match position="325306" name="。三年" value="486" />
     <match position="325384" name="。六年" value="489" />
   </document>
-  <document>
+  <document name="梁書" eng_name="Book of Liang">
     <match position="30334" name="，十一年" value="558" />
     <match position="34511" name="。五年" value="525" />
     <match position="34525" name="。八年" value="528" />
@@ -3319,7 +3319,7 @@
     <match position="298484" name="。四年" value="551" />
     <match position="299480" name="。二年" value="552" />
   </document>
-  <document>
+  <document name="陳書" eng_name="Book of Chen">
     <match position="878" name="。十一年" value="568" />
     <match position="1264" name="。三年" value="560" />
     <match position="2004" name="。二年" value="559" />
@@ -3559,7 +3559,7 @@
     <match position="208208" name="。七年" value="576" />
     <match position="208490" name="。十三年" value="582" />
   </document>
-  <document>
+  <document name="魏書" eng_name="Book of Wei">
     <match position="1908" name="。七年" value="405" />
     <match position="30861" name="，九年" value="437" />
     <match position="37574" name="，二十年" value="471" />
@@ -4177,7 +4177,7 @@
     <match position="1078968" name="]二年" value="478" />
     <match position="1079356" name="。三年" value="479" />
   </document>
-  <document>
+  <document name="北齊書" eng_name="Book of Northern Qi">
     <match position="4645" name="。二年" value="552" />
     <match position="11648" name="。二年" value="552" />
     <match position="11739" name="。三年" value="553" />
@@ -4343,7 +4343,7 @@
     <match position="231515" name="。九年" value="574" />
     <match position="232379" name="，十年" value="570" />
   </document>
-  <document>
+  <document name="周書" eng_name="Book of Zhou">
     <match position="14728" name="。十六年" value="575" />
     <match position="27116" name="。三年" value="575" />
     <match position="35176" name="。五年" value="564" />
@@ -4780,7 +4780,7 @@
     <match position="294070" name="。四年" value="576" />
     <match position="295251" name="。二年" value="574" />
   </document>
-  <document>
+  <document name="隋書" eng_name="Book of Sui">
     <match position="12147" name="，三年" value="604" />
     <match position="17379" name="。二十年" value="601" />
     <match position="17986" name="。八年" value="609" />
@@ -5359,7 +5359,7 @@
     <match position="807399" name="。五年" value="586" />
     <match position="807419" name="。六年" value="587" />
   </document>
-  <document>
+  <document name="南史" eng_name="History of the Southern Dynasties">
     <match position="4245" name="。六年" value="507" />
     <match position="5539" name="，八年" value="502" />
     <match position="8316" name="。二年" value="496" />
@@ -5795,7 +5795,7 @@
     <match position="794159" name="。十八年" value="553" />
     <match position="802217" name="。三年" value="553" />
   </document>
-  <document>
+  <document name="北史" eng_name="History of the Northern Dynasties">
     <match position="655" name="。元年" value="429" />
     <match position="840" name="。三十九年" value="467" />
     <match position="901" name="。四十二年" value="470" />
@@ -6320,7 +6320,7 @@
     <match position="1344866" name="。十五年" value="443" />
     <match position="1344917" name="。十七年" value="445" />
   </document>
-  <document>
+  <document name="舊唐書" eng_name="Old Book of Tang">
     <match position="432" name="。九年" value="627" />
     <match position="587" name="。十一年" value="629" />
     <match position="657" name="。十二年" value="630" />
@@ -9303,7 +9303,7 @@
     <match position="2393278" name="。五年" value="885" />
     <match position="2396431" name="。四年" value="884" />
   </document>
-  <document>
+  <document name="新唐書" eng_name="New Book of Tang">
     <match position="8569" name="。九年" value="694" />
     <match position="10019" name="。二年" value="620" />
     <match position="19029" name="。十七年" value="667" />
@@ -10902,7 +10902,7 @@
     <match position="2067824" name="。五年" value="770" />
     <match position="2072054" name="。十四年" value="776" />
   </document>
-  <document>
+  <document name="舊五代史" eng_name="Old History of the Five Dynasties">
     <match position="9608" name="，四年" value="911" />
     <match position="9717" name="：四年" value="911" />
     <match position="23242" name="，三年" value="933" />
@@ -11416,7 +11416,7 @@
     <match position="830877" name="，六年" value="954" />
     <match position="831168" name="，四年" value="951" />
   </document>
-  <document>
+  <document name="新五代史" eng_name="Historical Records of the Five Dynasties">
     <match position="562" name="。四年" value="911" />
     <match position="912" name="。三年" value="910" />
     <match position="2345" name="。二年" value="909" />
@@ -11557,7 +11557,7 @@
     <match position="341373" name="。五年" value="956" />
     <match position="345406" name="，三年" value="933" />
   </document>
-  <document>
+  <document name="宋史" eng_name="History of Song">
     <match position="74621" name="。七年" value="1024" />
     <match position="74629" name="。八年" value="1025" />
     <match position="74694" name="。四年" value="1026" />
@@ -18197,7 +18197,7 @@
     <match position="4680010" name="，八年" value="1102" />
     <match position="4682018" name="。五年" value="1116" />
   </document>
-  <document>
+  <document name="遼史" eng_name="History of Liao">
     <match position="6844" name="？三年" value="929" />
     <match position="24601" name="。二年" value="985" />
     <match position="69496" name="。十年" value="1041" />
@@ -18626,7 +18626,7 @@
     <match position="356352" name="。九年" value="1038" />
     <match position="356363" name="。十年" value="1039" />
   </document>
-  <document>
+  <document name="金史" eng_name="History of Jin">
     <match position="880" name="。五年" value="1128" />
     <match position="927" name="。五年" value="1128" />
     <match position="971" name="。五年" value="1128" />
@@ -19923,7 +19923,7 @@
     <match position="1112339" name="。十二年" value="1202" />
     <match position="1112691" name="。二十三年" value="1213" />
   </document>
-  <document>
+  <document name="元史" eng_name="History of Yuan">
     <match position="67485" name="，三年" value="1338" />
     <match position="104388" name="，十八年" value="1326" />
     <match position="126550" name="，十年" value="1345" />
@@ -23105,7 +23105,7 @@
     <match position="1824081" name="。十六年" value="1324" />
     <match position="1824157" name="。十九年" value="1327" />
   </document>
-  <document>
+  <document name="明史" eng_name="History of Ming">
     <match position="17000" name="，三年" value="1429" />
     <match position="25098" name="。二十九年" value="1431" />
     <match position="28960" name="。十三年" value="1412" />
@@ -30761,7 +30761,7 @@
     <match position="3333492" name="。二十七年" value="1515" />
     <match position="3333497" name="、三十三年" value="1521" />
   </document>
-  <document>
+  <document name="清史稿" eng_name="Draft History of Qing">
     <match position="48055" name="、二年" value="1646" />
     <match position="54408" name="，六年" value="1650" />
     <match position="54807" name="、五年" value="1649" />
