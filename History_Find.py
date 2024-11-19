@@ -28,6 +28,24 @@ df = pd.DataFrame({
     "Pattern": patterns,
     "Data": [np.zeros(arrLen) for _ in patterns]  # Creates an array of zeros for each pattern
 })
+# Long format ->
+# The long format organizes data so that each element of every array corresponds to one row. For example:
+# If you have 10 patterns and each array has 100 elements, this results in 10×100=1000 rows.
+# This approach is more suitable for element-wise operations, but if your primary operations focus on aligning by row (index) across patterns, the wide format is a better fit. 
+df2 = pd.DataFrame({
+    "Pattern": np.repeat(patterns, arrLen),
+    "Index": np.tile(np.arange(arrLen), len(patterns)),
+    "Value": np.zeros(len(patterns) * arrLen)
+})
+
+# Wide format
+df3 = pd.DataFrame(
+    {pattern: np.zeros(arrLen) for pattern in patterns}
+)
+
+print(df)
+print(df2)
+print(df3)
 
 # parse the raw file so we can match against the text
 history_tree = ET.parse("25_Histories_raw.xml")
@@ -63,10 +81,12 @@ for text_doc, match_doc in zip(text_documents,match_documents):
         if pos < start_pos:
             # For specific pattern increment data
             df.at[pattern[0],"Data"][shift+int(matches[start].get("value"))] += 1
+            df3.iloc[shift+int(matches[start].get("value")),pattern[0]] += 1
         # case 2 
         elif pos > end_pos:
             # For specific pattern increment data
             df.at[pattern[0],"Data"][shift+int(matches[end].get("value"))] += 1
+            df3.iloc[shift+int(matches[end].get("value")),pattern[0]] += 1
             continue
         # case 3: Binary search to find appropriate position
         else:
@@ -85,6 +105,7 @@ for text_doc, match_doc in zip(text_documents,match_documents):
                     end = middle
                     break
             df.at[pattern[0],"Data"][shift+int(matches[start].get("value"))] += 1
+            df3.iloc[shift+int(matches[start].get("value")),pattern[0]] += 1
         # reset end, start doesnt need to be reset as patterns are forward search found (the position of the next occurrence only increases)
         end = len(matches) - 1
 
