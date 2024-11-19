@@ -1,7 +1,7 @@
 import json
 
 # All of the number+year combos
-patterns = [("元", 1),
+patterns = [("元年", 1),
             ("二年", 2),
             ("三年", 3),
             ("四年", 4),

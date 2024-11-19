@@ -1,42 +1,42 @@
 [
     {
-        "pattern": "。元",
+        "pattern": "。元年",
         "data": 1
     },
     {
-        "pattern": "，元",
+        "pattern": "，元年",
         "data": 1
     },
     {
-        "pattern": "？元",
+        "pattern": "？元年",
         "data": 1
     },
     {
-        "pattern": "：元",
+        "pattern": "：元年",
         "data": 1
     },
     {
-        "pattern": "、元",
+        "pattern": "、元年",
         "data": 1
     },
     {
-        "pattern": "⋯元",
+        "pattern": "⋯元年",
         "data": 1
     },
     {
-        "pattern": "；元",
+        "pattern": "；元年",
         "data": 1
     },
     {
-        "pattern": "）元",
+        "pattern": "）元年",
         "data": 1
     },
     {
-        "pattern": "]元",
+        "pattern": "]元年",
         "data": 1
     },
     {
-        "pattern": "！元",
+        "pattern": "！元年",
         "data": 1
     },
     {
