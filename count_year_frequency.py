@@ -5,7 +5,7 @@ import numpy as np
 # constants
 shift = 140
 # 140 for the 140 BCE 1912 for 1912 CE and 61 is the max year ahead you can get
-arrLen = 140+1912+61
+arrLen = 140+1912+58
 
 # Wide format
 df = pd.DataFrame(
