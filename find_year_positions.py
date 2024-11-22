@@ -73,7 +73,7 @@ for text_doc, match_doc in zip(text_documents,match_documents):
                 else:
                     end = middle
                     break
-            ET.SubElement(new_document, "match", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[end].get("value"))))
+            ET.SubElement(new_document, "match", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("value"))))
         end = len(matches) - 1
         # print("new start: " + str(start))
         # print("new middle: " + str(middle))
