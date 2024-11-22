@@ -22,6 +22,7 @@ We previously included emperors as a way to match keywords against, but we only 
 
 Know the position of the start of a volume, then add a proxy which would be the next emperor mentions year 
 
+## Matches and how we handle it
 Types of matches
 Emperor A -> number+year -> keyword
     the keyword is then matched to the emperor A start year + number, (start.EmperorA + number)
@@ -33,3 +34,11 @@ Start of Vol X -> keyword -> Emperor A
     keyword is matched to midle of emperor A reign, (start.EmperorA+end.EmperorA) / 2
 Start of Vol X -> keyword -> number+year -> emperor A
     logically this shouldnt happen and should be matched to (start.emperorA+end.emperorA) / 2
+Start of Vol X -> number+year -> keyword -> emperor A 
+    logically this shouldnt happen and should be matched to (start.emperorA+end.emperorA) / 2
+
+For the start of a Vol X, add a match that is emperor type and the middle of their reign
+Any year we find proceeding the emperor we ignore this, but record it for later investigation
+So the end case we explicitly ignore
+The second last case is simply handled as we will have a keyword that is matched between 2 things and we take the preceeding match
+The last case I will ignore the number+year and take note of this occurence
