@@ -51,6 +51,7 @@ def history_find(patterns, histories_file, year_data_file):
     if len(text_documents) != len(match_documents):
         raise ValueError("The number of documents in both XMLs do not match!")
     overall_matches = 0
+    miss_matches = 0
     for text_doc, match_doc in zip(text_documents,match_documents):
         matches = match_doc.findall("match")
         # TODO needs to handle cases where there is maybe only 3 emperors mentioned ect, currently not needed but probably safe to add this
@@ -104,15 +105,18 @@ def history_find(patterns, histories_file, year_data_file):
                     else:
                         end = middle
                         break
-                # note does this need to be start or end or just what ever is closest which is very easy to find
-                # difference the if abs(start_pos - pos) < abs(end_pos-pos) then start else end
-                patter_occurences_df.iloc[shift+int(matches[start].get("value")),pattern[0]] += 1
+                
+                # If a match doesnt occur between a volume where there is no mention of an emperor ignore the data 
+                if matches[start].get("value") != "None":
+                    patter_occurences_df.iloc[shift+int(matches[start].get("value")),pattern[0]] += 1
+                else:
+                    miss_matches+=1
             # reset end, start doesnt need to be reset as patterns are forward search found (the position of the next occurrence only increases)
             end = len(matches) - 1
-    return overall_matches, patter_occurences_df
+    return overall_matches, miss_matches, patter_occurences_df
 
-matches, main_data = history_find(patterns,"25_Histories_raw.xml","25_Histories_year_positions.xml")
-
+matches, miss_matches, main_data = history_find(patterns,"25_Histories_raw.xml","25_Histories_matching_positions.xml")
+print(miss_matches)
 # # GRAPHING AND DATA SECTION
 # print(matches)
 # print(main_data)

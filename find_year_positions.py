@@ -30,7 +30,7 @@ if len(text_documents) != len(match_documents):
 for text_doc, match_doc in zip(text_documents,match_documents):
     print("currently looking at: " + text_doc.get("eng_name")+ match_doc.get("eng_name"))
     # need to store the start and end leader in the emperor tree for binary search
-    matches = match_doc.findall("match")
+    matches = match_doc.findall("emperor")
 
     # TODO needs to handle cases where there is maybe only 3 emperors mentioned ect
     start = 0
@@ -50,10 +50,10 @@ for text_doc, match_doc in zip(text_documents,match_documents):
         end_pos = int(matches[end].get("position"))
         # case 1
         if pos < start_pos:
-            ET.SubElement(new_document, "match", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("value"))))
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("start"))))
         # case 2 
         elif pos > end_pos:
-            ET.SubElement(new_document, "match", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[end].get("value"))))
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[end].get("start"))))
         # case 3: Binary search to find appropriate position
         else:
             middle = (start+end) // 2
@@ -73,7 +73,8 @@ for text_doc, match_doc in zip(text_documents,match_documents):
                 else:
                     end = middle
                     break
-            ET.SubElement(new_document, "match", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("value"))))
+            # TODO Does the start and end cross over? Need to verifty this
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("start"))))
         end = len(matches) - 1
         # print("new start: " + str(start))
         # print("new middle: " + str(middle))

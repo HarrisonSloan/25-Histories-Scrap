@@ -13,12 +13,13 @@ df = pd.DataFrame(
 )
 print(df)
 # 
-emperor_tree = ET.parse("25_Histories_year_positions.xml")
+emperor_tree = ET.parse("25_Histories_matching_positions.xml")
 emperor_root = emperor_tree.getroot()
 
 for match_doc in emperor_root.findall(".//document"):
     matches = match_doc.findall("match")
     for match in matches:
-        df.iloc[shift+int(match.get("value")),0] += 1
+        if match.get("value") != "None":
+            df.iloc[shift+int(match.get("value")),0] += 1
 print(df)
 df.to_csv("year_1_frequency.csv",index=False)

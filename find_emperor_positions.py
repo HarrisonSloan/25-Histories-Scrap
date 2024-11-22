@@ -36,7 +36,7 @@ for document in root.findall(".//document"):
             # may need verification 
             for emperor in book.get("emperors"):
                 key = emperor.get("chinese_name")
-                automaton.add_word(key, (emperor.get("start_year"), key))
+                automaton.add_word(key, ((emperor.get("start_year"),emperor.get("end_year")), key))
                 i+=1
             automaton.make_automaton()
 
@@ -47,10 +47,10 @@ for document in root.findall(".//document"):
             # for every match create a new element in the XML 
             for end_index, pattern in automaton.iter(document_text):
                 # there is no start date on the emperor
-                if pattern[0] == None:
+                if pattern[0][0] == None:
                     continue
                 else:
-                    ET.SubElement(new_document, "match", position=str(end_index - len(pattern) + 1), name=pattern[1], value=str(pattern[0]))
+                    ET.SubElement(new_document, "emperor", position=str(end_index - len(pattern) + 1), name=pattern[1], start=str(pattern[0][0]), end=str(pattern[0][1]))
 
 
 # Chat GBT function :)

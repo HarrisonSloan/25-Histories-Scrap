@@ -36,6 +36,8 @@ Start of Vol X -> keyword -> number+year -> emperor A
     logically this shouldnt happen and should be matched to (start.emperorA+end.emperorA) / 2
 Start of Vol X -> number+year -> keyword -> emperor A 
     logically this shouldnt happen and should be matched to (start.emperorA+end.emperorA) / 2
+Start of Vol X -> keyword -> Start of Vol X+1 
+    cant associate a year with the data so we ignore this
 
 For the start of a Vol X, add a match that is emperor type and the middle of their reign
 Any year we find proceeding the emperor we ignore this, but record it for later investigation
