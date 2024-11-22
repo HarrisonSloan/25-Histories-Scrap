@@ -96,39 +96,79 @@ for year in exam_df['c_index_year']:
 for year in people_df['c_index_year']:
     year_people_counter[year+shift] += 1
 
-normalized_data = [
-    count / norm if norm != 0 else 0
-    for count, norm in zip(year_exam_counter, year_people_counter)
-]
+years = np.arange(-140, -140 + len(year_exam_counter))
+# Bin the data in blocks of 10 years (e.g., -140 to -131, -130 to -121, ...)
+bin_edges = np.arange(-140, 1971, 10)  # Bin edges for 10-year intervals
+bins = pd.cut(years, bins=bin_edges, right=False)  # Create bins (left-inclusive, right-exclusive)
 
-# Step 3: Create a DataFrame
+# Create a DataFrame for easier processing
 df = pd.DataFrame({
-    'Year': np.arange(-140,len(year_exam_counter)+1-141),
-    'Original Count': year_exam_counter,
-    'Normalization Count': year_people_counter,
-    'Normalized Data': normalized_data
+    'year': years,
+    'exam': year_exam_counter,
+    'people': year_people_counter,
+    'bin': bins
 })
 
-# Step 4: Save the DataFrame to a CSV
-# Define the new path using pathlib
-output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
+# Aggregate the data by bin (sum of exam and people counts for each bin)
+binned_data = df.groupby('bin', observed=True).agg({
+    'exam': 'sum',
+    'people': 'sum'
+}).reset_index()
 
-# Construct the full path to save the CSV file
-file_path = output_folder / "CBDB_normalized_data.csv"
+# Normalize the exam data by dividing by the corresponding people count for each bin
+binned_data['normalized_exam'] = binned_data['exam'] / binned_data['people']
 
-df.to_csv(file_path, index=False)
-print(f"Data saved to {file_path}")
+# Plot the normalized exam data
+plt.figure(figsize=(10, 6))  # Set figure size
+plt.plot(binned_data['bin'].astype(str), binned_data['normalized_exam'], color='skyblue')
+plt.gca().xaxis.set_major_locator(MaxNLocator(nbins=50))  # Adjust nbins as needed
 
-# Step 5: Plot the normalized data
-plt.figure(figsize=(10, 6))
-plt.plot(df['Year'], df['Normalized Data'], color='orange', linewidth=2, label='Normalized Data')
+# Label the axes and the title
+plt.xlabel('Year Bins')
+plt.ylabel('Normalized Exam Data')
+plt.title('Normalized Exam Data Across 10-Year Bins')
 
-# Add labels, title, and legend
-plt.xlabel('Year')
-plt.ylabel('Normalized Frequency')
-plt.title('Normalized Frequency of Years')
-plt.legend()
-plt.grid(True)  # Optional grid for better readability
+# Rotate x-axis labels for better readability
+plt.xticks(rotation=45, ha='right')
 
 # Display the plot
+plt.tight_layout()
 plt.show()
+
+
+# normalized_data = [
+#     count / norm if norm != 0 else 0
+#     for count, norm in zip(year_exam_counter, year_people_counter)
+# ]
+
+# # Step 3: Create a DataFrame
+# df = pd.DataFrame({
+#     'Year': np.arange(-140,len(year_exam_counter)+1-141),
+#     'Original Count': year_exam_counter,
+#     'Normalization Count': year_people_counter,
+#     'Normalized Data': normalized_data
+# })
+
+# # Step 4: Save the DataFrame to a CSV
+# # Define the new path using pathlib
+# output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
+
+# # Construct the full path to save the CSV file
+# file_path = output_folder / "CBDB_normalized_data.csv"
+
+# df.to_csv(file_path, index=False)
+# print(f"Data saved to {file_path}")
+
+# # Step 5: Plot the normalized data
+# plt.figure(figsize=(10, 6))
+# plt.plot(df['Year'], df['Normalized Data'], color='orange', linewidth=2, label='Normalized Data')
+
+# # Add labels, title, and legend
+# plt.xlabel('Year')
+# plt.ylabel('Normalized Frequency')
+# plt.title('Normalized Frequency of Years')
+# plt.legend()
+# plt.grid(True)  # Optional grid for better readability
+
+# # Display the plot
+# plt.show()
