@@ -19,3 +19,17 @@ havent dealed with the volume problem, need to add in a "start" match. If you ma
 Have not included the appendix yet or tables from Wikipedia (strictly just volumes from each respective list)
 Have not cleaned the data properly, this means removing certain text ect, notes and other random HTML stuff
 We previously included emperors as a way to match keywords against, but we only strictly do the years. This is what we had in the original paper shown
+
+Know the position of the start of a volume, then add a proxy which would be the next emperor mentions year 
+
+Types of matches
+Emperor A -> number+year -> keyword
+    the keyword is then matched to the emperor A start year + number, (start.EmperorA + number)
+Emperor A -> keyword
+    keyword is matched to middle of emperor A reign, (start.EmperorA+end.EmperorA) / 2
+Emperor A -> keyword -> Emperor B
+    keyword is matched to middle of emperor A reign, (start.EmperorA+end.EmperorA) / 2
+Start of Vol X -> keyword -> Emperor A
+    keyword is matched to midle of emperor A reign, (start.EmperorA+end.EmperorA) / 2
+Start of Vol X -> keyword -> number+year -> emperor A
+    logically this shouldnt happen and should be matched to (start.emperorA+end.emperorA) / 2
