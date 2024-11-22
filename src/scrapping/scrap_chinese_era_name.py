@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
-
+from pathlib import Path
 
 def extract_years(period):
     # Match start and end years with BCE/CE labels
@@ -98,7 +98,13 @@ for table_index, table in enumerate(tables):
 if not emperors_data:
     print("No emperor data collected. Please check the HTML structure and selectors.")
 else:
+    # Define the directory and ensure it exists
+    output_dir = Path(__file__).parent / "../../data/raw/scrapping"
+    output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+    # Construct the full path for the file
+    file_path = output_dir / "emperors_data_raw_test.json"
     # Save the data to a JSON file
-    with open("emperors_data_raw.json", "w", encoding="utf-8") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump({"emperors": emperors_data}, f, ensure_ascii=False, indent=4)
     print("Data saved to emperors_data.json")

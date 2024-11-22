@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
+from pathlib import Path
 # set this for Chinese font in plots
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
@@ -25,8 +26,11 @@ def save_ouput_csv(fileName,rows):
             writer.writerow(row)
     return
 
-# Path to the extracted SQLite file
-db_path = "cdbd_data/latest/latest.db"  # Replace with the actual path
+# Define the new path using pathlib
+db_folder = Path(__file__).parent / "../../data/raw"  # Adjust the relative path
+
+# Construct the full path to the SQLite database file
+db_path = db_folder / "cdbd_data/latest/latest.db"
 
 # Connect to the SQLite database
 conn = sqlite3.connect(db_path)
@@ -106,9 +110,14 @@ df = pd.DataFrame({
 })
 
 # Step 4: Save the DataFrame to a CSV
-output_csv_path = "normalized_data.csv"  # Path for the new CSV
-df.to_csv(output_csv_path, index=False)
-print(f"Data saved to {output_csv_path}")
+# Define the new path using pathlib
+output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
+
+# Construct the full path to save the CSV file
+file_path = output_folder / "CBDB_normalized_data.csv"
+
+df.to_csv(file_path, index=False)
+print(f"Data saved to {file_path}")
 
 # Step 5: Plot the normalized data
 plt.figure(figsize=(10, 6))

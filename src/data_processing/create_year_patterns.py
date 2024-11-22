@@ -1,5 +1,5 @@
 import json
-
+from pathlib import Path
 # All of the number+year combos
 patterns = [("元年", 1),
             ("二年", 2),
@@ -77,6 +77,14 @@ for pattern, value in patterns:
             "data": value  # Replace with actual data
         })
 
+
+# Define the directory and ensure it exists
+output_dir = Path(__file__).parent / "../../data/intermediate"
+output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+# Construct the full path for the file
+file_path = output_dir / "year_patterns_test.json"
+
 # Save to a JSON file
-with open("year_patterns.json", "w", encoding="utf-8") as f:
+with open(file_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4,ensure_ascii=False)

@@ -1,35 +1,26 @@
 import xml.etree.ElementTree as ET
 import math
-# Iterate through 
-# 25_Histories_emperor_positions.xml
-# 25_Histories_year_positions.xml
-# volume_positions
+from pathlib import Path
 
-# Algorithm
-# Pointer for each entry in they relevant document
-# check the positions of each one
-# append the smaller one and increment
-# if vol positions is added, 
-#   track it until a new emperor is added, in that case update the value 
-#   If number+year is attemped to be added ignore but record in another file for diagnostics
-# 3 type 1 Emperor, 2 number+year, 3 start of volume
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
-
-# Create XML file first
 
 # Create an XML to store all references
 new_root = ET.Element("Library")
 
 # parse volumnes
-volume_tree = ET.parse("volume_positions.xml")
+file_path = input_folder / "25_Histories_volume_positions.xml"
+volume_tree = ET.parse(file_path)
 volume_root = volume_tree.getroot()
 
 # parse the emperor 
-emperor_tree = ET.parse("25_Histories_emperor_positions.xml")
+file_path = input_folder / "25_Histories_emperor_positions.xml"
+emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
 # parse the years 
-year_tree = ET.parse("25_Histories_year_positions.xml")
+file_path = input_folder / "25_Histories_year_positions.xml"
+year_tree = ET.parse(file_path)
 year_root = year_tree.getroot()
 
 volume_documents = volume_root.findall(".//document")
@@ -129,4 +120,11 @@ def prettify(element, level=0):
 # Create the XML file
 new_tree = ET.ElementTree(new_root)
 prettify(new_root)
-new_tree.write("25_Histories_unfiltered_matching_positions.xml", encoding="utf-8", xml_declaration=True)
+
+# Define the directory and file name
+output_dir = Path(__file__).parent / "../../data/intermediate"
+output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+# Construct the full path
+document_name_and_path = output_dir / "25_Histories_unfiltered_matching_positions_test.xml"
+new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

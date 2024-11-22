@@ -1,16 +1,17 @@
 import xml.etree.ElementTree as ET
-import os
-
+from pathlib import Path
 # Created to combine all the raw scrapped data
 
-def combine_and_flatten_xml(input_folder, text_output_file, vol_pos_output_file):
+def combine_and_flatten_xml(text_output_file, vol_pos_output_file):
     # Create the root element of the combined XML
     combined_root = ET.Element("Library")
     vol_pos_root = ET.Element("Library")
+
+    input_path_and_folder = Path(__file__).parent / "../../data/raw/scrapping/raw_scrapped_by_volume"
     # Loop through all XML files in the input folder
-    for filename in os.listdir(input_folder):
-        if filename.endswith(".xml"):  # Only process XML files
-            file_path = os.path.join(input_folder, filename)
+    for filename in input_path_and_folder.iterdir():
+        if filename.suffix == ".xml":  # Only process XML files
+            file_path = filename  # This is already a Path object
             tree = ET.parse(file_path)
             root = tree.getroot()
             print("Looking at a specific file now")
@@ -41,11 +42,28 @@ def combine_and_flatten_xml(input_folder, text_output_file, vol_pos_output_file)
     # Write the combined XML to the output file
     tree_text = ET.ElementTree(combined_root)
     prettify(combined_root)
-    tree_text.write(text_output_file, encoding="utf-8", xml_declaration=True)
+
+    # Define the directory and file name
+    output_dir = Path(__file__).parent / "../../data/intermediate"
+    output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+    # Construct the full path
+    document_name_and_path = output_dir / text_output_file
+
+    tree_text.write(document_name_and_path, encoding="utf-8", xml_declaration=True)
+    
     # Write the volume position to an XML file 
     tree_vol_pos = ET.ElementTree(vol_pos_root)
     prettify(vol_pos_root)
-    tree_vol_pos.write(vol_pos_output_file, encoding="utf-8", xml_declaration=True)
+
+    # Define the directory and file name
+    output_dir = Path(__file__).parent / "../../data/intermediate"
+    output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+    # Construct the full path
+    document_name_and_path = output_dir / vol_pos_output_file
+
+    tree_vol_pos.write(document_name_and_path, encoding="utf-8", xml_declaration=True)
 
 # make the XML file readable
 def prettify(element, level=0):
@@ -65,4 +83,4 @@ def prettify(element, level=0):
             element.tail = i
 
 # Example usage
-combine_and_flatten_xml("raw_scrapped_by_volume", "25_Histories_raw.xml","volume_positions.xml")
+combine_and_flatten_xml("25_Histories_raw.xml","25_Histories_volume_positions.xml")

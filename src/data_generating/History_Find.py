@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 from matplotlib.ticker import MaxNLocator
+from pathlib import Path
 # set this for Chinese font in plots
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
@@ -22,7 +23,7 @@ def history_find(patterns, histories_file, year_data_file):
     Function that patterns matches against the pattern and finds the closest associated year via year_data_file. Returns a frequency count for each pattern for 
     years 140 BC to 1973 BC
     """
-
+    input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
     # create automaton for pattern matching
     automaton = ahocorasick.Automaton()
     # i is used to reference each pattern
@@ -38,15 +39,17 @@ def history_find(patterns, histories_file, year_data_file):
     )
 
     # parse the raw file so we can match against the text
-    history_tree = ET.parse(histories_file)
+    file_path = input_folder / histories_file
+    history_tree = ET.parse(file_path)
     history_root = history_tree.getroot()
 
-    # parse the year positions generated previously for Binary Search
-    emperor_tree = ET.parse(year_data_file)
-    emperor_root = emperor_tree.getroot()
+    # parse the match positions generated previously for Binary Search
+    file_path = input_folder / year_data_file
+    match_tree = ET.parse(file_path)
+    match_root = match_tree.getroot()
     # parse the main text
     text_documents = history_root.findall(".//document")
-    match_documents = emperor_root.findall(".//document")
+    match_documents = match_root.findall(".//document")
 
     if len(text_documents) != len(match_documents):
         raise ValueError("The number of documents in both XMLs do not match!")
@@ -122,7 +125,9 @@ print(miss_matches)
 # print(main_data)
 
 # Read in year frequency for normalisation purposes
-year_freq_df = pd.read_csv("year_1_frequency.csv")
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+file_path = input_folder / "year_1_frequency.csv"
+year_freq_df = pd.read_csv(file_path)
 year_freq_df["year"] = np.arange(-140,len(main_data)+1-141)
 
 def process_data(main_data, year_freq, bin_size=10):
@@ -211,6 +216,10 @@ processed_data = process_data(main_data, year_freq_df)
 # Example usage:
 plot_processed_data(processed_data)
 
+# Define the new path using pathlib
+output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
 
-processed_data.to_csv("raw_out.csv",encoding="utf-8")
+# Construct the full path to save the CSV file
+file_path = output_folder / "history_find_raw_out.csv"
+processed_data.to_csv(file_path,encoding="utf-8")
 

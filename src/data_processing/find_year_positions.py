@@ -1,10 +1,17 @@
 import ahocorasick
 import xml.etree.ElementTree as ET
 import json
+from pathlib import Path
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the JSON file
+file_path = input_folder / 'year_patterns.json'
 
 # Open up JSON data of patterns
-with open('year_patterns.json', 'r', encoding="utf-8") as file:
+with open(file_path, 'r', encoding="utf-8") as file:
     year_data = json.load(file)
+
 # create Automaton with patterns 
 automaton = ahocorasick.Automaton()
 for pattern in year_data:
@@ -14,11 +21,22 @@ automaton.make_automaton()
 new_root = ET.Element("Library")
 
 # parse the raw file so we can match against the text
-history_tree = ET.parse("25_Histories_raw.xml")
+
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the XML file
+file_path = input_folder / "25_Histories_raw.xml"
+history_tree = ET.parse(file_path)
 history_root = history_tree.getroot()
 
 # parse the emperor positions generated previously for Binary Search
-emperor_tree = ET.parse("25_Histories_emperor_positions.xml")
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the XML file
+file_path = input_folder / "25_Histories_emperor_positions.xml"
+emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
 text_documents = history_root.findall(".//document")
@@ -101,4 +119,10 @@ def prettify(element, level=0):
 # Create the XML file
 new_tree = ET.ElementTree(new_root)
 prettify(new_root)
-new_tree.write("25_Histories_year_positions.xml", encoding="utf-8", xml_declaration=True)
+# Define the directory and file name
+output_dir = Path(__file__).parent / "../../data/intermediate"
+output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+# Construct the full path
+document_name_and_path = output_dir / "25_Histories_year_positions.xml"
+new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

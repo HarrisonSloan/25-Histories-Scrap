@@ -7,10 +7,13 @@ run scrap_history to produce all scrapped files
 run scrap chinese_era_names -> then produce emperors_year_1.json by hand (selective about including certain emperors from List of Chinese Era names) from emperors_data_raw.json
 Note repeat_emperor name a valdility check and more manual work needs to be done after this has been completed. Note this is still yet to be reflected and done
 ## Creating data
-run combine_xml to make a large text file that gets rid of the volumes and put the entire history into 1 file
+run combine_xml to make a large text file that gets rid of the volumes and put the entire history into 1 file, it also creates a file which stores the vol positions
 run find_emperor_positions to create XML of all the emperor positions 
 run create_year_patterns to create the year_patterns. The reasoning is for this is we dont necessarily want years that are within a sentence but instead come after punctation.
-run find_year_positions to find all the year positions and produce XML for final and main program
+run find_year_positions to find all the year positions and produce XML
+run matching_data which combines the vol_xml, emperor_xml and year_xml into a large matching_XML
+run filter_matching_data which then filters the matching_xml based on the rules described below
+run count_year_freq to get total frequency of years mentioned
 ## Main program 
 simply run alter patterns as needed
 

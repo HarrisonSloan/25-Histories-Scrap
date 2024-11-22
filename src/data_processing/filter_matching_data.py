@@ -1,11 +1,17 @@
 import xml.etree.ElementTree as ET
-
+from pathlib import Path
 # Load the input file
 input_file = "25_Histories_unfiltered_matching_positions.xml"
 output_file = "25_Histories_matching_positions.xml"
 
 # Parse the XML file
-tree = ET.parse(input_file)
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the XML file
+file_path = input_folder / input_file
+
+
+tree = ET.parse(file_path)
 root = tree.getroot()
 
 # Iterate through each document
@@ -57,6 +63,12 @@ for document in root.findall("document"):
         document.append(match)
 
 # Save the modified XML to a new file
-tree.write(output_file, encoding="utf-8", xml_declaration=True)
+# Define the directory and file name
+output_dir = Path(__file__).parent / "../../data/intermediate"
+output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+# Construct the full path
+document_name_and_path = output_dir / output_file
+tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)
 
 print(f"Processing complete. Output written to '{output_file}'.")

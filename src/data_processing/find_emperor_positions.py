@@ -1,16 +1,29 @@
 import ahocorasick
 import xml.etree.ElementTree as ET
 import json
+from pathlib import Path
 
 # Create a JSON or create an XML
 new_root = ET.Element("Library")
 
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the JSON file
+file_path = input_folder / 'emperors_year_1.json'
 # Open up JSON data
-with open('emperors_year_1.json', 'r', encoding="utf-8") as file:
+with open(file_path, 'r', encoding="utf-8") as file:
     emperor_data = json.load(file)
-    
+
+
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the XML file
+file_path = input_folder / "25_Histories_raw.xml"
+
 # parse the raw file so we can match against the text
-tree = ET.parse("25_Histories_raw.xml")
+tree = ET.parse(file_path)
 root = tree.getroot()
 
 for document in root.findall(".//document"):
@@ -74,4 +87,13 @@ def prettify(element, level=0):
 # Create the XML file
 new_tree = ET.ElementTree(new_root)
 prettify(new_root)
-new_tree.write("25_Histories_emperor_positions.xml", encoding="utf-8", xml_declaration=True)
+
+
+# Define the directory and file name
+output_dir = Path(__file__).parent / "../../data/intermediate"
+output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
+
+# Construct the full path
+document_name_and_path = output_dir / "25_Histories_emperor_positions.xml"
+
+new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

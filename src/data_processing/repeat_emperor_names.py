@@ -1,8 +1,15 @@
 import json
 from collections import defaultdict
+from pathlib import Path
 
+
+# Define the new path using pathlib
+input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
+
+# Construct the full path to the JSON file
+file_path = input_folder / 'emperors_year_1.json'
 # Load your JSON file
-with open('emperors_year_1.json', 'r', encoding="utf-8") as file:
+with open(file_path, 'r', encoding="utf-8") as file:
     data = json.load(file)
 
 # Dictionary to store books with duplicate leader names
