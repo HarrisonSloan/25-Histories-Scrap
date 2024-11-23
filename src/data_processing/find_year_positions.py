@@ -26,7 +26,7 @@ new_root = ET.Element("Library")
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_raw.xml"
+file_path = input_folder / "25_Histories_raw_excluded_his_jin_his_liao.xml"
 history_tree = ET.parse(file_path)
 history_root = history_tree.getroot()
 
@@ -35,7 +35,7 @@ history_root = history_tree.getroot()
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_emperor_positions.xml"
+file_path = input_folder / "25_Histories_emperor_positions_excluded_his_jin_his_liao.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
@@ -124,5 +124,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_Histories_year_positions.xml"
+document_name_and_path = output_dir / "25_Histories_year_positions_excluded_his_jin_his_liao.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

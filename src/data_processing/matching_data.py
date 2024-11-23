@@ -9,17 +9,17 @@ input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the r
 new_root = ET.Element("Library")
 
 # parse volumnes
-file_path = input_folder / "25_Histories_volume_positions.xml"
+file_path = input_folder / "25_Histories_volume_positions_excluded_his_jin_his_liao.xml"
 volume_tree = ET.parse(file_path)
 volume_root = volume_tree.getroot()
 
 # parse the emperor 
-file_path = input_folder / "25_Histories_emperor_positions.xml"
+file_path = input_folder / "25_Histories_emperor_positions_excluded_his_jin_his_liao.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
 # parse the years 
-file_path = input_folder / "25_Histories_year_positions.xml"
+file_path = input_folder / "25_Histories_year_positions_excluded_his_jin_his_liao.xml"
 year_tree = ET.parse(file_path)
 year_root = year_tree.getroot()
 
@@ -126,5 +126,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_Histories_unfiltered_matching_positions_test.xml"
+document_name_and_path = output_dir / "25_Histories_unfiltered_matching_positions_excluded_his_jin_his_liao.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

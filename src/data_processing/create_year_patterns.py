@@ -65,7 +65,9 @@ patterns = [("元年", 1),
 
 ]
 # Define the set of punctuation symbols to prepend
-punctuation_set = ["。", "，", "？", "：", "、", "⋯", "；", "）", "]", "！"]
+#punctuation_set = ["。", "，", "？", "：", "、", "⋯", "；", "）", "]", "！"]
+# Empty punctuation
+punctuation_set = [""]
 
 # Build the JSON data structure
 data = []
@@ -83,7 +85,7 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path for the file
-file_path = output_dir / "year_patterns_test.json"
+file_path = output_dir / "year_patterns_no_punctuation.json"
 
 # Save to a JSON file
 with open(file_path, "w", encoding="utf-8") as f:

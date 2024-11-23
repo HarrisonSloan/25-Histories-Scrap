@@ -2,15 +2,21 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 # Created to combine all the raw scrapped data
 
-def combine_and_flatten_xml(text_output_file, vol_pos_output_file):
+def combine_and_flatten_xml(text_output_file, vol_pos_output_file,excluded_files=None):
     # Create the root element of the combined XML
     combined_root = ET.Element("Library")
     vol_pos_root = ET.Element("Library")
 
     input_path_and_folder = Path(__file__).parent / "../../data/raw/scrapping/raw_scrapped_by_volume"
+
+    # Default to an empty list if no excluded files are provided
+    if excluded_files is None:
+        excluded_files = []
+    excluded_files = {Path(file).name for file in excluded_files}
+
     # Loop through all XML files in the input folder
     for filename in input_path_and_folder.iterdir():
-        if filename.suffix == ".xml":  # Only process XML files
+        if filename.suffix == ".xml" and filename.name not in excluded_files:  # Only process XML files
             file_path = filename  # This is already a Path object
             tree = ET.parse(file_path)
             root = tree.getroot()
@@ -83,4 +89,5 @@ def prettify(element, level=0):
             element.tail = i
 
 # Example usage
-combine_and_flatten_xml("25_Histories_raw.xml","25_Histories_volume_positions.xml")
+exclude_files = ["21_raw.xml", "22_raw.xml"]
+combine_and_flatten_xml("25_Histories_raw_excluded_his_jin_his_liao.xml","25_Histories_volume_positions_excluded_his_jin_his_liao.xml",exclude_files)

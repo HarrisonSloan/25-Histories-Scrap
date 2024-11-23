@@ -15,6 +15,7 @@ run matching_data which combines the vol_xml, emperor_xml and year_xml into a la
 run filter_matching_data which then filters the matching_xml based on the rules described below
 run count_year_freq to get total frequency of years mentioned
 ## Main program 
+UPDATE -> raw file using, matching position, and frequency
 simply run alter patterns as needed
 
 ## Other notes

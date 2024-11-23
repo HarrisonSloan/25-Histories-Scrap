@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 from pathlib import Path
 # Load the input file
-input_file = "25_Histories_unfiltered_matching_positions.xml"
-output_file = "25_Histories_matching_positions.xml"
+input_file = "25_Histories_unfiltered_matching_positions_excluded_his_jin_his_liao.xml"
+output_file = "25_Histories_matching_positions_excluded_his_jin_his_liao.xml"
 
 # Parse the XML file
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path

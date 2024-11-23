@@ -18,7 +18,7 @@ df = pd.DataFrame(
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_matching_positions.xml"
+file_path = input_folder / "25_Histories_matching_positions_excluded_his_jin_his_liao.xml"
 
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
@@ -34,6 +34,6 @@ for match_doc in emperor_root.findall(".//document"):
 output_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to save the CSV file
-file_path = output_folder / "year_1_frequency.csv"
+file_path = output_folder / "year_1_frequency_excluded_his_jin_his_liao.csv"
 
 df.to_csv(file_path,index=False)

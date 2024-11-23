@@ -15,7 +15,8 @@ shift = 140
 arrLen = 140+1912+58
 
 # Tongpan, Buzheng, Ancha follwed by 3 other random positions
-patterns = ["通判","布政","按察","通侯","課第售","川師", "專知", "司員", "殿前神威軍"]
+patterns = ["通判","布政","按察"]
+#patterns = ["通判","布政","按察","通侯","課第售","川師", "專知", "司員", "殿前神威軍"]
 # patterns = ["布政"]
 
 def history_find(patterns, histories_file, year_data_file):
@@ -118,7 +119,8 @@ def history_find(patterns, histories_file, year_data_file):
             end = len(matches) - 1
     return overall_matches, miss_matches, patter_occurences_df
 
-matches, miss_matches, main_data = history_find(patterns,"25_Histories_raw.xml","25_Histories_matching_positions.xml")
+matches, miss_matches, main_data = history_find(patterns,"25_Histories_raw_excluded_his_jin_his_liao.xml","25_Histories_matching_positions_excluded_his_jin_his_liao.xml")
+print(matches)
 print(miss_matches)
 # # GRAPHING AND DATA SECTION
 # print(matches)
@@ -126,7 +128,7 @@ print(miss_matches)
 
 # Read in year frequency for normalisation purposes
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
-file_path = input_folder / "year_1_frequency.csv"
+file_path = input_folder / "year_1_frequency_excluded_his_jin_his_liao.csv"
 year_freq_df = pd.read_csv(file_path)
 year_freq_df["year"] = np.arange(-140,len(main_data)+1-141)
 
@@ -196,7 +198,7 @@ def plot_processed_data(processed_data):
     # Add labels and title
     plt.xlabel('Year Range')
     plt.ylabel('Normalized Value')
-    plt.title('Normalized Binned Data Over Time')
+    plt.title('Normalized Binned Data Over Time (excluded_his_jin_his_liao)')
     
     # Rotate x-axis labels for better visibility
     plt.xticks(rotation=45)
@@ -220,6 +222,6 @@ plot_processed_data(processed_data)
 output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
 
 # Construct the full path to save the CSV file
-file_path = output_folder / "history_find_raw_out.csv"
+file_path = output_folder / "history_find_raw_out_excluded_his_jin_his_liao.csv"
 processed_data.to_csv(file_path,encoding="utf-8")
 
