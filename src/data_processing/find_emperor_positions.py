@@ -20,7 +20,7 @@ with open(file_path, 'r', encoding="utf-8") as file:
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_raw_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles.xml"
 
 # parse the raw file so we can match against the text
 tree = ET.parse(file_path)
@@ -94,6 +94,6 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_Histories_emperor_positions_excluded_his_jin_his_liao.xml"
+document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
 
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

@@ -6,7 +6,7 @@ from pathlib import Path
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the JSON file
-file_path = input_folder / 'year_patterns.json'
+file_path = input_folder / 'year_patterns_no_punctuation.json'
 
 # Open up JSON data of patterns
 with open(file_path, 'r', encoding="utf-8") as file:
@@ -26,7 +26,7 @@ new_root = ET.Element("Library")
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_raw_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles.xml"
 history_tree = ET.parse(file_path)
 history_root = history_tree.getroot()
 
@@ -35,7 +35,7 @@ history_root = history_tree.getroot()
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_Histories_emperor_positions_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
@@ -68,10 +68,10 @@ for text_doc, match_doc in zip(text_documents,match_documents):
         end_pos = int(matches[end].get("position"))
         # case 1
         if pos < start_pos:
-            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("start"))))
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0]-1 + int(matches[start].get("start"))))
         # case 2 
         elif pos > end_pos:
-            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[end].get("start"))))
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0]-1 + int(matches[end].get("start"))))
         # case 3: Binary search to find appropriate position
         else:
             middle = (start+end) // 2
@@ -92,7 +92,7 @@ for text_doc, match_doc in zip(text_documents,match_documents):
                     end = middle
                     break
             # TODO Does the start and end cross over? Need to verifty this
-            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0] + int(matches[start].get("start"))))
+            ET.SubElement(new_document, "year", position = str(pos), name=pattern[1], value = str(pattern[0]-1 + int(matches[start].get("start"))))
         end = len(matches) - 1
         # print("new start: " + str(start))
         # print("new middle: " + str(middle))
@@ -124,5 +124,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_Histories_year_positions_excluded_his_jin_his_liao.xml"
+document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_no_punc_year_pos.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

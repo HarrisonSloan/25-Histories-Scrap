@@ -9,17 +9,17 @@ input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the r
 new_root = ET.Element("Library")
 
 # parse volumnes
-file_path = input_folder / "25_Histories_volume_positions_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_vol_pos.xml"
 volume_tree = ET.parse(file_path)
 volume_root = volume_tree.getroot()
 
 # parse the emperor 
-file_path = input_folder / "25_Histories_emperor_positions_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
 # parse the years 
-file_path = input_folder / "25_Histories_year_positions_excluded_his_jin_his_liao.xml"
+file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_no_punc_year_pos.xml"
 year_tree = ET.parse(file_path)
 year_root = year_tree.getroot()
 
@@ -87,8 +87,9 @@ for volume_doc, emperor_doc, year_doc in zip(volume_documents,emperor_documents,
         # volume end
         else:
 
-            # Special case that needs to be tracked TODO
-            ET.SubElement(new_document,"match",type=str(3), value="None", name="end", position=str(current_vol_match_pos))
+            # Special case that needs to be tracked TODO]
+            nam = volume_matches[current_vol_match].get("name")
+            ET.SubElement(new_document,"match",type=str(3), value="None", name=nam, position=str(current_vol_match_pos))
             current_vol_match += 1
             if current_vol_match > len(volume_matches) - 1: 
                 current_vol_match = math.inf
@@ -126,5 +127,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_Histories_unfiltered_matching_positions_excluded_his_jin_his_liao.xml"
+document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_no_punc_unfil_matching_pos.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)
