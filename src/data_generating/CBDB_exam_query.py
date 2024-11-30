@@ -135,6 +135,10 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()
 
+output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
+file_path = output_folder / "exam_binned_10.csv"
+binned_data.to_csv(file_path,encoding="utf-8", index=False)
+
 
 # normalized_data = [
 #     count / norm if norm != 0 else 0

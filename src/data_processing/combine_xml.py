@@ -89,7 +89,11 @@ def prettify(element, level=0):
             element.tail = i
 
 # Example usage
+# Titles and no History of Jin and Liao
+#exclude_files = ["02_raw.xml", "03_raw.xml", "04_raw.xml", "05_raw.xml", "06_raw.xml", "07_raw.xml", "08_raw.xml","09_raw.xml", "10_raw.xml","11_raw.xml",
+#                 "12_raw.xml", "13_raw.xml", "14_raw.xml", "15_raw.xml", "16_raw.xml", "17_raw.xml", "18_raw.xml","19_raw.xml", "20_raw.xml","21_raw.xml",
+#                 "22_raw.xml", "23_raw.xml", "24_raw.xml", "25_raw.xml", "21_raw_inc_titles.xml","22_raw_inc_titles.xml"]
 exclude_files = ["02_raw.xml", "03_raw.xml", "04_raw.xml", "05_raw.xml", "06_raw.xml", "07_raw.xml", "08_raw.xml","09_raw.xml", "10_raw.xml","11_raw.xml",
                  "12_raw.xml", "13_raw.xml", "14_raw.xml", "15_raw.xml", "16_raw.xml", "17_raw.xml", "18_raw.xml","19_raw.xml", "20_raw.xml","21_raw.xml",
-                 "22_raw.xml", "23_raw.xml", "24_raw.xml", "25_raw.xml", "21_raw_inc_titles.xml","22_raw_inc_titles.xml"]
-combine_and_flatten_xml("25_his_exc_his_jin_his_liao_no_titles.xml","25_his_exc_his_jin_his_liao_no_titles_vol_pos.xml",exclude_files)
+                 "22_raw.xml", "23_raw.xml", "24_raw.xml", "25_raw.xml"]
+combine_and_flatten_xml("25_his_titles.xml","25_his_no_titles_vol_pos.xml",exclude_files)
