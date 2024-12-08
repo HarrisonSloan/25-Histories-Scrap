@@ -6,7 +6,7 @@ from pathlib import Path
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the JSON file
-file_path = input_folder / 'year_patterns_no_punctuation.json'
+file_path = input_folder / 'year_patterns_no_punc.json'
 
 # Open up JSON data of patterns
 with open(file_path, 'r', encoding="utf-8") as file:
@@ -26,7 +26,7 @@ new_root = ET.Element("Library")
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles.xml"
+file_path = input_folder / "25_his_wh_titles.xml"
 history_tree = ET.parse(file_path)
 history_root = history_tree.getroot()
 
@@ -35,7 +35,7 @@ history_root = history_tree.getroot()
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
+file_path = input_folder / "25_his_wh_titles_emp_pos.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
@@ -61,9 +61,15 @@ for text_doc, match_doc in zip(text_documents,match_documents):
     for key, value in text_doc.attrib.items():
         new_document.set(key, value)
     # now pattern match
+    recent_pos = -1
     for end_index, pattern in automaton.iter(document_text):
+        
         # need to find appropriate position
         pos= (end_index - len(pattern) + 1)
+        if pos == recent_pos:
+            print(f"Found a duplicate year at {pos}")
+            continue
+        recent_pos=pos
         start_pos =int(matches[start].get("position"))
         end_pos = int(matches[end].get("position"))
         # case 1
@@ -124,5 +130,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_no_punc_year_pos.xml"
+document_name_and_path = output_dir / "25_his_wh_titles_no_punc_year_pos.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

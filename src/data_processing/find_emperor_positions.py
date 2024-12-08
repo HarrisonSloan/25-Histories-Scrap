@@ -20,7 +20,7 @@ with open(file_path, 'r', encoding="utf-8") as file:
 input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
 
 # Construct the full path to the XML file
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles.xml"
+file_path = input_folder / "25_his_wh_titles.xml"
 
 # parse the raw file so we can match against the text
 tree = ET.parse(file_path)
@@ -58,12 +58,17 @@ for document in root.findall(".//document"):
 
             # Pattern match against the text for every specified pattern above
             # for every match create a new element in the XML 
+            recent_pos = -1
             for end_index, pattern in automaton.iter(document_text):
                 # there is no start date on the emperor
+                position= end_index - len(pattern) + 1
+                if position == recent_pos:
+                    continue
+                recent_pos = position
                 if pattern[0][0] == None:
                     continue
                 else:
-                    ET.SubElement(new_document, "emperor", position=str(end_index - len(pattern) + 1), name=pattern[1], start=str(pattern[0][0]), end=str(pattern[0][1]))
+                    ET.SubElement(new_document, "emperor", position=str(position), name=pattern[1], start=str(pattern[0][0]), end=str(pattern[0][1]))
 
 
 # Chat GBT function :)
@@ -94,6 +99,6 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
+document_name_and_path = output_dir / "25_his_wh_titles_emp_pos.xml"
 
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)

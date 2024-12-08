@@ -85,7 +85,7 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path for the file
-file_path = output_dir / "year_patterns_no_punctuation.json"
+file_path = output_dir / "year_patterns_no_punc.json"
 
 # Save to a JSON file
 with open(file_path, "w", encoding="utf-8") as f:

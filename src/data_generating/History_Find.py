@@ -66,7 +66,7 @@ def history_find(patterns, histories_file, year_data_file):
 
         # Text from Histories for searching
         document_text = text_doc.text
-
+        print(text_doc.get("eng_name"))
     
         # now pattern match on a particular document in the Histories (1 of the 25 Historical documents)
         for end_index, pattern in automaton.iter(document_text):
@@ -121,7 +121,7 @@ def history_find(patterns, histories_file, year_data_file):
 
     return overall_matches, miss_matches, match_types, pattern_occurences_df
 
-matches, miss_matches, match_types, main_data = history_find(patterns,"25_his_exc_his_jin_his_liao_no_titles.xml","25_his_exc_his_jin_his_liao_no_titles_no_punc_matching_pos.xml")
+matches, miss_matches, match_types, main_data = history_find(patterns,"25_his_wh_titles.xml","25_his_wh_titles_matching.xml")
 # main_data["year"] = np.arange(-140,len(main_data)+1-141)
 output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
 file_path = output_folder / "patterns_intial.csv"

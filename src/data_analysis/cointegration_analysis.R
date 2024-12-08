@@ -1,6 +1,6 @@
 library(tseries)
-
-pattern_data <- read.csv("../../data/final/pattern_binned.csv")
+library(urca)
+pattern_data <- read.csv("../../data/final/pattern_binned_10_inc_matching.csv")
 
 plot(pattern_data$通判.布政.按察,xlab=pattern_data$year_Range)
 
@@ -9,9 +9,10 @@ axis(1, at = seq(1,length(pattern_data$通判.布政.按察),by=20),
         labels = pattern_data$year_Range[seq(1,length(pattern_data$通判.布政.按察),by=20)])
 
 exam_data <- read.csv("../../data/final/exam_binned_10.csv",na.strings = c("", "NA", "?"))
-exam_data$normalized_exam[is.na(exam_data$normalized_exam)]
+exam_data$normalized_exam[is.na(exam_data$normalized_exam)] <- 0
 
 plot(exam_data$normalized_exam,type="l")
+plot(pattern_data$通判.布政.按察,type="l")
 
 # Example data
 year_range <- c("2000-2010", "2010-2020", "2020-2030")
@@ -29,6 +30,11 @@ test_exam = adf.test(exam_data$Normalized.Data)
 test_exam
 
 
+model <- dynlm(exam_data$normalized_exam ~ pattern_data$通判.布政.按察)
+model
+z_hat <- resid(model)
 
+adf.test(z_hat)
+ur.df(z_hat, lags = 6, type = "none", selectlags = "AIC")
 # Goals 
 # Filter every non stationary time series out

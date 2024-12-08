@@ -37,7 +37,7 @@ def combine_and_flatten_xml(text_output_file, vol_pos_output_file,excluded_files
                 document_content = ""
                 i=0
                 for volume in document.findall(".//volume"):
-                    document_content += "\n"
+                    document_content += "END\n"
                     document_content += volume.text or ""  # Add the text from each volume
                     ET.SubElement(new_document_vol_pos,"end",id=str(i),position=str(len(document_content)),name=volume.get("name"))
                     i+=1
@@ -96,4 +96,4 @@ def prettify(element, level=0):
 exclude_files = ["02_raw.xml", "03_raw.xml", "04_raw.xml", "05_raw.xml", "06_raw.xml", "07_raw.xml", "08_raw.xml","09_raw.xml", "10_raw.xml","11_raw.xml",
                  "12_raw.xml", "13_raw.xml", "14_raw.xml", "15_raw.xml", "16_raw.xml", "17_raw.xml", "18_raw.xml","19_raw.xml", "20_raw.xml","21_raw.xml",
                  "22_raw.xml", "23_raw.xml", "24_raw.xml", "25_raw.xml"]
-combine_and_flatten_xml("25_his_titles.xml","25_his_no_titles_vol_pos.xml",exclude_files)
+combine_and_flatten_xml("25_his_wh_titles.xml","25_his_wh_titles_vol_pos.xml",exclude_files)

@@ -1,3 +1,4 @@
 cdbd_data/
 .RData
 .RHistory
+.db

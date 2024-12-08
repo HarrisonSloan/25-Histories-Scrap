@@ -12,13 +12,13 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
 # pattern data
 input_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
-file_path = input_folder / "patterns_intial_inc_matching.csv"
+file_path = input_folder / "patterns_intial.csv"
 main_data = pd.read_csv(file_path)
 
 # Read in year frequency for normalisation purposes
 input_folder = Path(__file__).parent / "../../data/intermediate" 
 # Adjust relative to pick appropriate frequency file
-file_path = input_folder / "year_1_frequency_exc_his_jin_his_liao_no_title_no_punc_matching.csv"
+file_path = input_folder / "year_freq_wh_title_matching.csv"
 year_freq_df = pd.read_csv(file_path)
 year_freq_df["year"] = np.arange(-140,len(main_data)+1-141)
 
@@ -88,7 +88,7 @@ def plot_processed_data(processed_data):
     # Add labels and title
     plt.xlabel('Year Range')
     plt.ylabel('Normalized Value')
-    plt.title('Normalized Binned Data Over Time (excluded_his_jin_his_liao)')
+    plt.title('Normalized Binned Data Over Time')
     
     # Rotate x-axis labels for better visibility
     plt.xticks(rotation=45)
@@ -110,7 +110,7 @@ plot_processed_data(processed_data)
 output_folder = Path(__file__).parent / "../../data/final"  # Adjust the relative path
 
 # Construct the full path to save the CSV file
-file_path = output_folder / "pattern_binned_10_inc_matching.csv"
+file_path = output_folder / "pattern_binned_10.csv"
 processed_data.to_csv(file_path,encoding="utf-8")
 # file_path = output_folder / "history_find_raw_all_patterns_excluded_his_jin_his_liao.csv"
 # main_data.to_csv(file_path,encoding="utf-8")

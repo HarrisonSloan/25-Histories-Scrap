@@ -9,17 +9,17 @@ input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the r
 new_root = ET.Element("Library")
 
 # parse volumnes
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_vol_pos.xml"
+file_path = input_folder / "25_his_wh_titles_vol_pos.xml"
 volume_tree = ET.parse(file_path)
 volume_root = volume_tree.getroot()
 
 # parse the emperor 
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_emp_pos.xml"
+file_path = input_folder / "25_his_wh_titles_emp_pos.xml"
 emperor_tree = ET.parse(file_path)
 emperor_root = emperor_tree.getroot()
 
 # parse the years 
-file_path = input_folder / "25_his_exc_his_jin_his_liao_no_titles_no_punc_year_pos.xml"
+file_path = input_folder / "25_his_wh_titles_no_punc_year_pos.xml"
 year_tree = ET.parse(file_path)
 year_root = year_tree.getroot()
 
@@ -52,7 +52,7 @@ for volume_doc, emperor_doc, year_doc in zip(volume_documents,emperor_documents,
     current_year_match_pos = int(year_matches[current_year_match].get("position"))
     
     # Keep looping until we go over all matches for all 3 catergories
-    while current_emperor_match != math.inf and current_year_match != math.inf and current_vol_match != math.inf:
+    while current_emperor_match_pos != math.inf and current_year_match_pos != math.inf and current_vol_match_pos != math.inf:
         # emperor
         if min(current_vol_match_pos,current_emperor_match_pos,current_year_match_pos) == current_emperor_match_pos:
             # add emperor
@@ -68,7 +68,7 @@ for volume_doc, emperor_doc, year_doc in zip(volume_documents,emperor_documents,
             current_emperor_match += 1
             # If beyond the end of the emperor matches
             if current_emperor_match > len(emperor_matches) - 1: 
-                current_emperor_match = math.inf
+                current_emperor_match_pos = math.inf
             # Still within the emperor matches
             else: 
                 current_emperor_match_pos = int(emperor_matches[current_emperor_match].get("position"))
@@ -79,7 +79,7 @@ for volume_doc, emperor_doc, year_doc in zip(volume_documents,emperor_documents,
             ET.SubElement(new_document,"match",type=str(2), value=val, name=name,position=str(current_year_match_pos))
             current_year_match += 1
             if current_year_match > len(year_matches) - 1: 
-                current_year_match = math.inf
+                current_year_match_pos = math.inf
             # Still within the emperor matches
             else: 
                 current_year_match_pos = int(year_matches[current_year_match].get("position"))
@@ -92,7 +92,7 @@ for volume_doc, emperor_doc, year_doc in zip(volume_documents,emperor_documents,
             ET.SubElement(new_document,"match",type=str(3), value="None", name=nam, position=str(current_vol_match_pos))
             current_vol_match += 1
             if current_vol_match > len(volume_matches) - 1: 
-                current_vol_match = math.inf
+                current_vol_match_pos = math.inf
             # Still within the emperor matches
             else: 
                 current_vol_match_pos = int(volume_matches[current_vol_match].get("position"))
@@ -127,5 +127,5 @@ output_dir = Path(__file__).parent / "../../data/intermediate"
 output_dir.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
 
 # Construct the full path
-document_name_and_path = output_dir / "25_his_exc_his_jin_his_liao_no_titles_no_punc_unfil_matching_pos.xml"
+document_name_and_path = output_dir / "25_his_wh_titles_unfil_matching.xml"
 new_tree.write(document_name_and_path, encoding="utf-8", xml_declaration=True)
