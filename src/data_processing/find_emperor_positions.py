@@ -49,6 +49,7 @@ for document in root.findall(".//document"):
             # may need verification 
             for emperor in book.get("emperors"):
                 key = emperor.get("chinese_name")
+                # ((start year,end year) is used to identify the pattern uniquley
                 automaton.add_word(key, ((emperor.get("start_year"),emperor.get("end_year")), key))
                 i+=1
             automaton.make_automaton()
@@ -58,13 +59,14 @@ for document in root.findall(".//document"):
 
             # Pattern match against the text for every specified pattern above
             # for every match create a new element in the XML 
-            recent_pos = -1
+            recent_pos = [-1,-1]
             for end_index, pattern in automaton.iter(document_text):
-                # there is no start date on the emperor
-                position= end_index - len(pattern) + 1
-                if position == recent_pos:
+                position= end_index - len(pattern[1]) + 1
+                # check if the match 
+                if position >= recent_pos[0] and position <= recent_pos[1]:
                     continue
-                recent_pos = position
+                recent_pos = (position,end_index)
+                # no start date dont include the emperor
                 if pattern[0][0] == None:
                     continue
                 else:

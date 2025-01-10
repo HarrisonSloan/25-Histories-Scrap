@@ -1,6 +1,6 @@
 library(tseries)
 library(urca)
-pattern_data <- read.csv("../../data/final/pattern_binned_10_inc_matching.csv")
+pattern_data <- read.csv("../../data/final/pattern_binned_10.csv")
 
 plot(pattern_data$通判.布政.按察,xlab=pattern_data$year_Range)
 

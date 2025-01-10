@@ -72,7 +72,7 @@ def history_find(patterns, histories_file, year_data_file):
         for end_index, pattern in automaton.iter(document_text):
             overall_matches+=1
             # need to find appropriate position
-            pos= (end_index - len(pattern) + 1)
+            pos= (end_index - len(pattern[1]) + 1)
             start_pos =int(matches[start].get("position"))
             end_pos = int(matches[end].get("position"))
 

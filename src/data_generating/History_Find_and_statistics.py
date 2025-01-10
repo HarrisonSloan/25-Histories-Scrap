@@ -134,7 +134,7 @@ def history_find(conn, patterns, histories_file, year_data_file):
         for end_index, pattern in automaton.iter(document_text):
             overall_matches+=1
             # need to find appropriate position
-            pos= (end_index - len(pattern) + 1)
+            pos= (end_index - len(pattern)[1] + 1)
             start_pos =int(matches[start].get("position"))
             end_pos = int(matches[end].get("position"))
 
@@ -194,6 +194,9 @@ def history_find(conn, patterns, histories_file, year_data_file):
     return overall_matches, miss_matches, match_types, pattern_occurences_df
 
 def parse_xml_to_db(conn, xml_file):
+    """
+    This is taking the matching XML table and putting this in a database. This is so you can reference what pattern/loc to a certain entry in this XML/table
+    """
     input_folder = Path(__file__).parent / "../../data/intermediate"  # Adjust the relative path
     file_path = input_folder / xml_file
     tree = ET.parse(file_path)

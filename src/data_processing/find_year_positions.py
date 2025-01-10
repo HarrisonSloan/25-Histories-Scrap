@@ -61,15 +61,14 @@ for text_doc, match_doc in zip(text_documents,match_documents):
     for key, value in text_doc.attrib.items():
         new_document.set(key, value)
     # now pattern match
-    recent_pos = -1
+    recent_pos = [-1,-1]
     for end_index, pattern in automaton.iter(document_text):
-        
         # need to find appropriate position
-        pos= (end_index - len(pattern) + 1)
-        if pos == recent_pos:
-            print(f"Found a duplicate year at {pos}")
+        pos= (end_index - len(pattern[1]) + 1)
+        if pos >= recent_pos[0] and pos <= recent_pos[1]:
+            print("overlapping year")
             continue
-        recent_pos=pos
+        recent_pos = (pos,end_index)
         start_pos =int(matches[start].get("position"))
         end_pos = int(matches[end].get("position"))
         # case 1
